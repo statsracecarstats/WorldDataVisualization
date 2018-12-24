@@ -1,15 +1,71 @@
 Continent,Category,Bucket,Freq
 Africa,Population,1,53
 Africa,Population,2,1
+Africa,Population,3,0
+Africa,Population,4,0
+Africa,Population,5,0
+Africa,Population,6,0
+Africa,Population,7,0
+Africa,Population,8,0
+Africa,Population,9,0
+Africa,Population,10,0
 Asia,Population,1,39
 Asia,Population,2,3
+Asia,Population,3,0
+Asia,Population,4,0
+Asia,Population,5,0
+Asia,Population,6,0
+Asia,Population,7,0
+Asia,Population,8,0
+Asia,Population,9,0
 Asia,Population,10,1
 Europe,Population,1,45
+Europe,Population,2,0
+Europe,Population,3,0
+Europe,Population,4,0
+Europe,Population,5,0
+Europe,Population,6,0
+Europe,Population,7,0
+Europe,Population,8,0
+Europe,Population,9,0
+Europe,Population,10,0
 North America,Population,1,22
+North America,Population,2,0
+North America,Population,3,0
+North America,Population,4,0
+North America,Population,5,0
+North America,Population,6,0
+North America,Population,7,0
+North America,Population,8,0
+North America,Population,9,0
+North America,Population,10,0
 Oceania,Population,1,14
+Oceania,Population,2,0
+Oceania,Population,3,0
+Oceania,Population,4,0
+Oceania,Population,5,0
+Oceania,Population,6,0
+Oceania,Population,7,0
+Oceania,Population,8,0
+Oceania,Population,9,0
+Oceania,Population,10,0
 South America,Population,1,11
 South America,Population,2,1
+South America,Population,3,0
+South America,Population,4,0
+South America,Population,5,0
+South America,Population,6,0
+South America,Population,7,0
+South America,Population,8,0
+South America,Population,9,0
+South America,Population,10,0
 UN Security Council,Population,1,2
 UN Security Council,Population,2,1
 UN Security Council,Population,3,1
+UN Security Council,Population,4,0
+UN Security Council,Population,5,0
+UN Security Council,Population,6,0
+UN Security Council,Population,7,0
+UN Security Council,Population,8,0
+UN Security Council,Population,9,0
 UN Security Council,Population,10,1

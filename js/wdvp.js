@@ -23,3 +23,32 @@ var background = canvas.append("rect")
 
 //create group element
 var paint = canvas.append("g");
+
+// load histogram data
+d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/buckets.csv").then(function(s){
+  var xorigin = 40; // x location for first graph
+  var yorigin = 50; // y location for first graph
+  var fs = 16; // font size
+  var gap = 10; // gap between buckets
+  var freqheight = 40; // height of freqaxis
+  var countMax = d3.max(s, function(d) {return parseInt(d.Freq)});
+  var freqaxis = d3.scaleLinear()
+    .domain([0, countMax])
+    .range([0, freqheight]);
+
+  console.log(countMax)
+
+  var output = paint.selectAll("g").data(s).enter();
+
+  var pop = output
+    .append("rect")
+    .filter(function(d) {return d.Continent == "Asia"})
+    .attr("class", "bars")
+    .attr("x", function(d) {return d.Bucket*gap + xorigin})
+    .attr("y", yorigin)
+    .attr("height", function(d) {return freqaxis(d.Freq)})
+    .attr("width", 7)
+    .attr("fill", d3.rgb(11,117,208))
+    .attr("id", "pop");
+
+})
