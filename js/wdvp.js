@@ -26,29 +26,44 @@ var paint = canvas.append("g");
 
 // load histogram data
 d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/buckets.csv").then(function(s){
-  var xorigin = 40; // x location for first graph
-  var yorigin = 50; // y location for first graph
+  var xorigin = 240; // x location for first graph
+  var yorigin = 150; // y location for first graph
   var fs = 16; // font size
   var gap = 10; // gap between buckets
   var freqheight = 40; // height of freqaxis
   var countMax = d3.max(s, function(d) {return parseInt(d.Freq)});
   var freqaxis = d3.scaleLinear()
     .domain([0, countMax])
-    .range([0, freqheight]);
+    .range([freqheight + yorigin, yorigin]);
 
-  console.log(countMax)
+  var bucketaxis=d3.scaleLinear()
+    .domain([1, 10])
+    .range([xorigin, 10*gap+xorigin]);
 
-  var output = paint.selectAll("g").data(s).enter();
+  console.log(countMax);
 
-  var pop = output
-    .append("rect")
-    .filter(function(d) {return d.Continent == "Asia"})
-    .attr("class", "bars")
-    .attr("x", function(d) {return d.Bucket*gap + xorigin})
-    .attr("y", yorigin)
-    .attr("height", function(d) {return freqaxis(d.Freq)})
-    .attr("width", 7)
-    .attr("fill", d3.rgb(11,117,208))
+  var outputEurope = paint.selectAll("g").data(s).enter()
+    .filter(function(d) {return d.Continent == "Europe"});
+
+  var pathline = d3.line()
+    .x(function(d) {return bucketaxis(d.Bucket)})
+    .y(function(d) {return freqaxis(d.Freq)});
+
+  var pop = outputEurope
+    .append("path")
+    .attr("class", "dist")
+    .attr("d",  pathline)
+    .attr("fill", "none")
     .attr("id", "pop");
+
+  var popc = outputEurope
+    .append("circle")
+    .attr("cx", function(d) {return bucketaxis(d.Bucket)})
+    .attr("cy", function(d) {return freqaxis(d.Freq)})
+    .attr("fill", "blue")
+    .attr("id", "dots")
+    .attr("r", 3);
+
+
 
 })
