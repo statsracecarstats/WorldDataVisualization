@@ -1,0 +1,15 @@
+Continent,Category,Bucket,Freq
+Africa,Population,1,53
+Africa,Population,2,1
+Asia,Population,1,39
+Asia,Population,2,3
+Asia,Population,10,1
+Europe,Population,1,45
+North America,Population,1,22
+Oceania,Population,1,14
+South America,Population,1,11
+South America,Population,2,1
+UN Security Council,Population,1,2
+UN Security Council,Population,2,1
+UN Security Council,Population,3,1
+UN Security Council,Population,10,1
