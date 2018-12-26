@@ -42,21 +42,25 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
 
   console.log(countMax);
 
-  var outputEurope = paint.selectAll("g").data(s).enter()
-    .filter(function(d) {return d.Continent == "Europe"});
+  var output = paint.selectAll("g").data(s)
+    .filter(function(d) {return d.Continent == "Test2"});
 
+  //line fucntion
   var pathline = d3.line()
     .x(function(d) {return bucketaxis(d.Bucket)})
-    .y(function(d) {return freqaxis(d.Freq)});
+    .y(function(d) {return freqaxis(d.Freq)})
+    .curve(d3.curveMonotoneX);
 
-  var pop = outputEurope
+
+
+  var pop = output
     .append("path")
     .attr("class", "dist")
-    .attr("d",  pathline)
+    .attr("d",  function(d) {return pathline(d)})
     .attr("fill", "none")
     .attr("id", "pop");
 
-  var popc = outputEurope
+  var popc = output
     .append("circle")
     .attr("cx", function(d) {return bucketaxis(d.Bucket)})
     .attr("cy", function(d) {return freqaxis(d.Freq)})
