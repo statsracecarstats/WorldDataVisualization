@@ -24,50 +24,49 @@ var background = canvas.append("rect")
 //create group element
 var paint = canvas.append("g");
 
+
 // load histogram data
 d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/buckets.csv").then(function(s){
-  var xorigin = 240; // x location for first graph
-  var yorigin = 150; // y location for first graph
+  var xorigin = 40; // x location for first graph
+  var yorigin = 60; // y location for first graph
   var fs = 16; // font size
   var gap = 10; // gap between buckets
   var freqheight = 40; // height of freqaxis
+  // max value of count per bucket
   var countMax = d3.max(s, function(d) {return parseInt(d.Freq)});
+  // set up range for frequency
   var freqaxis = d3.scaleLinear()
     .domain([0, countMax])
     .range([freqheight + yorigin, yorigin]);
-
+  // set up range for buckets (1-10)
   var bucketaxis=d3.scaleLinear()
     .domain([1, 10])
     .range([xorigin, 10*gap+xorigin]);
 
-  console.log(countMax);
-
-  var output = paint.selectAll("g").data(s)
-    .filter(function(d) {return d.Continent == "Test2"});
-
   //line fucntion
-  var pathline = d3.line()
+  var line = d3.line()
     .x(function(d) {return bucketaxis(d.Bucket)})
     .y(function(d) {return freqaxis(d.Freq)})
     .curve(d3.curveMonotoneX);
 
+  var filterval = "Africa"
+  console.log(filterval)
+  // data bount object in g
+  var output = paint.selectAll("g").data(s).enter()
+    .filter(function(d) {return d.Continent == filterval});
 
-
-  var pop = output
+  var pop = canvas.append("g")
     .append("path")
     .attr("class", "dist")
-    .attr("d",  function(d) {return pathline(d)})
-    .attr("fill", "none")
-    .attr("id", "pop");
+    .attr("d",  line(s.filter(function(d) {return d.Continent == filterval})))
+    .attr("id", "pop" + filterval);
 
+  //denisty dots
   var popc = output
     .append("circle")
+    .attr("class", "densitydots")
     .attr("cx", function(d) {return bucketaxis(d.Bucket)})
     .attr("cy", function(d) {return freqaxis(d.Freq)})
-    .attr("fill", "blue")
-    .attr("id", "dots")
-    .attr("r", 3);
-
-
+    .attr("id", "dots" + filterval);
 
 })
