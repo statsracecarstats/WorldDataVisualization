@@ -9,7 +9,24 @@
   fill-opacity: 0.7;
 }
 
-.densitydots {
-  fill: rgb(11,117,208);
-  r: 2.5;
+.maxis{
+  fill: none;
+  stroke: rgb(240,240,255);
+  stroke-width: 1.5;
+}
+
+.textaxis {
+  fill: rgb(240,240,255);
+  stroke: none;
+  font-size: 8px;
+  font: Calibri;
+  text-anchor: end;
+}
+
+.heading {
+  fill: rgb(240,240,255);
+  stroke: none;
+  font-size: 13px;
+  font: Afta;
+  font-weight: 700;
 }
