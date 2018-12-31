@@ -6,7 +6,7 @@
 
 var margin = {top: 20, right: 20, bottom: 30, left: 50};
   width = 1000 - margin.left - margin.right,
-  height = 400 - margin.top - margin.bottom;
+  height = 1400 - margin.top - margin.bottom;
 
 var canvas = d3.select(".dataviz").append("svg")
   .attr("width", width + margin.left + margin.right)
@@ -92,6 +92,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     .x(function(d) {return bucketaxis(d.Bucket)})
     .y(function(d) {return freqaxis(d.Freq)})
     .curve(d3.curveStepAfter);
+    //.curve(d3.curveMonotoneX);
 
   //area function
   var area = d3.area()
@@ -140,7 +141,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
   var i; // iteratvie value for for loop of continents
   var c; // iterative value for for loop of categories
 
-  for (c = 0; c<= 2; c++) {
+  for (c = 0; c<= 10; c++) {
     switch(c) {
       case 0:
         var filtercat = "Population"
@@ -150,6 +151,30 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       break;
       case 2:
         var filtercat = "GINI index"
+      break;
+      case 3:
+        var filtercat = "happy planet index"
+      break;
+      case 4:
+        var filtercat = "human development index"
+      break;
+      case 5:
+        var filtercat = "world happiness report score"
+      break;
+      case 6:
+        var filtercat = "sustainable economic development assessment (SEDA)"
+      break;
+      case 7:
+        var filtercat = "GDP (billions PPP)"
+      break;
+      case 8:
+        var filtercat = "GDP per capita (PPP)"
+      break;
+      case 9:
+        var filtercat = "GDP growth(annual%)"
+      break;
+      case 10:
+        var filtercat = "health expenditure % of GDP"
       break;
     } // switch c
 

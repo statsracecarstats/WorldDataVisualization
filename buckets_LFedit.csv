@@ -1,0 +1,2687 @@
+Continent,Category,Bucket,Freq
+Africa,Population,1,53
+Africa,Population,2,1
+Africa,Population,3,0
+Africa,Population,4,0
+Africa,Population,5,0
+Africa,Population,6,0
+Africa,Population,7,0
+Africa,Population,8,0
+Africa,Population,9,0
+Africa,Population,10,0
+Asia,Population,1,39
+Asia,Population,2,3
+Asia,Population,3,0
+Asia,Population,4,0
+Asia,Population,5,0
+Asia,Population,6,0
+Asia,Population,7,0
+Asia,Population,8,0
+Asia,Population,9,0
+Asia,Population,10,1
+Europe,Population,1,45
+Europe,Population,2,0
+Europe,Population,3,0
+Europe,Population,4,0
+Europe,Population,5,0
+Europe,Population,6,0
+Europe,Population,7,0
+Europe,Population,8,0
+Europe,Population,9,0
+Europe,Population,10,0
+North America,Population,1,22
+North America,Population,2,0
+North America,Population,3,0
+North America,Population,4,0
+North America,Population,5,0
+North America,Population,6,0
+North America,Population,7,0
+North America,Population,8,0
+North America,Population,9,0
+North America,Population,10,0
+Oceania,Population,1,14
+Oceania,Population,2,0
+Oceania,Population,3,0
+Oceania,Population,4,0
+Oceania,Population,5,0
+Oceania,Population,6,0
+Oceania,Population,7,0
+Oceania,Population,8,0
+Oceania,Population,9,0
+Oceania,Population,10,0
+South America,Population,1,11
+South America,Population,2,1
+South America,Population,3,0
+South America,Population,4,0
+South America,Population,5,0
+South America,Population,6,0
+South America,Population,7,0
+South America,Population,8,0
+South America,Population,9,0
+South America,Population,10,0
+UN Security Council,Population,1,2
+UN Security Council,Population,2,1
+UN Security Council,Population,3,1
+UN Security Council,Population,4,0
+UN Security Council,Population,5,0
+UN Security Council,Population,6,0
+UN Security Council,Population,7,0
+UN Security Council,Population,8,0
+UN Security Council,Population,9,0
+UN Security Council,Population,10,1
+Test1,Population,1,50
+Test1,Population,2,20
+Test2,Population,1,10
+Test2,Population,2,30
+Test2,Population,3,50
+Africa,surface area (Km2),1,50
+Africa,surface area (Km2),2,4
+Africa,surface area (Km2),3,0
+Africa,surface area (Km2),4,0
+Africa,surface area (Km2),5,0
+Africa,surface area (Km2),6,0
+Africa,surface area (Km2),7,0
+Africa,surface area (Km2),8,0
+Africa,surface area (Km2),9,0
+Africa,surface area (Km2),10,0
+Africa,surface area (Km2),No Data,0
+Asia,surface area (Km2),1,39
+Asia,surface area (Km2),2,4
+Asia,surface area (Km2),3,0
+Asia,surface area (Km2),4,0
+Asia,surface area (Km2),5,0
+Asia,surface area (Km2),6,0
+Asia,surface area (Km2),7,0
+Asia,surface area (Km2),8,0
+Asia,surface area (Km2),9,0
+Asia,surface area (Km2),10,0
+Asia,surface area (Km2),No Data,0
+Europe,surface area (Km2),1,45
+Europe,surface area (Km2),2,0
+Europe,surface area (Km2),3,0
+Europe,surface area (Km2),4,0
+Europe,surface area (Km2),5,0
+Europe,surface area (Km2),6,0
+Europe,surface area (Km2),7,0
+Europe,surface area (Km2),8,0
+Europe,surface area (Km2),9,0
+Europe,surface area (Km2),10,0
+Europe,surface area (Km2),No Data,0
+North America,surface area (Km2),1,20
+North America,surface area (Km2),2,1
+North America,surface area (Km2),3,0
+North America,surface area (Km2),4,0
+North America,surface area (Km2),5,0
+North America,surface area (Km2),6,1
+North America,surface area (Km2),7,0
+North America,surface area (Km2),8,0
+North America,surface area (Km2),9,0
+North America,surface area (Km2),10,0
+North America,surface area (Km2),No Data,0
+South America,surface area (Km2),1,10
+South America,surface area (Km2),2,1
+South America,surface area (Km2),3,0
+South America,surface area (Km2),4,0
+South America,surface area (Km2),5,0
+South America,surface area (Km2),6,1
+South America,surface area (Km2),7,0
+South America,surface area (Km2),8,0
+South America,surface area (Km2),9,0
+South America,surface area (Km2),10,0
+South America,surface area (Km2),No Data,0
+Oceania,surface area (Km2),1,13
+Oceania,surface area (Km2),2,0
+Oceania,surface area (Km2),3,0
+Oceania,surface area (Km2),4,0
+Oceania,surface area (Km2),5,1
+Oceania,surface area (Km2),6,0
+Oceania,surface area (Km2),7,0
+Oceania,surface area (Km2),8,0
+Oceania,surface area (Km2),9,0
+Oceania,surface area (Km2),10,0
+Oceania,surface area (Km2),No Data,0
+UN Security Council,surface area (Km2),1,2
+UN Security Council,surface area (Km2),2,0
+UN Security Council,surface area (Km2),3,0
+UN Security Council,surface area (Km2),4,0
+UN Security Council,surface area (Km2),5,0
+UN Security Council,surface area (Km2),6,2
+UN Security Council,surface area (Km2),7,0
+UN Security Council,surface area (Km2),8,0
+UN Security Council,surface area (Km2),9,0
+UN Security Council,surface area (Km2),10,1
+UN Security Council,surface area (Km2),No Data,0
+Africa,GINI index,1,0
+Africa,GINI index,2,1
+Africa,GINI index,3,5
+Africa,GINI index,4,5
+Africa,GINI index,5,16
+Africa,GINI index,6,7
+Africa,GINI index,7,6
+Africa,GINI index,8,0
+Africa,GINI index,9,2
+Africa,GINI index,10,4
+Africa,GINI index,No Data,8
+Asia,GINI index,1,1
+Asia,GINI index,2,1
+Asia,GINI index,3,9
+Asia,GINI index,4,10
+Asia,GINI index,5,4
+Asia,GINI index,6,6
+Asia,GINI index,7,0
+Asia,GINI index,8,0
+Asia,GINI index,9,0
+Asia,GINI index,10,0
+Asia,GINI index,No Data,12
+Europe,GINI index,1,11
+Europe,GINI index,2,12
+Europe,GINI index,3,11
+Europe,GINI index,4,4
+Europe,GINI index,5,2
+Europe,GINI index,6,0
+Europe,GINI index,7,0
+Europe,GINI index,8,0
+Europe,GINI index,9,0
+Europe,GINI index,10,0
+Europe,GINI index,No Data,5
+North America,GINI index,1,0
+North America,GINI index,2,0
+North America,GINI index,3,2
+North America,GINI index,4,1
+North America,GINI index,5,0
+North America,GINI index,6,3
+North America,GINI index,7,3
+North America,GINI index,8,1
+North America,GINI index,9,0
+North America,GINI index,10,1
+North America,GINI index,No Data,11
+South America,GINI index,1,0
+South America,GINI index,2,0
+South America,GINI index,3,0
+South America,GINI index,4,1
+South America,GINI index,5,2
+South America,GINI index,6,4
+South America,GINI index,7,3
+South America,GINI index,8,1
+South America,GINI index,9,0
+South America,GINI index,10,0
+South America,GINI index,No Data,1
+Oceania,GINI index,1,0
+Oceania,GINI index,2,1
+Oceania,GINI index,3,0
+Oceania,GINI index,4,1
+Oceania,GINI index,5,0
+Oceania,GINI index,6,0
+Oceania,GINI index,7,1
+Oceania,GINI index,8,0
+Oceania,GINI index,9,0
+Oceania,GINI index,10,1
+Oceania,GINI index,No Data,10
+UN Security Council,GINI index,1,0
+UN Security Council,GINI index,2,1
+UN Security Council,GINI index,3,1
+UN Security Council,GINI index,4,0
+UN Security Council,GINI index,5,1
+UN Security Council,GINI index,6,2
+UN Security Council,GINI index,7,0
+UN Security Council,GINI index,8,0
+UN Security Council,GINI index,9,0
+UN Security Council,GINI index,10,0
+UN Security Council,GINI index,No Data,0
+Africa,happy planet index,1,8
+Africa,happy planet index,2,9
+Africa,happy planet index,3,10
+Africa,happy planet index,4,5
+Africa,happy planet index,5,3
+Africa,happy planet index,6,0
+Africa,happy planet index,7,2
+Africa,happy planet index,8,0
+Africa,happy planet index,9,0
+Africa,happy planet index,10,0
+Africa,happy planet index,No Data,17
+Asia,happy planet index,1,2
+Asia,happy planet index,2,2
+Asia,happy planet index,3,3
+Asia,happy planet index,4,4
+Asia,happy planet index,5,5
+Asia,happy planet index,6,6
+Asia,happy planet index,7,4
+Asia,happy planet index,8,2
+Asia,happy planet index,9,2
+Asia,happy planet index,10,0
+Asia,happy planet index,No Data,13
+Europe,happy planet index,1,1
+Europe,happy planet index,2,2
+Europe,happy planet index,3,3
+Europe,happy planet index,4,7
+Europe,happy planet index,5,8
+Europe,happy planet index,6,11
+Europe,happy planet index,7,2
+Europe,happy planet index,8,4
+Europe,happy planet index,9,0
+Europe,happy planet index,10,0
+Europe,happy planet index,No Data,7
+North America,happy planet index,1,1
+North America,happy planet index,2,0
+North America,happy planet index,3,0
+North America,happy planet index,4,1
+North America,happy planet index,5,2
+North America,happy planet index,6,1
+North America,happy planet index,7,2
+North America,happy planet index,8,2
+North America,happy planet index,9,3
+North America,happy planet index,10,1
+North America,happy planet index,No Data,9
+South America,happy planet index,1,0
+South America,happy planet index,2,0
+South America,happy planet index,3,0
+South America,happy planet index,4,3
+South America,happy planet index,5,0
+South America,happy planet index,6,1
+South America,happy planet index,7,3
+South America,happy planet index,8,3
+South America,happy planet index,9,1
+South America,happy planet index,10,0
+South America,happy planet index,No Data,1
+Oceania,happy planet index,1,0
+Oceania,happy planet index,2,0
+Oceania,happy planet index,3,1
+Oceania,happy planet index,4,0
+Oceania,happy planet index,5,0
+Oceania,happy planet index,6,1
+Oceania,happy planet index,7,0
+Oceania,happy planet index,8,0
+Oceania,happy planet index,9,1
+Oceania,happy planet index,10,0
+Oceania,happy planet index,No Data,11
+UN Security Council,happy planet index,1,0
+UN Security Council,happy planet index,2,1
+UN Security Council,happy planet index,3,1
+UN Security Council,happy planet index,4,0
+UN Security Council,happy planet index,5,1
+UN Security Council,happy planet index,6,2
+UN Security Council,happy planet index,7,0
+UN Security Council,happy planet index,8,0
+UN Security Council,happy planet index,9,0
+UN Security Council,happy planet index,10,0
+UN Security Council,happy planet index,No Data,0
+Africa,human development index,1,4
+Africa,human development index,2,12
+Africa,human development index,3,12
+Africa,human development index,4,10
+Africa,human development index,5,2
+Africa,human development index,6,6
+Africa,human development index,7,4
+Africa,human development index,8,3
+Africa,human development index,9,0
+Africa,human development index,10,0
+Africa,human development index,No Data,1
+Asia,human development index,1,0
+Asia,human development index,2,1
+Asia,human development index,3,1
+Asia,human development index,4,5
+Asia,human development index,5,6
+Asia,human development index,6,7
+Asia,human development index,7,6
+Asia,human development index,8,6
+Asia,human development index,9,5
+Asia,human development index,10,4
+Asia,human development index,No Data,2
+Europe,human development index,1,0
+Europe,human development index,2,0
+Europe,human development index,3,0
+Europe,human development index,4,0
+Europe,human development index,5,0
+Europe,human development index,6,1
+Europe,human development index,7,4
+Europe,human development index,8,8
+Europe,human development index,9,14
+Europe,human development index,10,14
+Europe,human development index,No Data,4
+North America,human development index,1,0
+North America,human development index,2,0
+North America,human development index,3,1
+North America,human development index,4,0
+North America,human development index,5,2
+North America,human development index,6,3
+North America,human development index,7,6
+North America,human development index,8,9
+North America,human development index,9,0
+North America,human development index,10,1
+North America,human development index,No Data,0
+South America,human development index,1,0
+South America,human development index,2,0
+South America,human development index,3,0
+South America,human development index,4,0
+South America,human development index,5,0
+South America,human development index,6,3
+South America,human development index,7,5
+South America,human development index,8,2
+South America,human development index,9,2
+South America,human development index,10,0
+South America,human development index,No Data,0
+Oceania,human development index,1,0
+Oceania,human development index,2,0
+Oceania,human development index,3,0
+Oceania,human development index,4,2
+Oceania,human development index,5,3
+Oceania,human development index,6,2
+Oceania,human development index,7,2
+Oceania,human development index,8,1
+Oceania,human development index,9,0
+Oceania,human development index,10,2
+Oceania,human development index,No Data,2
+UN Security Council,human development index,1,0
+UN Security Council,human development index,2,0
+UN Security Council,human development index,3,0
+UN Security Council,human development index,4,0
+UN Security Council,human development index,5,0
+UN Security Council,human development index,6,0
+UN Security Council,human development index,7,1
+UN Security Council,human development index,8,1
+UN Security Council,human development index,9,0
+UN Security Council,human development index,10,3
+UN Security Council,human development index,No Data,0
+Africa,world happiness report score,1,1
+Africa,world happiness report score,2,5
+Africa,world happiness report score,3,7
+Africa,world happiness report score,4,12
+Africa,world happiness report score,5,7
+Africa,world happiness report score,6,5
+Africa,world happiness report score,7,1
+Africa,world happiness report score,8,0
+Africa,world happiness report score,9,0
+Africa,world happiness report score,10,0
+Africa,world happiness report score,No Data,16
+Asia,world happiness report score,1,1
+Asia,world happiness report score,2,1
+Asia,world happiness report score,3,2
+Asia,world happiness report score,4,5
+Asia,world happiness report score,5,6
+Asia,world happiness report score,6,5
+Asia,world happiness report score,7,8
+Asia,world happiness report score,8,4
+Asia,world happiness report score,9,1
+Asia,world happiness report score,10,1
+Asia,world happiness report score,No Data,9
+Europe,world happiness report score,1,0
+Europe,world happiness report score,2,0
+Europe,world happiness report score,3,0
+Europe,world happiness report score,4,4
+Europe,world happiness report score,5,4
+Europe,world happiness report score,6,6
+Europe,world happiness report score,7,10
+Europe,world happiness report score,8,3
+Europe,world happiness report score,9,5
+Europe,world happiness report score,10,8
+Europe,world happiness report score,No Data,5
+North America,world happiness report score,1,0
+North America,world happiness report score,2,0
+North America,world happiness report score,3,1
+North America,world happiness report score,4,0
+North America,world happiness report score,5,0
+North America,world happiness report score,6,1
+North America,world happiness report score,7,3
+North America,world happiness report score,8,5
+North America,world happiness report score,9,1
+North America,world happiness report score,10,0
+North America,world happiness report score,No Data,11
+South America,world happiness report score,1,0
+South America,world happiness report score,2,0
+South America,world happiness report score,3,0
+South America,world happiness report score,4,0
+South America,world happiness report score,5,0
+South America,world happiness report score,6,2
+South America,world happiness report score,7,3
+South America,world happiness report score,8,3
+South America,world happiness report score,9,0
+South America,world happiness report score,10,0
+South America,world happiness report score,No Data,4
+Oceania,world happiness report score,1,0
+Oceania,world happiness report score,2,0
+Oceania,world happiness report score,3,0
+Oceania,world happiness report score,4,0
+Oceania,world happiness report score,5,0
+Oceania,world happiness report score,6,0
+Oceania,world happiness report score,7,0
+Oceania,world happiness report score,8,0
+Oceania,world happiness report score,9,1
+Oceania,world happiness report score,10,1
+Oceania,world happiness report score,No Data,12
+UN Security Council,world happiness report score,1,0
+UN Security Council,world happiness report score,2,0
+UN Security Council,world happiness report score,3,0
+UN Security Council,world happiness report score,4,0
+UN Security Council,world happiness report score,5,1
+UN Security Council,world happiness report score,6,1
+UN Security Council,world happiness report score,7,0
+UN Security Council,world happiness report score,8,1
+UN Security Council,world happiness report score,9,2
+UN Security Council,world happiness report score,10,0
+UN Security Council,world happiness report score,No Data,0
+Africa,sustainable economic development assessment (SEDA),1,2
+Africa,sustainable economic development assessment (SEDA),2,11
+Africa,sustainable economic development assessment (SEDA),3,15
+Africa,sustainable economic development assessment (SEDA),4,7
+Africa,sustainable economic development assessment (SEDA),5,4
+Africa,sustainable economic development assessment (SEDA),6,0
+Africa,sustainable economic development assessment (SEDA),7,2
+Africa,sustainable economic development assessment (SEDA),8,0
+Africa,sustainable economic development assessment (SEDA),9,0
+Africa,sustainable economic development assessment (SEDA),10,0
+Africa,sustainable economic development assessment (SEDA),No Data,13
+Asia,sustainable economic development assessment (SEDA),1,0
+Asia,sustainable economic development assessment (SEDA),2,2
+Asia,sustainable economic development assessment (SEDA),3,1
+Asia,sustainable economic development assessment (SEDA),4,8
+Asia,sustainable economic development assessment (SEDA),5,9
+Asia,sustainable economic development assessment (SEDA),6,3
+Asia,sustainable economic development assessment (SEDA),7,5
+Asia,sustainable economic development assessment (SEDA),8,4
+Asia,sustainable economic development assessment (SEDA),9,2
+Asia,sustainable economic development assessment (SEDA),10,1
+Asia,sustainable economic development assessment (SEDA),No Data,8
+Europe,sustainable economic development assessment (SEDA),1,0
+Europe,sustainable economic development assessment (SEDA),2,0
+Europe,sustainable economic development assessment (SEDA),3,0
+Europe,sustainable economic development assessment (SEDA),4,0
+Europe,sustainable economic development assessment (SEDA),5,2
+Europe,sustainable economic development assessment (SEDA),6,7
+Europe,sustainable economic development assessment (SEDA),7,5
+Europe,sustainable economic development assessment (SEDA),8,11
+Europe,sustainable economic development assessment (SEDA),9,3
+Europe,sustainable economic development assessment (SEDA),10,11
+Europe,sustainable economic development assessment (SEDA),No Data,6
+North America,sustainable economic development assessment (SEDA),1,0
+North America,sustainable economic development assessment (SEDA),2,1
+North America,sustainable economic development assessment (SEDA),3,0
+North America,sustainable economic development assessment (SEDA),4,3
+North America,sustainable economic development assessment (SEDA),5,5
+North America,sustainable economic development assessment (SEDA),6,1
+North America,sustainable economic development assessment (SEDA),7,4
+North America,sustainable economic development assessment (SEDA),8,0
+North America,sustainable economic development assessment (SEDA),9,1
+North America,sustainable economic development assessment (SEDA),10,0
+North America,sustainable economic development assessment (SEDA),No Data,7
+South America,sustainable economic development assessment (SEDA),1,0
+South America,sustainable economic development assessment (SEDA),2,0
+South America,sustainable economic development assessment (SEDA),3,0
+South America,sustainable economic development assessment (SEDA),4,2
+South America,sustainable economic development assessment (SEDA),5,5
+South America,sustainable economic development assessment (SEDA),6,3
+South America,sustainable economic development assessment (SEDA),7,2
+South America,sustainable economic development assessment (SEDA),8,0
+South America,sustainable economic development assessment (SEDA),9,0
+South America,sustainable economic development assessment (SEDA),10,0
+South America,sustainable economic development assessment (SEDA),No Data,0
+Oceania,sustainable economic development assessment (SEDA),1,0
+Oceania,sustainable economic development assessment (SEDA),2,0
+Oceania,sustainable economic development assessment (SEDA),3,0
+Oceania,sustainable economic development assessment (SEDA),4,0
+Oceania,sustainable economic development assessment (SEDA),5,1
+Oceania,sustainable economic development assessment (SEDA),6,0
+Oceania,sustainable economic development assessment (SEDA),7,0
+Oceania,sustainable economic development assessment (SEDA),8,0
+Oceania,sustainable economic development assessment (SEDA),9,0
+Oceania,sustainable economic development assessment (SEDA),10,2
+Oceania,sustainable economic development assessment (SEDA),No Data,11
+UN Security Council,sustainable economic development assessment (SEDA),1,0
+UN Security Council,sustainable economic development assessment (SEDA),2,0
+UN Security Council,sustainable economic development assessment (SEDA),3,0
+UN Security Council,sustainable economic development assessment (SEDA),4,0
+UN Security Council,sustainable economic development assessment (SEDA),5,0
+UN Security Council,sustainable economic development assessment (SEDA),6,2
+UN Security Council,sustainable economic development assessment (SEDA),7,0
+UN Security Council,sustainable economic development assessment (SEDA),8,0
+UN Security Council,sustainable economic development assessment (SEDA),9,3
+UN Security Council,sustainable economic development assessment (SEDA),10,0
+UN Security Council,sustainable economic development assessment (SEDA),No Data,0
+Africa,"GDP (billions PPP)",1,54
+Africa,"GDP (billions PPP)",2,0
+Africa,"GDP (billions PPP)",3,0
+Africa,"GDP (billions PPP)",4,0
+Africa,"GDP (billions PPP)",5,0
+Africa,"GDP (billions PPP)",6,0
+Africa,"GDP (billions PPP)",7,0
+Africa,"GDP (billions PPP)",8,0
+Africa,"GDP (billions PPP)",9,0
+Africa,"GDP (billions PPP)",10,0
+Africa,"GDP (billions PPP)",No Data,0
+Asia,"GDP (billions PPP)",1,39
+Asia,"GDP (billions PPP)",2,1
+Asia,"GDP (billions PPP)",3,1
+Asia,"GDP (billions PPP)",4,0
+Asia,"GDP (billions PPP)",5,1
+Asia,"GDP (billions PPP)",6,0
+Asia,"GDP (billions PPP)",7,0
+Asia,"GDP (billions PPP)",8,0
+Asia,"GDP (billions PPP)",9,0
+Asia,"GDP (billions PPP)",10,0
+Asia,"GDP (billions PPP)",No Data,1
+Europe,"GDP (billions PPP)",1,40
+Europe,"GDP (billions PPP)",2,2
+Europe,"GDP (billions PPP)",3,0
+Europe,"GDP (billions PPP)",4,0
+Europe,"GDP (billions PPP)",5,0
+Europe,"GDP (billions PPP)",6,0
+Europe,"GDP (billions PPP)",7,0
+Europe,"GDP (billions PPP)",8,0
+Europe,"GDP (billions PPP)",9,0
+Europe,"GDP (billions PPP)",10,0
+Europe,"GDP (billions PPP)",No Data,3
+North America,"GDP (billions PPP)",1,18
+North America,"GDP (billions PPP)",2,1
+North America,"GDP (billions PPP)",3,0
+North America,"GDP (billions PPP)",4,0
+North America,"GDP (billions PPP)",5,0
+North America,"GDP (billions PPP)",6,0
+North America,"GDP (billions PPP)",7,0
+North America,"GDP (billions PPP)",8,0
+North America,"GDP (billions PPP)",9,0
+North America,"GDP (billions PPP)",10,0
+North America,"GDP (billions PPP)",No Data,3
+South America,"GDP (billions PPP)",1,11
+South America,"GDP (billions PPP)",2,1
+South America,"GDP (billions PPP)",3,0
+South America,"GDP (billions PPP)",4,0
+South America,"GDP (billions PPP)",5,0
+South America,"GDP (billions PPP)",6,0
+South America,"GDP (billions PPP)",7,0
+South America,"GDP (billions PPP)",8,0
+South America,"GDP (billions PPP)",9,0
+South America,"GDP (billions PPP)",10,0
+South America,"GDP (billions PPP)",No Data,0
+Oceania,"GDP (billions PPP)",1,10
+Oceania,"GDP (billions PPP)",2,0
+Oceania,"GDP (billions PPP)",3,0
+Oceania,"GDP (billions PPP)",4,0
+Oceania,"GDP (billions PPP)",5,0
+Oceania,"GDP (billions PPP)",6,0
+Oceania,"GDP (billions PPP)",7,0
+Oceania,"GDP (billions PPP)",8,0
+Oceania,"GDP (billions PPP)",9,0
+Oceania,"GDP (billions PPP)",10,0
+Oceania,"GDP (billions PPP)",No Data,4
+UN Security Council,"GDP (billions PPP)",1,0
+UN Security Council,"GDP (billions PPP)",2,3
+UN Security Council,"GDP (billions PPP)",3,0
+UN Security Council,"GDP (billions PPP)",4,0
+UN Security Council,"GDP (billions PPP)",5,0
+UN Security Council,"GDP (billions PPP)",6,0
+UN Security Council,"GDP (billions PPP)",7,0
+UN Security Council,"GDP (billions PPP)",8,0
+UN Security Council,"GDP (billions PPP)",9,1
+UN Security Council,"GDP (billions PPP)",10,1
+UN Security Council,"GDP (billions PPP)",No Data,0
+Africa,GDP per capita (PPP),1,46
+Africa,GDP per capita (PPP),2,5
+Africa,GDP per capita (PPP),3,2
+Africa,GDP per capita (PPP),4,0
+Africa,GDP per capita (PPP),5,0
+Africa,GDP per capita (PPP),6,0
+Africa,GDP per capita (PPP),7,0
+Africa,GDP per capita (PPP),8,0
+Africa,GDP per capita (PPP),9,0
+Africa,GDP per capita (PPP),10,0
+Africa,GDP per capita (PPP),No Data,1
+Asia,GDP per capita (PPP),1,22
+Asia,GDP per capita (PPP),2,7
+Asia,GDP per capita (PPP),3,5
+Asia,GDP per capita (PPP),4,2
+Asia,GDP per capita (PPP),5,3
+Asia,GDP per capita (PPP),6,1
+Asia,GDP per capita (PPP),7,0
+Asia,GDP per capita (PPP),8,1
+Asia,GDP per capita (PPP),9,0
+Asia,GDP per capita (PPP),10,0
+Asia,GDP per capita (PPP),No Data,2
+Europe,GDP per capita (PPP),1,10
+Europe,GDP per capita (PPP),2,15
+Europe,GDP per capita (PPP),3,9
+Europe,GDP per capita (PPP),4,3
+Europe,GDP per capita (PPP),5,2
+Europe,GDP per capita (PPP),6,0
+Europe,GDP per capita (PPP),7,1
+Europe,GDP per capita (PPP),8,0
+Europe,GDP per capita (PPP),9,0
+Europe,GDP per capita (PPP),10,1
+Europe,GDP per capita (PPP),No Data,4
+North America,GDP per capita (PPP),1,13
+North America,GDP per capita (PPP),2,5
+North America,GDP per capita (PPP),3,1
+North America,GDP per capita (PPP),4,0
+North America,GDP per capita (PPP),5,0
+North America,GDP per capita (PPP),6,0
+North America,GDP per capita (PPP),7,0
+North America,GDP per capita (PPP),8,0
+North America,GDP per capita (PPP),9,0
+North America,GDP per capita (PPP),10,0
+North America,GDP per capita (PPP),No Data,3
+South America,GDP per capita (PPP),1,8
+South America,GDP per capita (PPP),2,3
+South America,GDP per capita (PPP),3,0
+South America,GDP per capita (PPP),4,1
+South America,GDP per capita (PPP),5,0
+South America,GDP per capita (PPP),6,0
+South America,GDP per capita (PPP),7,0
+South America,GDP per capita (PPP),8,0
+South America,GDP per capita (PPP),9,0
+South America,GDP per capita (PPP),10,0
+South America,GDP per capita (PPP),No Data,0
+Oceania,GDP per capita (PPP),1,8
+Oceania,GDP per capita (PPP),2,0
+Oceania,GDP per capita (PPP),3,1
+Oceania,GDP per capita (PPP),4,1
+Oceania,GDP per capita (PPP),5,0
+Oceania,GDP per capita (PPP),6,0
+Oceania,GDP per capita (PPP),7,0
+Oceania,GDP per capita (PPP),8,0
+Oceania,GDP per capita (PPP),9,0
+Oceania,GDP per capita (PPP),10,0
+Oceania,GDP per capita (PPP),No Data,4
+UN Security Council,GDP per capita (PPP),1,1
+UN Security Council,GDP per capita (PPP),2,1
+UN Security Council,GDP per capita (PPP),3,2
+UN Security Council,GDP per capita (PPP),4,1
+UN Security Council,GDP per capita (PPP),5,0
+UN Security Council,GDP per capita (PPP),6,0
+UN Security Council,GDP per capita (PPP),7,0
+UN Security Council,GDP per capita (PPP),8,0
+UN Security Council,GDP per capita (PPP),9,0
+UN Security Council,GDP per capita (PPP),10,0
+UN Security Council,GDP per capita (PPP),No Data,0
+Africa,"GDP growth(annual %)",1,0
+Africa,"GDP growth(annual %)",2,1
+Africa,"GDP growth(annual %)",3,0
+Africa,"GDP growth(annual %)",4,0
+Africa,"GDP growth(annual %)",5,1
+Africa,"GDP growth(annual %)",6,1
+Africa,"GDP growth(annual %)",7,1
+Africa,"GDP growth(annual %)",8,14
+Africa,"GDP growth(annual %)",9,30
+Africa,"GDP growth(annual %)",10,6
+Africa,"GDP growth(annual %)",No Data,0
+Asia,"GDP growth(annual %)",1,1
+Asia,"GDP growth(annual %)",2,0
+Asia,"GDP growth(annual %)",3,0
+Asia,"GDP growth(annual %)",4,0
+Asia,"GDP growth(annual %)",5,0
+Asia,"GDP growth(annual %)",6,0
+Asia,"GDP growth(annual %)",7,0
+Asia,"GDP growth(annual %)",8,14
+Asia,"GDP growth(annual %)",9,17
+Asia,"GDP growth(annual %)",10,10
+Asia,"GDP growth(annual %)",No Data,1
+Europe,"GDP growth(annual %)",1,0
+Europe,"GDP growth(annual %)",2,0
+Europe,"GDP growth(annual %)",3,0
+Europe,"GDP growth(annual %)",4,0
+Europe,"GDP growth(annual %)",5,1
+Europe,"GDP growth(annual %)",6,0
+Europe,"GDP growth(annual %)",7,2
+Europe,"GDP growth(annual %)",8,19
+Europe,"GDP growth(annual %)",9,19
+Europe,"GDP growth(annual %)",10,1
+Europe,"GDP growth(annual %)",No Data,3
+North America,"GDP growth(annual %)",1,0
+North America,"GDP growth(annual %)",2,0
+North America,"GDP growth(annual %)",3,0
+North America,"GDP growth(annual %)",4,0
+North America,"GDP growth(annual %)",5,0
+North America,"GDP growth(annual %)",6,0
+North America,"GDP growth(annual %)",7,2
+North America,"GDP growth(annual %)",8,10
+North America,"GDP growth(annual %)",9,6
+North America,"GDP growth(annual %)",10,1
+North America,"GDP growth(annual %)",No Data,3
+South America,"GDP growth(annual %)",1,0
+South America,"GDP growth(annual %)",2,0
+South America,"GDP growth(annual %)",3,0
+South America,"GDP growth(annual %)",4,0
+South America,"GDP growth(annual %)",5,0
+South America,"GDP growth(annual %)",6,1
+South America,"GDP growth(annual %)",7,1
+South America,"GDP growth(annual %)",8,4
+South America,"GDP growth(annual %)",9,6
+South America,"GDP growth(annual %)",10,0
+South America,"GDP growth(annual %)",No Data,0
+Oceania,"GDP growth(annual %)",1,0
+Oceania,"GDP growth(annual %)",2,0
+Oceania,"GDP growth(annual %)",3,0
+Oceania,"GDP growth(annual %)",4,0
+Oceania,"GDP growth(annual %)",5,0
+Oceania,"GDP growth(annual %)",6,0
+Oceania,"GDP growth(annual %)",7,0
+Oceania,"GDP growth(annual %)",8,4
+Oceania,"GDP growth(annual %)",9,5
+Oceania,"GDP growth(annual %)",10,1
+Oceania,"GDP growth(annual %)",No Data,4
+UN Security Council,"GDP growth(annual %)",1,0
+UN Security Council,"GDP growth(annual %)",2,0
+UN Security Council,"GDP growth(annual %)",3,0
+UN Security Council,"GDP growth(annual %)",4,0
+UN Security Council,"GDP growth(annual %)",5,0
+UN Security Council,"GDP growth(annual %)",6,0
+UN Security Council,"GDP growth(annual %)",7,1
+UN Security Council,"GDP growth(annual %)",8,3
+UN Security Council,"GDP growth(annual %)",9,0
+UN Security Council,"GDP growth(annual %)",10,1
+UN Security Council,"GDP growth(annual %)",No Data,0
+Africa,"health expenditure % of GDP",1,9
+Africa,"health expenditure % of GDP",2,23
+Africa,"health expenditure % of GDP",3,11
+Africa,"health expenditure % of GDP",4,6
+Africa,"health expenditure % of GDP",5,1
+Africa,"health expenditure % of GDP",6,0
+Africa,"health expenditure % of GDP",7,1
+Africa,"health expenditure % of GDP",8,0
+Africa,"health expenditure % of GDP",9,1
+Africa,"health expenditure % of GDP",10,0
+Africa,"health expenditure % of GDP",No Data,2
+Asia,"health expenditure % of GDP",1,18
+Asia,"health expenditure % of GDP",2,8
+Asia,"health expenditure % of GDP",3,11
+Asia,"health expenditure % of GDP",4,1
+Asia,"health expenditure % of GDP",5,3
+Asia,"health expenditure % of GDP",6,0
+Asia,"health expenditure % of GDP",7,0
+Asia,"health expenditure % of GDP",8,0
+Asia,"health expenditure % of GDP",9,0
+Asia,"health expenditure % of GDP",10,0
+Asia,"health expenditure % of GDP",No Data,2
+Europe,"health expenditure % of GDP",1,1
+Europe,"health expenditure % of GDP",2,3
+Europe,"health expenditure % of GDP",3,16
+Europe,"health expenditure % of GDP",4,12
+Europe,"health expenditure % of GDP",5,11
+Europe,"health expenditure % of GDP",6,0
+Europe,"health expenditure % of GDP",7,0
+Europe,"health expenditure % of GDP",8,0
+Europe,"health expenditure % of GDP",9,0
+Europe,"health expenditure % of GDP",10,0
+Europe,"health expenditure % of GDP",No Data,2
+North America,"health expenditure % of GDP",1,0
+North America,"health expenditure % of GDP",2,10
+North America,"health expenditure % of GDP",3,8
+North America,"health expenditure % of GDP",4,1
+North America,"health expenditure % of GDP",5,2
+North America,"health expenditure % of GDP",6,0
+North America,"health expenditure % of GDP",7,0
+North America,"health expenditure % of GDP",8,0
+North America,"health expenditure % of GDP",9,0
+North America,"health expenditure % of GDP",10,0
+North America,"health expenditure % of GDP",No Data,1
+South America,"health expenditure % of GDP",1,2
+South America,"health expenditure % of GDP",2,2
+South America,"health expenditure % of GDP",3,5
+South America,"health expenditure % of GDP",4,3
+South America,"health expenditure % of GDP",5,0
+South America,"health expenditure % of GDP",6,0
+South America,"health expenditure % of GDP",7,0
+South America,"health expenditure % of GDP",8,0
+South America,"health expenditure % of GDP",9,0
+South America,"health expenditure % of GDP",10,0
+South America,"health expenditure % of GDP",No Data,0
+Oceania,"health expenditure % of GDP",1,3
+Oceania,"health expenditure % of GDP",2,2
+Oceania,"health expenditure % of GDP",3,3
+Oceania,"health expenditure % of GDP",4,2
+Oceania,"health expenditure % of GDP",5,1
+Oceania,"health expenditure % of GDP",6,1
+Oceania,"health expenditure % of GDP",7,1
+Oceania,"health expenditure % of GDP",8,0
+Oceania,"health expenditure % of GDP",9,0
+Oceania,"health expenditure % of GDP",10,1
+Oceania,"health expenditure % of GDP",No Data,0
+UN Security Council,"health expenditure % of GDP",1,0
+UN Security Council,"health expenditure % of GDP",2,1
+UN Security Council,"health expenditure % of GDP",3,1
+UN Security Council,"health expenditure % of GDP",4,1
+UN Security Council,"health expenditure % of GDP",5,1
+UN Security Council,"health expenditure % of GDP",6,0
+UN Security Council,"health expenditure % of GDP",7,0
+UN Security Council,"health expenditure % of GDP",8,1
+UN Security Council,"health expenditure % of GDP",9,0
+UN Security Council,"health expenditure % of GDP",10,0
+UN Security Council,"health expenditure % of GDP",No Data,0
+Africa,"health expenditure per person",1,47
+Africa,"health expenditure per person",2,3
+Africa,"health expenditure per person",3,0
+Africa,"health expenditure per person",4,0
+Africa,"health expenditure per person",5,0
+Africa,"health expenditure per person",6,0
+Africa,"health expenditure per person",7,0
+Africa,"health expenditure per person",8,0
+Africa,"health expenditure per person",9,0
+Africa,"health expenditure per person",10,0
+Africa,"health expenditure per person",No Data,4
+Asia,"health expenditure per person",1,22
+Asia,"health expenditure per person",2,7
+Asia,"health expenditure per person",3,4
+Asia,"health expenditure per person",4,3
+Asia,"health expenditure per person",5,2
+Asia,"health expenditure per person",6,0
+Asia,"health expenditure per person",7,0
+Asia,"health expenditure per person",8,0
+Asia,"health expenditure per person",9,0
+Asia,"health expenditure per person",10,0
+Asia,"health expenditure per person",No Data,5
+Europe,"health expenditure per person",1,7
+Europe,"health expenditure per person",2,12
+Europe,"health expenditure per person",3,6
+Europe,"health expenditure per person",4,6
+Europe,"health expenditure per person",5,2
+Europe,"health expenditure per person",6,6
+Europe,"health expenditure per person",7,3
+Europe,"health expenditure per person",8,1
+Europe,"health expenditure per person",9,0
+Europe,"health expenditure per person",10,0
+Europe,"health expenditure per person",No Data,2
+North America,"health expenditure per person",1,12
+North America,"health expenditure per person",2,7
+North America,"health expenditure per person",3,1
+North America,"health expenditure per person",4,0
+North America,"health expenditure per person",5,1
+North America,"health expenditure per person",6,0
+North America,"health expenditure per person",7,0
+North America,"health expenditure per person",8,0
+North America,"health expenditure per person",9,0
+North America,"health expenditure per person",10,0
+North America,"health expenditure per person",No Data,1
+South America,"health expenditure per person",1,7
+South America,"health expenditure per person",2,5
+South America,"health expenditure per person",3,0
+South America,"health expenditure per person",4,0
+South America,"health expenditure per person",5,0
+South America,"health expenditure per person",6,0
+South America,"health expenditure per person",7,0
+South America,"health expenditure per person",8,0
+South America,"health expenditure per person",9,0
+South America,"health expenditure per person",10,0
+South America,"health expenditure per person",No Data,0
+Oceania,"health expenditure per person",1,10
+Oceania,"health expenditure per person",2,2
+Oceania,"health expenditure per person",3,0
+Oceania,"health expenditure per person",4,1
+Oceania,"health expenditure per person",5,1
+Oceania,"health expenditure per person",6,0
+Oceania,"health expenditure per person",7,0
+Oceania,"health expenditure per person",8,0
+Oceania,"health expenditure per person",9,0
+Oceania,"health expenditure per person",10,0
+Oceania,"health expenditure per person",No Data,0
+UN Security Council,"health expenditure per person",1,1
+UN Security Council,"health expenditure per person",2,1
+UN Security Council,"health expenditure per person",3,0
+UN Security Council,"health expenditure per person",4,0
+UN Security Council,"health expenditure per person",5,2
+UN Security Council,"health expenditure per person",6,0
+UN Security Council,"health expenditure per person",7,0
+UN Security Council,"health expenditure per person",8,0
+UN Security Council,"health expenditure per person",9,0
+UN Security Council,"health expenditure per person",10,1
+UN Security Council,"health expenditure per person",No Data,0
+Africa,"education expenditure% of GDP",1,0
+Africa,"education expenditure% of GDP",2,2
+Africa,"education expenditure% of GDP",3,2
+Africa,"education expenditure% of GDP",4,2
+Africa,"education expenditure% of GDP",5,2
+Africa,"education expenditure% of GDP",6,7
+Africa,"education expenditure% of GDP",7,1
+Africa,"education expenditure% of GDP",8,2
+Africa,"education expenditure% of GDP",9,1
+Africa,"education expenditure% of GDP",10,2
+Africa,"education expenditure% of GDP",No Data,33
+Asia,"education expenditure% of GDP",1,0
+Asia,"education expenditure% of GDP",2,2
+Asia,"education expenditure% of GDP",3,4
+Asia,"education expenditure% of GDP",4,5
+Asia,"education expenditure% of GDP",5,2
+Asia,"education expenditure% of GDP",6,2
+Asia,"education expenditure% of GDP",7,3
+Asia,"education expenditure% of GDP",8,2
+Asia,"education expenditure% of GDP",9,0
+Asia,"education expenditure% of GDP",10,0
+Asia,"education expenditure% of GDP",No Data,23
+Europe,"education expenditure% of GDP",1,1
+Europe,"education expenditure% of GDP",2,1
+Europe,"education expenditure% of GDP",3,2
+Europe,"education expenditure% of GDP",4,1
+Europe,"education expenditure% of GDP",5,5
+Europe,"education expenditure% of GDP",6,5
+Europe,"education expenditure% of GDP",7,6
+Europe,"education expenditure% of GDP",8,1
+Europe,"education expenditure% of GDP",9,1
+Europe,"education expenditure% of GDP",10,5
+Europe,"education expenditure% of GDP",No Data,17
+North America,"education expenditure% of GDP",1,0
+North America,"education expenditure% of GDP",2,0
+North America,"education expenditure% of GDP",3,1
+North America,"education expenditure% of GDP",4,1
+North America,"education expenditure% of GDP",5,1
+North America,"education expenditure% of GDP",6,0
+North America,"education expenditure% of GDP",7,1
+North America,"education expenditure% of GDP",8,2
+North America,"education expenditure% of GDP",9,2
+North America,"education expenditure% of GDP",10,0
+North America,"education expenditure% of GDP",No Data,14
+South America,"education expenditure% of GDP",1,0
+South America,"education expenditure% of GDP",2,0
+South America,"education expenditure% of GDP",3,0
+South America,"education expenditure% of GDP",4,0
+South America,"education expenditure% of GDP",5,1
+South America,"education expenditure% of GDP",6,2
+South America,"education expenditure% of GDP",7,1
+South America,"education expenditure% of GDP",8,1
+South America,"education expenditure% of GDP",9,0
+South America,"education expenditure% of GDP",10,1
+South America,"education expenditure% of GDP",No Data,6
+Oceania,"education expenditure% of GDP",1,0
+Oceania,"education expenditure% of GDP",2,0
+Oceania,"education expenditure% of GDP",3,0
+Oceania,"education expenditure% of GDP",4,0
+Oceania,"education expenditure% of GDP",5,0
+Oceania,"education expenditure% of GDP",6,1
+Oceania,"education expenditure% of GDP",7,1
+Oceania,"education expenditure% of GDP",8,0
+Oceania,"education expenditure% of GDP",9,1
+Oceania,"education expenditure% of GDP",10,0
+Oceania,"education expenditure% of GDP",No Data,11
+UN Security Council,"education expenditure% of GDP",1,0
+UN Security Council,"education expenditure% of GDP",2,0
+UN Security Council,"education expenditure% of GDP",3,0
+UN Security Council,"education expenditure% of GDP",4,0
+UN Security Council,"education expenditure% of GDP",5,0
+UN Security Council,"education expenditure% of GDP",6,1
+UN Security Council,"education expenditure% of GDP",7,1
+UN Security Council,"education expenditure% of GDP",8,1
+UN Security Council,"education expenditure% of GDP",9,0
+UN Security Council,"education expenditure% of GDP",10,0
+UN Security Council,"education expenditure% of GDP",No Data,2
+Africa,"education expenditure per person ",1,21
+Africa,"education expenditure per person ",2,0
+Africa,"education expenditure per person ",3,0
+Africa,"education expenditure per person ",4,0
+Africa,"education expenditure per person ",5,0
+Africa,"education expenditure per person ",6,0
+Africa,"education expenditure per person ",7,0
+Africa,"education expenditure per person ",8,0
+Africa,"education expenditure per person ",9,0
+Africa,"education expenditure per person ",10,0
+Africa,"education expenditure per person ",No Data,33
+Asia,"education expenditure per person ",1,15
+Asia,"education expenditure per person ",2,3
+Asia,"education expenditure per person ",3,1
+Asia,"education expenditure per person ",4,0
+Asia,"education expenditure per person ",5,1
+Asia,"education expenditure per person ",6,0
+Asia,"education expenditure per person ",7,0
+Asia,"education expenditure per person ",8,0
+Asia,"education expenditure per person ",9,0
+Asia,"education expenditure per person ",10,0
+Asia,"education expenditure per person ",No Data,23
+Europe,"education expenditure per person ",1,10
+Europe,"education expenditure per person ",2,6
+Europe,"education expenditure per person ",3,1
+Europe,"education expenditure per person ",4,3
+Europe,"education expenditure per person ",5,2
+Europe,"education expenditure per person ",6,1
+Europe,"education expenditure per person ",7,2
+Europe,"education expenditure per person ",8,0
+Europe,"education expenditure per person ",9,0
+Europe,"education expenditure per person ",10,1
+Europe,"education expenditure per person ",No Data,19
+North America,"education expenditure per person ",1,7
+North America,"education expenditure per person ",2,1
+North America,"education expenditure per person ",3,0
+North America,"education expenditure per person ",4,0
+North America,"education expenditure per person ",5,0
+North America,"education expenditure per person ",6,0
+North America,"education expenditure per person ",7,0
+North America,"education expenditure per person ",8,0
+North America,"education expenditure per person ",9,0
+North America,"education expenditure per person ",10,0
+North America,"education expenditure per person ",No Data,14
+South America,"education expenditure per person ",1,6
+South America,"education expenditure per person ",2,0
+South America,"education expenditure per person ",3,0
+South America,"education expenditure per person ",4,0
+South America,"education expenditure per person ",5,0
+South America,"education expenditure per person ",6,0
+South America,"education expenditure per person ",7,0
+South America,"education expenditure per person ",8,0
+South America,"education expenditure per person ",9,0
+South America,"education expenditure per person ",10,0
+South America,"education expenditure per person ",No Data,6
+Oceania,"education expenditure per person ",1,1
+Oceania,"education expenditure per person ",2,0
+Oceania,"education expenditure per person ",3,0
+Oceania,"education expenditure per person ",4,1
+Oceania,"education expenditure per person ",5,1
+Oceania,"education expenditure per person ",6,0
+Oceania,"education expenditure per person ",7,0
+Oceania,"education expenditure per person ",8,0
+Oceania,"education expenditure per person ",9,0
+Oceania,"education expenditure per person ",10,0
+Oceania,"education expenditure per person ",No Data,11
+UN Security Council,"education expenditure per person ",1,0
+UN Security Council,"education expenditure per person ",2,0
+UN Security Council,"education expenditure per person ",3,0
+UN Security Council,"education expenditure per person ",4,3
+UN Security Council,"education expenditure per person ",5,0
+UN Security Council,"education expenditure per person ",6,0
+UN Security Council,"education expenditure per person ",7,0
+UN Security Council,"education expenditure per person ",8,0
+UN Security Council,"education expenditure per person ",9,0
+UN Security Council,"education expenditure per person ",10,0
+UN Security Council,"education expenditure per person ",No Data,2
+Africa,school life expectancy (YEARS),1,3
+Africa,school life expectancy (YEARS),2,7
+Africa,school life expectancy (YEARS),3,7
+Africa,school life expectancy (YEARS),4,13
+Africa,school life expectancy (YEARS),5,5
+Africa,school life expectancy (YEARS),6,7
+Africa,school life expectancy (YEARS),7,2
+Africa,school life expectancy (YEARS),8,0
+Africa,school life expectancy (YEARS),9,0
+Africa,school life expectancy (YEARS),10,0
+Africa,school life expectancy (YEARS),No Data,10
+Asia,school life expectancy (YEARS),1,0
+Asia,school life expectancy (YEARS),2,1
+Asia,school life expectancy (YEARS),3,1
+Asia,school life expectancy (YEARS),4,8
+Asia,school life expectancy (YEARS),5,3
+Asia,school life expectancy (YEARS),6,12
+Asia,school life expectancy (YEARS),7,5
+Asia,school life expectancy (YEARS),8,5
+Asia,school life expectancy (YEARS),9,0
+Asia,school life expectancy (YEARS),10,0
+Asia,school life expectancy (YEARS),No Data,8
+Europe,school life expectancy (YEARS),1,0
+Europe,school life expectancy (YEARS),2,0
+Europe,school life expectancy (YEARS),3,0
+Europe,school life expectancy (YEARS),4,0
+Europe,school life expectancy (YEARS),5,1
+Europe,school life expectancy (YEARS),6,5
+Europe,school life expectancy (YEARS),7,13
+Europe,school life expectancy (YEARS),8,13
+Europe,school life expectancy (YEARS),9,5
+Europe,school life expectancy (YEARS),10,5
+Europe,school life expectancy (YEARS),No Data,3
+North America,school life expectancy (YEARS),1,0
+North America,school life expectancy (YEARS),2,0
+North America,school life expectancy (YEARS),3,0
+North America,school life expectancy (YEARS),4,2
+North America,school life expectancy (YEARS),5,0
+North America,school life expectancy (YEARS),6,7
+North America,school life expectancy (YEARS),7,2
+North America,school life expectancy (YEARS),8,1
+North America,school life expectancy (YEARS),9,0
+North America,school life expectancy (YEARS),10,0
+North America,school life expectancy (YEARS),No Data,10
+South America,school life expectancy (YEARS),1,0
+South America,school life expectancy (YEARS),2,0
+South America,school life expectancy (YEARS),3,0
+South America,school life expectancy (YEARS),4,1
+South America,school life expectancy (YEARS),5,1
+South America,school life expectancy (YEARS),6,3
+South America,school life expectancy (YEARS),7,2
+South America,school life expectancy (YEARS),8,3
+South America,school life expectancy (YEARS),9,0
+South America,school life expectancy (YEARS),10,0
+South America,school life expectancy (YEARS),No Data,2
+Oceania,school life expectancy (YEARS),1,0
+Oceania,school life expectancy (YEARS),2,0
+Oceania,school life expectancy (YEARS),3,1
+Oceania,school life expectancy (YEARS),4,0
+Oceania,school life expectancy (YEARS),5,1
+Oceania,school life expectancy (YEARS),6,0
+Oceania,school life expectancy (YEARS),7,0
+Oceania,school life expectancy (YEARS),8,1
+Oceania,school life expectancy (YEARS),9,0
+Oceania,school life expectancy (YEARS),10,2
+Oceania,school life expectancy (YEARS),No Data,9
+UN Security Council,school life expectancy (YEARS),1,0
+UN Security Council,school life expectancy (YEARS),2,0
+UN Security Council,school life expectancy (YEARS),3,0
+UN Security Council,school life expectancy (YEARS),4,0
+UN Security Council,school life expectancy (YEARS),5,0
+UN Security Council,school life expectancy (YEARS),6,1
+UN Security Council,school life expectancy (YEARS),7,1
+UN Security Council,school life expectancy (YEARS),8,2
+UN Security Council,school life expectancy (YEARS),9,1
+UN Security Council,school life expectancy (YEARS),10,0
+UN Security Council,school life expectancy (YEARS),No Data,0
+Africa,unemployment (%),1,9
+Africa,unemployment (%),2,8
+Africa,unemployment (%),3,15
+Africa,unemployment (%),4,8
+Africa,unemployment (%),5,2
+Africa,unemployment (%),6,2
+Africa,unemployment (%),7,3
+Africa,unemployment (%),8,1
+Africa,unemployment (%),9,4
+Africa,unemployment (%),10,1
+Africa,unemployment (%),No Data,1
+Asia,unemployment (%),1,15
+Asia,unemployment (%),2,13
+Asia,unemployment (%),3,6
+Asia,unemployment (%),4,3
+Asia,unemployment (%),5,2
+Asia,unemployment (%),6,3
+Asia,unemployment (%),7,0
+Asia,unemployment (%),8,0
+Asia,unemployment (%),9,0
+Asia,unemployment (%),10,0
+Asia,unemployment (%),No Data,1
+Europe,unemployment (%),1,2
+Europe,unemployment (%),2,16
+Europe,unemployment (%),3,8
+Europe,unemployment (%),4,6
+Europe,unemployment (%),5,2
+Europe,unemployment (%),6,4
+Europe,unemployment (%),7,0
+Europe,unemployment (%),8,1
+Europe,unemployment (%),9,2
+Europe,unemployment (%),10,0
+Europe,unemployment (%),No Data,4
+North America,unemployment (%),1,2
+North America,unemployment (%),2,6
+North America,unemployment (%),3,2
+North America,unemployment (%),4,2
+North America,unemployment (%),5,4
+North America,unemployment (%),6,0
+North America,unemployment (%),7,2
+North America,unemployment (%),8,0
+North America,unemployment (%),9,0
+North America,unemployment (%),10,0
+North America,unemployment (%),No Data,4
+South America,unemployment (%),1,0
+South America,unemployment (%),2,4
+South America,unemployment (%),3,5
+South America,unemployment (%),4,3
+South America,unemployment (%),5,0
+South America,unemployment (%),6,0
+South America,unemployment (%),7,0
+South America,unemployment (%),8,0
+South America,unemployment (%),9,0
+South America,unemployment (%),10,0
+South America,unemployment (%),No Data,0
+Oceania,unemployment (%),1,1
+Oceania,unemployment (%),2,4
+Oceania,unemployment (%),3,2
+Oceania,unemployment (%),4,0
+Oceania,unemployment (%),5,0
+Oceania,unemployment (%),6,0
+Oceania,unemployment (%),7,0
+Oceania,unemployment (%),8,0
+Oceania,unemployment (%),9,0
+Oceania,unemployment (%),10,1
+Oceania,unemployment (%),No Data,6
+UN Security Council,unemployment (%),1,0
+UN Security Council,unemployment (%),2,4
+UN Security Council,unemployment (%),3,0
+UN Security Council,unemployment (%),4,1
+UN Security Council,unemployment (%),5,0
+UN Security Council,unemployment (%),6,0
+UN Security Council,unemployment (%),7,0
+UN Security Council,unemployment (%),8,0
+UN Security Council,unemployment (%),9,0
+UN Security Council,unemployment (%),10,0
+UN Security Council,unemployment (%),No Data,0
+Africa,government spending score,1,1
+Africa,government spending score,2,0
+Africa,government spending score,3,2
+Africa,government spending score,4,1
+Africa,government spending score,5,2
+Africa,government spending score,6,1
+Africa,government spending score,7,7
+Africa,government spending score,8,15
+Africa,government spending score,9,16
+Africa,government spending score,10,8
+Africa,government spending score,No Data,1
+Asia,government spending score,1,1
+Asia,government spending score,2,0
+Asia,government spending score,3,2
+Asia,government spending score,4,1
+Asia,government spending score,5,2
+Asia,government spending score,6,5
+Asia,government spending score,7,4
+Asia,government spending score,8,7
+Asia,government spending score,9,9
+Asia,government spending score,10,11
+Asia,government spending score,No Data,1
+Europe,government spending score,1,1
+Europe,government spending score,2,2
+Europe,government spending score,3,3
+Europe,government spending score,4,6
+Europe,government spending score,5,9
+Europe,government spending score,6,6
+Europe,government spending score,7,6
+Europe,government spending score,8,4
+Europe,government spending score,9,2
+Europe,government spending score,10,1
+Europe,government spending score,No Data,5
+North America,government spending score,1,1
+North America,government spending score,2,0
+North America,government spending score,3,0
+North America,government spending score,4,0
+North America,government spending score,5,1
+North America,government spending score,6,2
+North America,government spending score,7,2
+North America,government spending score,8,3
+North America,government spending score,9,7
+North America,government spending score,10,3
+North America,government spending score,No Data,3
+South America,government spending score,1,0
+South America,government spending score,2,0
+South America,government spending score,3,1
+South America,government spending score,4,0
+South America,government spending score,5,1
+South America,government spending score,6,4
+South America,government spending score,7,0
+South America,government spending score,8,3
+South America,government spending score,9,3
+South America,government spending score,10,0
+South America,government spending score,No Data,0
+Oceania,government spending score,1,2
+Oceania,government spending score,2,0
+Oceania,government spending score,3,0
+Oceania,government spending score,4,1
+Oceania,government spending score,5,0
+Oceania,government spending score,6,2
+Oceania,government spending score,7,1
+Oceania,government spending score,8,2
+Oceania,government spending score,9,2
+Oceania,government spending score,10,0
+Oceania,government spending score,No Data,4
+UN Security Council,government spending score,1,1
+UN Security Council,government spending score,2,0
+UN Security Council,government spending score,3,0
+UN Security Council,government spending score,4,0
+UN Security Council,government spending score,5,1
+UN Security Council,government spending score,6,1
+UN Security Council,government spending score,7,1
+UN Security Council,government spending score,8,1
+UN Security Council,government spending score,9,0
+UN Security Council,government spending score,10,0
+UN Security Council,government spending score,No Data,0
+Africa,government expenditure (% of GDP),1,9
+Africa,government expenditure (% of GDP),2,29
+Africa,government expenditure (% of GDP),3,10
+Africa,government expenditure (% of GDP),4,4
+Africa,government expenditure (% of GDP),5,0
+Africa,government expenditure (% of GDP),6,0
+Africa,government expenditure (% of GDP),7,0
+Africa,government expenditure (% of GDP),8,1
+Africa,government expenditure (% of GDP),9,0
+Africa,government expenditure (% of GDP),10,0
+Africa,government expenditure (% of GDP),No Data,1
+Asia,government expenditure (% of GDP),1,12
+Asia,government expenditure (% of GDP),2,14
+Asia,government expenditure (% of GDP),3,12
+Asia,government expenditure (% of GDP),4,3
+Asia,government expenditure (% of GDP),5,0
+Asia,government expenditure (% of GDP),6,0
+Asia,government expenditure (% of GDP),7,0
+Asia,government expenditure (% of GDP),8,0
+Asia,government expenditure (% of GDP),9,0
+Asia,government expenditure (% of GDP),10,0
+Asia,government expenditure (% of GDP),No Data,2
+Europe,government expenditure (% of GDP),1,1
+Europe,government expenditure (% of GDP),2,6
+Europe,government expenditure (% of GDP),3,15
+Europe,government expenditure (% of GDP),4,15
+Europe,government expenditure (% of GDP),5,3
+Europe,government expenditure (% of GDP),6,0
+Europe,government expenditure (% of GDP),7,0
+Europe,government expenditure (% of GDP),8,0
+Europe,government expenditure (% of GDP),9,0
+Europe,government expenditure (% of GDP),10,0
+Europe,government expenditure (% of GDP),No Data,5
+North America,government expenditure (% of GDP),1,4
+North America,government expenditure (% of GDP),2,9
+North America,government expenditure (% of GDP),3,4
+North America,government expenditure (% of GDP),4,1
+North America,government expenditure (% of GDP),5,1
+North America,government expenditure (% of GDP),6,0
+North America,government expenditure (% of GDP),7,0
+North America,government expenditure (% of GDP),8,0
+North America,government expenditure (% of GDP),9,0
+North America,government expenditure (% of GDP),10,0
+North America,government expenditure (% of GDP),No Data,3
+South America,government expenditure (% of GDP),1,0
+South America,government expenditure (% of GDP),2,5
+South America,government expenditure (% of GDP),3,6
+South America,government expenditure (% of GDP),4,1
+South America,government expenditure (% of GDP),5,0
+South America,government expenditure (% of GDP),6,0
+South America,government expenditure (% of GDP),7,0
+South America,government expenditure (% of GDP),8,0
+South America,government expenditure (% of GDP),9,0
+South America,government expenditure (% of GDP),10,0
+South America,government expenditure (% of GDP),No Data,0
+Oceania,government expenditure (% of GDP),1,0
+Oceania,government expenditure (% of GDP),2,3
+Oceania,government expenditure (% of GDP),3,4
+Oceania,government expenditure (% of GDP),4,1
+Oceania,government expenditure (% of GDP),5,1
+Oceania,government expenditure (% of GDP),6,0
+Oceania,government expenditure (% of GDP),7,0
+Oceania,government expenditure (% of GDP),8,0
+Oceania,government expenditure (% of GDP),9,0
+Oceania,government expenditure (% of GDP),10,1
+Oceania,government expenditure (% of GDP),No Data,4
+UN Security Council,government expenditure (% of GDP),1,0
+UN Security Council,government expenditure (% of GDP),2,1
+UN Security Council,government expenditure (% of GDP),3,2
+UN Security Council,government expenditure (% of GDP),4,1
+UN Security Council,government expenditure (% of GDP),5,1
+UN Security Council,government expenditure (% of GDP),6,0
+UN Security Council,government expenditure (% of GDP),7,0
+UN Security Council,government expenditure (% of GDP),8,0
+UN Security Council,government expenditure (% of GDP),9,0
+UN Security Council,government expenditure (% of GDP),10,0
+UN Security Council,government expenditure (% of GDP),No Data,0
+Africa,political rights score ,1,3
+Africa,political rights score ,2,6
+Africa,political rights score ,3,0
+Africa,political rights score ,4,9
+Africa,political rights score ,5,9
+Africa,political rights score ,6,0
+Africa,political rights score ,7,4
+Africa,political rights score ,8,0
+Africa,political rights score ,9,9
+Africa,political rights score ,10,14
+Africa,political rights score ,No Data,0
+Asia,political rights score ,1,4
+Asia,political rights score ,2,4
+Asia,political rights score ,3,0
+Asia,political rights score ,4,4
+Asia,political rights score ,5,4
+Asia,political rights score ,6,0
+Asia,political rights score ,7,8
+Asia,political rights score ,8,0
+Asia,political rights score ,9,7
+Asia,political rights score ,10,12
+Asia,political rights score ,No Data,0
+Europe,political rights score ,1,26
+Europe,political rights score ,2,5
+Europe,political rights score ,3,0
+Europe,political rights score ,4,9
+Europe,political rights score ,5,2
+Europe,political rights score ,6,0
+Europe,political rights score ,7,1
+Europe,political rights score ,8,0
+Europe,political rights score ,9,1
+Europe,political rights score ,10,1
+Europe,political rights score ,No Data,0
+North America,political rights score ,1,10
+North America,political rights score ,2,5
+North America,political rights score ,3,0
+North America,political rights score ,4,2
+North America,political rights score ,5,2
+North America,political rights score ,6,0
+North America,political rights score ,7,2
+North America,political rights score ,8,0
+North America,political rights score ,9,0
+North America,political rights score ,10,1
+North America,political rights score ,No Data,0
+South America,political rights score ,1,2
+South America,political rights score ,2,5
+South America,political rights score ,3,0
+South America,political rights score ,4,4
+South America,political rights score ,5,0
+South America,political rights score ,6,0
+South America,political rights score ,7,0
+South America,political rights score ,8,0
+South America,political rights score ,9,1
+South America,political rights score ,10,0
+South America,political rights score ,No Data,0
+Oceania,political rights score ,1,7
+Oceania,political rights score ,2,4
+Oceania,political rights score ,3,0
+Oceania,political rights score ,4,3
+Oceania,political rights score ,5,0
+Oceania,political rights score ,6,0
+Oceania,political rights score ,7,0
+Oceania,political rights score ,8,0
+Oceania,political rights score ,9,0
+Oceania,political rights score ,10,0
+Oceania,political rights score ,No Data,0
+UN Security Council,political rights score ,1,2
+UN Security Council,political rights score ,2,1
+UN Security Council,political rights score ,3,0
+UN Security Council,political rights score ,4,0
+UN Security Council,political rights score ,5,0
+UN Security Council,political rights score ,6,0
+UN Security Council,political rights score ,7,0
+UN Security Council,political rights score ,8,0
+UN Security Council,political rights score ,9,0
+UN Security Council,political rights score ,10,2
+UN Security Council,political rights score ,No Data,0
+Africa,civil liberties score ,1,1
+Africa,civil liberties score ,2,8
+Africa,civil liberties score ,3,0
+Africa,civil liberties score ,4,7
+Africa,civil liberties score ,5,11
+Africa,civil liberties score ,6,0
+Africa,civil liberties score ,7,11
+Africa,civil liberties score ,8,0
+Africa,civil liberties score ,9,10
+Africa,civil liberties score ,10,6
+Africa,civil liberties score ,No Data,0
+Asia,civil liberties score ,1,2
+Asia,civil liberties score ,2,2
+Asia,civil liberties score ,3,0
+Asia,civil liberties score ,4,4
+Asia,civil liberties score ,5,8
+Asia,civil liberties score ,6,0
+Asia,civil liberties score ,7,13
+Asia,civil liberties score ,8,0
+Asia,civil liberties score ,9,9
+Asia,civil liberties score ,10,5
+Asia,civil liberties score ,No Data,0
+Europe,civil liberties score ,1,26
+Europe,civil liberties score ,2,8
+Europe,civil liberties score ,3,0
+Europe,civil liberties score ,4,6
+Europe,civil liberties score ,5,3
+Europe,civil liberties score ,6,0
+Europe,civil liberties score ,7,0
+Europe,civil liberties score ,8,0
+Europe,civil liberties score ,9,2
+Europe,civil liberties score ,10,0
+Europe,civil liberties score ,No Data,0
+North America,civil liberties score ,1,8
+North America,civil liberties score ,2,5
+North America,civil liberties score ,3,0
+North America,civil liberties score ,4,4
+North America,civil liberties score ,5,3
+North America,civil liberties score ,6,0
+North America,civil liberties score ,7,1
+North America,civil liberties score ,8,0
+North America,civil liberties score ,9,1
+North America,civil liberties score ,10,0
+North America,civil liberties score ,No Data,0
+South America,civil liberties score ,1,2
+South America,civil liberties score ,2,3
+South America,civil liberties score ,3,0
+South America,civil liberties score ,4,6
+South America,civil liberties score ,5,0
+South America,civil liberties score ,6,0
+South America,civil liberties score ,7,1
+South America,civil liberties score ,8,0
+South America,civil liberties score ,9,0
+South America,civil liberties score ,10,0
+South America,civil liberties score ,No Data,0
+Oceania,civil liberties score ,1,7
+Oceania,civil liberties score ,2,5
+Oceania,civil liberties score ,3,0
+Oceania,civil liberties score ,4,2
+Oceania,civil liberties score ,5,0
+Oceania,civil liberties score ,6,0
+Oceania,civil liberties score ,7,0
+Oceania,civil liberties score ,8,0
+Oceania,civil liberties score ,9,0
+Oceania,civil liberties score ,10,0
+Oceania,civil liberties score ,No Data,0
+UN Security Council,civil liberties score ,1,2
+UN Security Council,civil liberties score ,2,1
+UN Security Council,civil liberties score ,3,0
+UN Security Council,civil liberties score ,4,0
+UN Security Council,civil liberties score ,5,0
+UN Security Council,civil liberties score ,6,0
+UN Security Council,civil liberties score ,7,0
+UN Security Council,civil liberties score ,8,0
+UN Security Council,civil liberties score ,9,2
+UN Security Council,civil liberties score ,10,0
+UN Security Council,civil liberties score ,No Data,0
+Africa,political stability & absence of violence,1,0
+Africa,political stability & absence of violence,2,4
+Africa,political stability & absence of violence,3,6
+Africa,political stability & absence of violence,4,3
+Africa,political stability & absence of violence,5,11
+Africa,political stability & absence of violence,6,14
+Africa,political stability & absence of violence,7,10
+Africa,political stability & absence of violence,8,2
+Africa,political stability & absence of violence,9,3
+Africa,political stability & absence of violence,10,0
+Africa,political stability & absence of violence,No Data,1
+Asia,political stability & absence of violence,1,3
+Asia,political stability & absence of violence,2,2
+Asia,political stability & absence of violence,3,2
+Asia,political stability & absence of violence,4,2
+Asia,political stability & absence of violence,5,8
+Asia,political stability & absence of violence,6,6
+Asia,political stability & absence of violence,7,8
+Asia,political stability & absence of violence,8,5
+Asia,political stability & absence of violence,9,5
+Asia,political stability & absence of violence,10,2
+Asia,political stability & absence of violence,No Data,0
+Europe,political stability & absence of violence,1,0
+Europe,political stability & absence of violence,2,0
+Europe,political stability & absence of violence,3,1
+Europe,political stability & absence of violence,4,0
+Europe,political stability & absence of violence,5,2
+Europe,political stability & absence of violence,6,5
+Europe,political stability & absence of violence,7,6
+Europe,political stability & absence of violence,8,9
+Europe,political stability & absence of violence,9,15
+Europe,political stability & absence of violence,10,7
+Europe,political stability & absence of violence,No Data,0
+North America,political stability & absence of violence,1,0
+North America,political stability & absence of violence,2,0
+North America,political stability & absence of violence,3,0
+North America,political stability & absence of violence,4,0
+North America,political stability & absence of violence,5,1
+North America,political stability & absence of violence,6,4
+North America,political stability & absence of violence,7,4
+North America,political stability & absence of violence,8,5
+North America,political stability & absence of violence,9,8
+North America,political stability & absence of violence,10,0
+North America,political stability & absence of violence,No Data,0
+South America,political stability & absence of violence,1,0
+South America,political stability & absence of violence,2,0
+South America,political stability & absence of violence,3,0
+South America,political stability & absence of violence,4,1
+South America,political stability & absence of violence,5,1
+South America,political stability & absence of violence,6,3
+South America,political stability & absence of violence,7,5
+South America,political stability & absence of violence,8,1
+South America,political stability & absence of violence,9,1
+South America,political stability & absence of violence,10,0
+South America,political stability & absence of violence,No Data,0
+Oceania,political stability & absence of violence,1,0
+Oceania,political stability & absence of violence,2,0
+Oceania,political stability & absence of violence,3,0
+Oceania,political stability & absence of violence,4,0
+Oceania,political stability & absence of violence,5,0
+Oceania,political stability & absence of violence,6,1
+Oceania,political stability & absence of violence,7,2
+Oceania,political stability & absence of violence,8,2
+Oceania,political stability & absence of violence,9,5
+Oceania,political stability & absence of violence,10,4
+Oceania,political stability & absence of violence,No Data,0
+UN Security Council,political stability & absence of violence,1,0
+UN Security Council,political stability & absence of violence,2,0
+UN Security Council,political stability & absence of violence,3,0
+UN Security Council,political stability & absence of violence,4,0
+UN Security Council,political stability & absence of violence,5,1
+UN Security Council,political stability & absence of violence,6,1
+UN Security Council,political stability & absence of violence,7,2
+UN Security Council,political stability & absence of violence,8,1
+UN Security Council,political stability & absence of violence,9,0
+UN Security Council,political stability & absence of violence,10,0
+UN Security Council,political stability & absence of violence,No Data,0
+Africa,government effectiveness,1,2
+Africa,government effectiveness,2,6
+Africa,government effectiveness,3,10
+Africa,government effectiveness,4,19
+Africa,government effectiveness,5,7
+Africa,government effectiveness,6,6
+Africa,government effectiveness,7,2
+Africa,government effectiveness,8,1
+Africa,government effectiveness,9,0
+Africa,government effectiveness,10,0
+Africa,government effectiveness,No Data,1
+Asia,government effectiveness,1,0
+Asia,government effectiveness,2,3
+Asia,government effectiveness,3,4
+Asia,government effectiveness,4,6
+Asia,government effectiveness,5,9
+Asia,government effectiveness,6,10
+Asia,government effectiveness,7,3
+Asia,government effectiveness,8,4
+Asia,government effectiveness,9,3
+Asia,government effectiveness,10,1
+Asia,government effectiveness,No Data,0
+Europe,government effectiveness,1,0
+Europe,government effectiveness,2,0
+Europe,government effectiveness,3,0
+Europe,government effectiveness,4,0
+Europe,government effectiveness,5,7
+Europe,government effectiveness,6,7
+Europe,government effectiveness,7,5
+Europe,government effectiveness,8,10
+Europe,government effectiveness,9,6
+Europe,government effectiveness,10,8
+Europe,government effectiveness,No Data,2
+North America,government effectiveness,1,1
+North America,government effectiveness,2,0
+North America,government effectiveness,3,0
+North America,government effectiveness,4,3
+North America,government effectiveness,5,6
+North America,government effectiveness,6,7
+North America,government effectiveness,7,3
+North America,government effectiveness,8,1
+North America,government effectiveness,9,0
+North America,government effectiveness,10,1
+North America,government effectiveness,No Data,0
+South America,government effectiveness,1,0
+South America,government effectiveness,2,0
+South America,government effectiveness,3,1
+South America,government effectiveness,4,2
+South America,government effectiveness,5,4
+South America,government effectiveness,6,3
+South America,government effectiveness,7,1
+South America,government effectiveness,8,1
+South America,government effectiveness,9,0
+South America,government effectiveness,10,0
+South America,government effectiveness,No Data,0
+Oceania,government effectiveness,1,0
+Oceania,government effectiveness,2,1
+Oceania,government effectiveness,3,0
+Oceania,government effectiveness,4,4
+Oceania,government effectiveness,5,4
+Oceania,government effectiveness,6,2
+Oceania,government effectiveness,7,1
+Oceania,government effectiveness,8,0
+Oceania,government effectiveness,9,1
+Oceania,government effectiveness,10,1
+Oceania,government effectiveness,No Data,0
+UN Security Council,government effectiveness,1,0
+UN Security Council,government effectiveness,2,0
+UN Security Council,government effectiveness,3,0
+UN Security Council,government effectiveness,4,0
+UN Security Council,government effectiveness,5,0
+UN Security Council,government effectiveness,6,1
+UN Security Council,government effectiveness,7,1
+UN Security Council,government effectiveness,8,0
+UN Security Council,government effectiveness,9,3
+UN Security Council,government effectiveness,10,0
+UN Security Council,government effectiveness,No Data,0
+Africa,regulatory quality,1,4
+Africa,regulatory quality,2,3
+Africa,regulatory quality,3,8
+Africa,regulatory quality,4,20
+Africa,regulatory quality,5,14
+Africa,regulatory quality,6,2
+Africa,regulatory quality,7,1
+Africa,regulatory quality,8,1
+Africa,regulatory quality,9,0
+Africa,regulatory quality,10,0
+Africa,regulatory quality,No Data,1
+Asia,regulatory quality,1,2
+Asia,regulatory quality,2,2
+Asia,regulatory quality,3,5
+Asia,regulatory quality,4,6
+Asia,regulatory quality,5,10
+Asia,regulatory quality,6,7
+Asia,regulatory quality,7,5
+Asia,regulatory quality,8,2
+Asia,regulatory quality,9,3
+Asia,regulatory quality,10,1
+Asia,regulatory quality,No Data,0
+Europe,regulatory quality,1,0
+Europe,regulatory quality,2,0
+Europe,regulatory quality,3,0
+Europe,regulatory quality,4,1
+Europe,regulatory quality,5,4
+Europe,regulatory quality,6,6
+Europe,regulatory quality,7,7
+Europe,regulatory quality,8,9
+Europe,regulatory quality,9,9
+Europe,regulatory quality,10,7
+Europe,regulatory quality,No Data,2
+North America,regulatory quality,1,0
+North America,regulatory quality,2,0
+North America,regulatory quality,3,2
+North America,regulatory quality,4,1
+North America,regulatory quality,5,4
+North America,regulatory quality,6,10
+North America,regulatory quality,7,4
+North America,regulatory quality,8,0
+North America,regulatory quality,9,0
+North America,regulatory quality,10,1
+North America,regulatory quality,No Data,0
+South America,regulatory quality,1,1
+South America,regulatory quality,2,0
+South America,regulatory quality,3,0
+South America,regulatory quality,4,2
+South America,regulatory quality,5,5
+South America,regulatory quality,6,0
+South America,regulatory quality,7,3
+South America,regulatory quality,8,0
+South America,regulatory quality,9,1
+South America,regulatory quality,10,0
+South America,regulatory quality,No Data,0
+Oceania,regulatory quality,1,0
+Oceania,regulatory quality,2,0
+Oceania,regulatory quality,3,2
+Oceania,regulatory quality,4,6
+Oceania,regulatory quality,5,3
+Oceania,regulatory quality,6,1
+Oceania,regulatory quality,7,0
+Oceania,regulatory quality,8,0
+Oceania,regulatory quality,9,0
+Oceania,regulatory quality,10,2
+Oceania,regulatory quality,No Data,0
+UN Security Council,regulatory quality,1,0
+UN Security Council,regulatory quality,2,0
+UN Security Council,regulatory quality,3,0
+UN Security Council,regulatory quality,4,0
+UN Security Council,regulatory quality,5,2
+UN Security Council,regulatory quality,6,0
+UN Security Council,regulatory quality,7,0
+UN Security Council,regulatory quality,8,1
+UN Security Council,regulatory quality,9,1
+UN Security Council,regulatory quality,10,1
+UN Security Council,regulatory quality,No Data,0
+Africa,rule of law,1,2
+Africa,rule of law,2,5
+Africa,rule of law,3,11
+Africa,rule of law,4,14
+Africa,rule of law,5,12
+Africa,rule of law,6,6
+Africa,rule of law,7,3
+Africa,rule of law,8,0
+Africa,rule of law,9,0
+Africa,rule of law,10,0
+Africa,rule of law,No Data,1
+Asia,rule of law,1,1
+Asia,rule of law,2,5
+Asia,rule of law,3,4
+Asia,rule of law,4,9
+Asia,rule of law,5,5
+Asia,rule of law,6,7
+Asia,rule of law,7,6
+Asia,rule of law,8,4
+Asia,rule of law,9,1
+Asia,rule of law,10,1
+Asia,rule of law,No Data,0
+Europe,rule of law,1,0
+Europe,rule of law,2,0
+Europe,rule of law,3,0
+Europe,rule of law,4,2
+Europe,rule of law,5,8
+Europe,rule of law,6,3
+Europe,rule of law,7,7
+Europe,rule of law,8,8
+Europe,rule of law,9,3
+Europe,rule of law,10,12
+Europe,rule of law,No Data,2
+North America,rule of law,1,0
+North America,rule of law,2,0
+North America,rule of law,3,3
+North America,rule of law,4,3
+North America,rule of law,5,4
+North America,rule of law,6,3
+North America,rule of law,7,8
+North America,rule of law,8,0
+North America,rule of law,9,0
+North America,rule of law,10,1
+North America,rule of law,No Data,0
+South America,rule of law,1,1
+South America,rule of law,2,0
+South America,rule of law,3,1
+South America,rule of law,4,2
+South America,rule of law,5,6
+South America,rule of law,6,0
+South America,rule of law,7,1
+South America,rule of law,8,1
+South America,rule of law,9,0
+South America,rule of law,10,0
+South America,rule of law,No Data,0
+Oceania,rule of law,1,0
+Oceania,rule of law,2,0
+Oceania,rule of law,3,0
+Oceania,rule of law,4,2
+Oceania,rule of law,5,2
+Oceania,rule of law,6,3
+Oceania,rule of law,7,4
+Oceania,rule of law,8,1
+Oceania,rule of law,9,0
+Oceania,rule of law,10,2
+Oceania,rule of law,No Data,0
+UN Security Council,rule of law,1,0
+UN Security Council,rule of law,2,0
+UN Security Council,rule of law,3,0
+UN Security Council,rule of law,4,1
+UN Security Council,rule of law,5,1
+UN Security Council,rule of law,6,0
+UN Security Council,rule of law,7,0
+UN Security Council,rule of law,8,0
+UN Security Council,rule of law,9,1
+UN Security Council,rule of law,10,2
+UN Security Council,rule of law,No Data,0
+Africa,control of corruption,1,6
+Africa,control of corruption,2,11
+Africa,control of corruption,3,14
+Africa,control of corruption,4,9
+Africa,control of corruption,5,8
+Africa,control of corruption,6,1
+Africa,control of corruption,7,4
+Africa,control of corruption,8,0
+Africa,control of corruption,9,0
+Africa,control of corruption,10,0
+Africa,control of corruption,No Data,1
+Asia,control of corruption,1,5
+Asia,control of corruption,2,5
+Asia,control of corruption,3,5
+Asia,control of corruption,4,11
+Asia,control of corruption,5,3
+Asia,control of corruption,6,5
+Asia,control of corruption,7,4
+Asia,control of corruption,8,2
+Asia,control of corruption,9,2
+Asia,control of corruption,10,1
+Asia,control of corruption,No Data,0
+Europe,control of corruption,1,1
+Europe,control of corruption,2,0
+Europe,control of corruption,3,4
+Europe,control of corruption,4,5
+Europe,control of corruption,5,7
+Europe,control of corruption,6,5
+Europe,control of corruption,7,6
+Europe,control of corruption,8,2
+Europe,control of corruption,9,3
+Europe,control of corruption,10,10
+Europe,control of corruption,No Data,2
+North America,control of corruption,1,0
+North America,control of corruption,2,1
+North America,control of corruption,3,5
+North America,control of corruption,4,4
+North America,control of corruption,5,1
+North America,control of corruption,6,6
+North America,control of corruption,7,2
+North America,control of corruption,8,2
+North America,control of corruption,9,0
+North America,control of corruption,10,1
+North America,control of corruption,No Data,0
+South America,control of corruption,1,0
+South America,control of corruption,2,1
+South America,control of corruption,3,2
+South America,control of corruption,4,6
+South America,control of corruption,5,1
+South America,control of corruption,6,0
+South America,control of corruption,7,0
+South America,control of corruption,8,2
+South America,control of corruption,9,0
+South America,control of corruption,10,0
+South America,control of corruption,No Data,0
+Oceania,control of corruption,1,0
+Oceania,control of corruption,2,0
+Oceania,control of corruption,3,2
+Oceania,control of corruption,4,2
+Oceania,control of corruption,5,5
+Oceania,control of corruption,6,1
+Oceania,control of corruption,7,2
+Oceania,control of corruption,8,0
+Oceania,control of corruption,9,1
+Oceania,control of corruption,10,1
+Oceania,control of corruption,No Data,0
+UN Security Council,control of corruption,1,0
+UN Security Council,control of corruption,2,0
+UN Security Council,control of corruption,3,1
+UN Security Council,control of corruption,4,1
+UN Security Council,control of corruption,5,0
+UN Security Council,control of corruption,6,0
+UN Security Council,control of corruption,7,0
+UN Security Council,control of corruption,8,2
+UN Security Council,control of corruption,9,0
+UN Security Council,control of corruption,10,1
+UN Security Council,control of corruption,No Data,0
+Africa,judicial effectiveness score,1,2
+Africa,judicial effectiveness score,2,6
+Africa,judicial effectiveness score,3,14
+Africa,judicial effectiveness score,4,12
+Africa,judicial effectiveness score,5,10
+Africa,judicial effectiveness score,6,6
+Africa,judicial effectiveness score,7,2
+Africa,judicial effectiveness score,8,1
+Africa,judicial effectiveness score,9,1
+Africa,judicial effectiveness score,10,0
+Africa,judicial effectiveness score,No Data,0
+Asia,judicial effectiveness score,1,4
+Asia,judicial effectiveness score,2,4
+Asia,judicial effectiveness score,3,3
+Asia,judicial effectiveness score,4,10
+Asia,judicial effectiveness score,5,2
+Asia,judicial effectiveness score,6,10
+Asia,judicial effectiveness score,7,4
+Asia,judicial effectiveness score,8,2
+Asia,judicial effectiveness score,9,2
+Asia,judicial effectiveness score,10,1
+Asia,judicial effectiveness score,No Data,1
+Europe,judicial effectiveness score,1,0
+Europe,judicial effectiveness score,2,1
+Europe,judicial effectiveness score,3,3
+Europe,judicial effectiveness score,4,2
+Europe,judicial effectiveness score,5,4
+Europe,judicial effectiveness score,6,10
+Europe,judicial effectiveness score,7,8
+Europe,judicial effectiveness score,8,4
+Europe,judicial effectiveness score,9,8
+Europe,judicial effectiveness score,10,1
+Europe,judicial effectiveness score,No Data,4
+North America,judicial effectiveness score,1,1
+North America,judicial effectiveness score,2,1
+North America,judicial effectiveness score,3,2
+North America,judicial effectiveness score,4,4
+North America,judicial effectiveness score,5,1
+North America,judicial effectiveness score,6,6
+North America,judicial effectiveness score,7,0
+North America,judicial effectiveness score,8,3
+North America,judicial effectiveness score,9,1
+North America,judicial effectiveness score,10,0
+North America,judicial effectiveness score,No Data,3
+South America,judicial effectiveness score,1,2
+South America,judicial effectiveness score,2,0
+South America,judicial effectiveness score,3,2
+South America,judicial effectiveness score,4,2
+South America,judicial effectiveness score,5,2
+South America,judicial effectiveness score,6,1
+South America,judicial effectiveness score,7,2
+South America,judicial effectiveness score,8,0
+South America,judicial effectiveness score,9,0
+South America,judicial effectiveness score,10,1
+South America,judicial effectiveness score,No Data,0
+Oceania,judicial effectiveness score,1,0
+Oceania,judicial effectiveness score,2,0
+Oceania,judicial effectiveness score,3,2
+Oceania,judicial effectiveness score,4,2
+Oceania,judicial effectiveness score,5,2
+Oceania,judicial effectiveness score,6,2
+Oceania,judicial effectiveness score,7,0
+Oceania,judicial effectiveness score,8,0
+Oceania,judicial effectiveness score,9,0
+Oceania,judicial effectiveness score,10,2
+Oceania,judicial effectiveness score,No Data,4
+UN Security Council,judicial effectiveness score,1,0
+UN Security Council,judicial effectiveness score,2,0
+UN Security Council,judicial effectiveness score,3,0
+UN Security Council,judicial effectiveness score,4,0
+UN Security Council,judicial effectiveness score,5,1
+UN Security Council,judicial effectiveness score,6,0
+UN Security Council,judicial effectiveness score,7,1
+UN Security Council,judicial effectiveness score,8,1
+UN Security Council,judicial effectiveness score,9,1
+UN Security Council,judicial effectiveness score,10,1
+UN Security Council,judicial effectiveness score,No Data,0
+Africa,government integrity score,1,1
+Africa,government integrity score,2,11
+Africa,government integrity score,3,24
+Africa,government integrity score,4,11
+Africa,government integrity score,5,4
+Africa,government integrity score,6,2
+Africa,government integrity score,7,1
+Africa,government integrity score,8,0
+Africa,government integrity score,9,0
+Africa,government integrity score,10,0
+Africa,government integrity score,No Data,0
+Asia,government integrity score,1,0
+Asia,government integrity score,2,8
+Asia,government integrity score,3,11
+Asia,government integrity score,4,6
+Asia,government integrity score,5,8
+Asia,government integrity score,6,3
+Asia,government integrity score,7,1
+Asia,government integrity score,8,3
+Asia,government integrity score,9,1
+Asia,government integrity score,10,1
+Asia,government integrity score,No Data,1
+Europe,government integrity score,1,0
+Europe,government integrity score,2,1
+Europe,government integrity score,3,4
+Europe,government integrity score,4,14
+Europe,government integrity score,5,7
+Europe,government integrity score,6,2
+Europe,government integrity score,7,1
+Europe,government integrity score,8,5
+Europe,government integrity score,9,5
+Europe,government integrity score,10,2
+Europe,government integrity score,No Data,4
+North America,government integrity score,1,0
+North America,government integrity score,2,2
+North America,government integrity score,3,6
+North America,government integrity score,4,4
+North America,government integrity score,5,4
+North America,government integrity score,6,2
+North America,government integrity score,7,0
+North America,government integrity score,8,0
+North America,government integrity score,9,1
+North America,government integrity score,10,0
+North America,government integrity score,No Data,3
+South America,government integrity score,1,1
+South America,government integrity score,2,1
+South America,government integrity score,3,5
+South America,government integrity score,4,2
+South America,government integrity score,5,0
+South America,government integrity score,6,0
+South America,government integrity score,7,1
+South America,government integrity score,8,1
+South America,government integrity score,9,0
+South America,government integrity score,10,1
+South America,government integrity score,No Data,0
+Oceania,government integrity score,1,0
+Oceania,government integrity score,2,0
+Oceania,government integrity score,3,1
+Oceania,government integrity score,4,6
+Oceania,government integrity score,5,0
+Oceania,government integrity score,6,0
+Oceania,government integrity score,7,0
+Oceania,government integrity score,8,2
+Oceania,government integrity score,9,0
+Oceania,government integrity score,10,1
+Oceania,government integrity score,No Data,4
+UN Security Council,government integrity score,1,0
+UN Security Council,government integrity score,2,0
+UN Security Council,government integrity score,3,0
+UN Security Council,government integrity score,4,1
+UN Security Council,government integrity score,5,1
+UN Security Council,government integrity score,6,0
+UN Security Council,government integrity score,7,1
+UN Security Council,government integrity score,8,1
+UN Security Council,government integrity score,9,1
+UN Security Council,government integrity score,10,0
+UN Security Council,government integrity score,No Data,0
+Africa,property rights score,1,1
+Africa,property rights score,2,3
+Africa,property rights score,3,17
+Africa,property rights score,4,17
+Africa,property rights score,5,7
+Africa,property rights score,6,5
+Africa,property rights score,7,3
+Africa,property rights score,8,1
+Africa,property rights score,9,0
+Africa,property rights score,10,0
+Africa,property rights score,No Data,0
+Asia,property rights score,1,0
+Asia,property rights score,2,2
+Asia,property rights score,3,7
+Asia,property rights score,4,7
+Asia,property rights score,5,8
+Asia,property rights score,6,9
+Asia,property rights score,7,2
+Asia,property rights score,8,3
+Asia,property rights score,9,3
+Asia,property rights score,10,1
+Asia,property rights score,No Data,1
+Europe,property rights score,1,0
+Europe,property rights score,2,0
+Europe,property rights score,3,0
+Europe,property rights score,4,3
+Europe,property rights score,5,2
+Europe,property rights score,6,10
+Europe,property rights score,7,9
+Europe,property rights score,8,5
+Europe,property rights score,9,12
+Europe,property rights score,10,0
+Europe,property rights score,No Data,4
+North America,property rights score,1,0
+North America,property rights score,2,0
+North America,property rights score,3,3
+North America,property rights score,4,4
+North America,property rights score,5,5
+North America,property rights score,6,5
+North America,property rights score,7,1
+North America,property rights score,8,0
+North America,property rights score,9,1
+North America,property rights score,10,0
+North America,property rights score,No Data,3
+South America,property rights score,1,1
+South America,property rights score,2,1
+South America,property rights score,3,0
+South America,property rights score,4,4
+South America,property rights score,5,0
+South America,property rights score,6,3
+South America,property rights score,7,2
+South America,property rights score,8,0
+South America,property rights score,9,0
+South America,property rights score,10,1
+South America,property rights score,No Data,0
+Oceania,property rights score,1,1
+Oceania,property rights score,2,0
+Oceania,property rights score,3,0
+Oceania,property rights score,4,1
+Oceania,property rights score,5,2
+Oceania,property rights score,6,1
+Oceania,property rights score,7,3
+Oceania,property rights score,8,1
+Oceania,property rights score,9,0
+Oceania,property rights score,10,1
+Oceania,property rights score,No Data,4
+UN Security Council,property rights score,1,0
+UN Security Council,property rights score,2,0
+UN Security Council,property rights score,3,0
+UN Security Council,property rights score,4,0
+UN Security Council,property rights score,5,2
+UN Security Council,property rights score,6,0
+UN Security Council,property rights score,7,0
+UN Security Council,property rights score,8,1
+UN Security Council,property rights score,9,1
+UN Security Council,property rights score,10,1
+UN Security Council,property rights score,No Data,0
+Africa,tax burden score,1,0
+Africa,tax burden score,2,0
+Africa,tax burden score,3,0
+Africa,tax burden score,4,0
+Africa,tax burden score,5,2
+Africa,tax burden score,6,1
+Africa,tax burden score,7,13
+Africa,tax burden score,8,26
+Africa,tax burden score,9,8
+Africa,tax burden score,10,3
+Africa,tax burden score,No Data,1
+Asia,tax burden score,1,1
+Asia,tax burden score,2,0
+Asia,tax burden score,3,0
+Asia,tax burden score,4,0
+Asia,tax burden score,5,0
+Asia,tax burden score,6,0
+Asia,tax burden score,7,2
+Asia,tax burden score,8,9
+Asia,tax burden score,9,11
+Asia,tax burden score,10,17
+Asia,tax burden score,No Data,3
+Europe,tax burden score,1,0
+Europe,tax burden score,2,0
+Europe,tax burden score,3,0
+Europe,tax burden score,4,0
+Europe,tax burden score,5,3
+Europe,tax burden score,6,5
+Europe,tax burden score,7,6
+Europe,tax burden score,8,7
+Europe,tax burden score,9,16
+Europe,tax burden score,10,3
+Europe,tax burden score,No Data,5
+North America,tax burden score,1,0
+North America,tax burden score,2,0
+North America,tax burden score,3,0
+North America,tax burden score,4,0
+North America,tax burden score,5,1
+North America,tax burden score,6,0
+North America,tax burden score,7,0
+North America,tax burden score,8,10
+North America,tax burden score,9,7
+North America,tax burden score,10,1
+North America,tax burden score,No Data,3
+South America,tax burden score,1,0
+South America,tax burden score,2,0
+South America,tax burden score,3,0
+South America,tax burden score,4,0
+South America,tax burden score,5,1
+South America,tax burden score,6,0
+South America,tax burden score,7,2
+South America,tax burden score,8,5
+South America,tax burden score,9,3
+South America,tax burden score,10,1
+South America,tax burden score,No Data,0
+Oceania,tax burden score,1,0
+Oceania,tax burden score,2,0
+Oceania,tax burden score,3,0
+Oceania,tax burden score,4,0
+Oceania,tax burden score,5,0
+Oceania,tax burden score,6,0
+Oceania,tax burden score,7,2
+Oceania,tax burden score,8,4
+Oceania,tax burden score,9,2
+Oceania,tax burden score,10,2
+Oceania,tax burden score,No Data,4
+UN Security Council,tax burden score,1,0
+UN Security Council,tax burden score,2,0
+UN Security Council,tax burden score,3,0
+UN Security Council,tax burden score,4,0
+UN Security Council,tax burden score,5,1
+UN Security Council,tax burden score,6,0
+UN Security Council,tax burden score,7,2
+UN Security Council,tax burden score,8,1
+UN Security Council,tax burden score,9,1
+UN Security Council,tax burden score,10,0
+UN Security Council,tax burden score,No Data,0
+Africa,overall economic freedom score,1,0
+Africa,overall economic freedom score,2,0
+Africa,overall economic freedom score,3,0
+Africa,overall economic freedom score,4,1
+Africa,overall economic freedom score,5,6
+Africa,overall economic freedom score,6,21
+Africa,overall economic freedom score,7,19
+Africa,overall economic freedom score,8,4
+Africa,overall economic freedom score,9,1
+Africa,overall economic freedom score,10,0
+Africa,overall economic freedom score,No Data,2
+Asia,overall economic freedom score,1,1
+Asia,overall economic freedom score,2,0
+Asia,overall economic freedom score,3,0
+Asia,overall economic freedom score,4,0
+Asia,overall economic freedom score,5,1
+Asia,overall economic freedom score,6,14
+Asia,overall economic freedom score,7,9
+Asia,overall economic freedom score,8,8
+Asia,overall economic freedom score,9,6
+Asia,overall economic freedom score,10,1
+Asia,overall economic freedom score,No Data,3
+Europe,overall economic freedom score,1,0
+Europe,overall economic freedom score,2,0
+Europe,overall economic freedom score,3,0
+Europe,overall economic freedom score,4,0
+Europe,overall economic freedom score,5,0
+Europe,overall economic freedom score,6,1
+Europe,overall economic freedom score,7,9
+Europe,overall economic freedom score,8,16
+Europe,overall economic freedom score,9,13
+Europe,overall economic freedom score,10,1
+Europe,overall economic freedom score,No Data,5
+North America,overall economic freedom score,1,0
+North America,overall economic freedom score,2,0
+North America,overall economic freedom score,3,0
+North America,overall economic freedom score,4,1
+North America,overall economic freedom score,5,0
+North America,overall economic freedom score,6,0
+North America,overall economic freedom score,7,10
+North America,overall economic freedom score,8,7
+North America,overall economic freedom score,9,1
+North America,overall economic freedom score,10,0
+North America,overall economic freedom score,No Data,3
+South America,overall economic freedom score,1,0
+South America,overall economic freedom score,2,0
+South America,overall economic freedom score,3,1
+South America,overall economic freedom score,4,0
+South America,overall economic freedom score,5,1
+South America,overall economic freedom score,6,3
+South America,overall economic freedom score,7,2
+South America,overall economic freedom score,8,3
+South America,overall economic freedom score,9,2
+South America,overall economic freedom score,10,0
+South America,overall economic freedom score,No Data,0
+Oceania,overall economic freedom score,1,0
+Oceania,overall economic freedom score,2,0
+Oceania,overall economic freedom score,3,0
+Oceania,overall economic freedom score,4,0
+Oceania,overall economic freedom score,5,0
+Oceania,overall economic freedom score,6,2
+Oceania,overall economic freedom score,7,5
+Oceania,overall economic freedom score,8,1
+Oceania,overall economic freedom score,9,0
+Oceania,overall economic freedom score,10,2
+Oceania,overall economic freedom score,No Data,4
+UN Security Council,overall economic freedom score,1,0
+UN Security Council,overall economic freedom score,2,0
+UN Security Council,overall economic freedom score,3,0
+UN Security Council,overall economic freedom score,4,0
+UN Security Council,overall economic freedom score,5,0
+UN Security Council,overall economic freedom score,6,0
+UN Security Council,overall economic freedom score,7,3
+UN Security Council,overall economic freedom score,8,0
+UN Security Council,overall economic freedom score,9,2
+UN Security Council,overall economic freedom score,10,0
+UN Security Council,overall economic freedom score,No Data,0
+Africa,financial freedom score,1,0
+Africa,financial freedom score,2,1
+Africa,financial freedom score,3,5
+Africa,financial freedom score,4,12
+Africa,financial freedom score,5,15
+Africa,financial freedom score,6,12
+Africa,financial freedom score,7,3
+Africa,financial freedom score,8,4
+Africa,financial freedom score,9,0
+Africa,financial freedom score,10,0
+Africa,financial freedom score,No Data,2
+Asia,financial freedom score,1,1
+Asia,financial freedom score,2,4
+Asia,financial freedom score,3,4
+Asia,financial freedom score,4,5
+Asia,financial freedom score,5,3
+Asia,financial freedom score,6,8
+Asia,financial freedom score,7,11
+Asia,financial freedom score,8,2
+Asia,financial freedom score,9,2
+Asia,financial freedom score,10,0
+Asia,financial freedom score,No Data,3
+Europe,financial freedom score,1,0
+Europe,financial freedom score,2,1
+Europe,financial freedom score,3,0
+Europe,financial freedom score,4,2
+Europe,financial freedom score,5,2
+Europe,financial freedom score,6,6
+Europe,financial freedom score,7,11
+Europe,financial freedom score,8,11
+Europe,financial freedom score,9,7
+Europe,financial freedom score,10,1
+Europe,financial freedom score,No Data,4
+North America,financial freedom score,1,0
+North America,financial freedom score,2,1
+North America,financial freedom score,3,0
+North America,financial freedom score,4,2
+North America,financial freedom score,5,3
+North America,financial freedom score,6,6
+North America,financial freedom score,7,5
+North America,financial freedom score,8,1
+North America,financial freedom score,9,1
+North America,financial freedom score,10,0
+North America,financial freedom score,No Data,3
+South America,financial freedom score,1,0
+South America,financial freedom score,2,1
+South America,financial freedom score,3,0
+South America,financial freedom score,4,2
+South America,financial freedom score,5,2
+South America,financial freedom score,6,1
+South America,financial freedom score,7,3
+South America,financial freedom score,8,2
+South America,financial freedom score,9,1
+South America,financial freedom score,10,0
+South America,financial freedom score,No Data,0
+Oceania,financial freedom score,1,0
+Oceania,financial freedom score,2,0
+Oceania,financial freedom score,3,1
+Oceania,financial freedom score,4,5
+Oceania,financial freedom score,5,1
+Oceania,financial freedom score,6,1
+Oceania,financial freedom score,7,0
+Oceania,financial freedom score,8,0
+Oceania,financial freedom score,9,1
+Oceania,financial freedom score,10,1
+Oceania,financial freedom score,No Data,4
+UN Security Council,financial freedom score,1,0
+UN Security Council,financial freedom score,2,0
+UN Security Council,financial freedom score,3,1
+UN Security Council,financial freedom score,4,1
+UN Security Council,financial freedom score,5,0
+UN Security Council,financial freedom score,6,0
+UN Security Council,financial freedom score,7,0
+UN Security Council,financial freedom score,8,1
+UN Security Council,financial freedom score,9,2
+UN Security Council,financial freedom score,10,0
+UN Security Council,financial freedom score,No Data,0
+Africa,women MPs (% of all MPs),1,2
+Africa,women MPs (% of all MPs),2,12
+Africa,women MPs (% of all MPs),3,13
+Africa,women MPs (% of all MPs),4,10
+Africa,women MPs (% of all MPs),5,4
+Africa,women MPs (% of all MPs),6,6
+Africa,women MPs (% of all MPs),7,6
+Africa,women MPs (% of all MPs),8,0
+Africa,women MPs (% of all MPs),9,0
+Africa,women MPs (% of all MPs),10,1
+Africa,women MPs (% of all MPs),No Data,0
+Asia,women MPs (% of all MPs),1,9
+Asia,women MPs (% of all MPs),2,7
+Asia,women MPs (% of all MPs),3,7
+Asia,women MPs (% of all MPs),4,9
+Asia,women MPs (% of all MPs),5,9
+Asia,women MPs (% of all MPs),6,1
+Asia,women MPs (% of all MPs),7,0
+Asia,women MPs (% of all MPs),8,0
+Asia,women MPs (% of all MPs),9,0
+Asia,women MPs (% of all MPs),10,0
+Asia,women MPs (% of all MPs),No Data,1
+Europe,women MPs (% of all MPs),1,0
+Europe,women MPs (% of all MPs),2,3
+Europe,women MPs (% of all MPs),3,7
+Europe,women MPs (% of all MPs),4,11
+Europe,women MPs (% of all MPs),5,6
+Europe,women MPs (% of all MPs),6,9
+Europe,women MPs (% of all MPs),7,6
+Europe,women MPs (% of all MPs),8,2
+Europe,women MPs (% of all MPs),9,0
+Europe,women MPs (% of all MPs),10,0
+Europe,women MPs (% of all MPs),No Data,1
+North America,women MPs (% of all MPs),1,1
+North America,women MPs (% of all MPs),2,2
+North America,women MPs (% of all MPs),3,8
+North America,women MPs (% of all MPs),4,0
+North America,women MPs (% of all MPs),5,4
+North America,women MPs (% of all MPs),6,4
+North America,women MPs (% of all MPs),7,1
+North America,women MPs (% of all MPs),8,2
+North America,women MPs (% of all MPs),9,0
+North America,women MPs (% of all MPs),10,0
+North America,women MPs (% of all MPs),No Data,0
+South America,women MPs (% of all MPs),1,0
+South America,women MPs (% of all MPs),2,1
+South America,women MPs (% of all MPs),3,2
+South America,women MPs (% of all MPs),4,3
+South America,women MPs (% of all MPs),5,2
+South America,women MPs (% of all MPs),6,1
+South America,women MPs (% of all MPs),7,2
+South America,women MPs (% of all MPs),8,0
+South America,women MPs (% of all MPs),9,1
+South America,women MPs (% of all MPs),10,0
+South America,women MPs (% of all MPs),No Data,0
+Oceania,women MPs (% of all MPs),1,5
+Oceania,women MPs (% of all MPs),2,5
+Oceania,women MPs (% of all MPs),3,2
+Oceania,women MPs (% of all MPs),4,0
+Oceania,women MPs (% of all MPs),5,1
+Oceania,women MPs (% of all MPs),6,1
+Oceania,women MPs (% of all MPs),7,0
+Oceania,women MPs (% of all MPs),8,0
+Oceania,women MPs (% of all MPs),9,0
+Oceania,women MPs (% of all MPs),10,0
+Oceania,women MPs (% of all MPs),No Data,0
+UN Security Council,women MPs (% of all MPs),1,0
+UN Security Council,women MPs (% of all MPs),2,0
+UN Security Council,women MPs (% of all MPs),3,1
+UN Security Council,women MPs (% of all MPs),4,2
+UN Security Council,women MPs (% of all MPs),5,0
+UN Security Council,women MPs (% of all MPs),6,1
+UN Security Council,women MPs (% of all MPs),7,1
+UN Security Council,women MPs (% of all MPs),8,0
+UN Security Council,women MPs (% of all MPs),9,0
+UN Security Council,women MPs (% of all MPs),10,0
+UN Security Council,women MPs (% of all MPs),No Data,0
+Africa,civil liberties score ,11,0
+Africa,control of corruption,11,0
+Africa,"education expenditure per person ",11,0
+Africa,"education expenditure% of GDP",11,0
+Africa,financial freedom score,11,0
+Africa,"GDP (billions PPP)",11,0
+Africa,"GDP growth(annual %)",11,0
+Africa,GDP per capita (PPP),11,0
+Africa,GINI index,11,0
+Africa,government effectiveness,11,0
+Africa,government expenditure (% of GDP),11,0
+Africa,government integrity score,11,0
+Africa,government spending score,11,0
+Africa,happy planet index,11,0
+Africa,"health expenditure % of GDP",11,0
+Africa,"health expenditure per person",11,0
+Africa,human development index,11,0
+Africa,judicial effectiveness score,11,0
+Africa,overall economic freedom score,11,0
+Africa,political rights score ,11,0
+Africa,political stability & absence of violence,11,0
+Africa,Population,11,0
+Africa,property rights score,11,0
+Africa,regulatory quality,11,0
+Africa,rule of law,11,0
+Africa,school life expectancy (YEARS),11,0
+Africa,surface area (Km2),11,0
+Africa,sustainable economic development assessment (SEDA),11,0
+Africa,tax burden score,11,0
+Africa,unemployment (%),11,0
+Africa,women MPs (% of all MPs),11,0
+Africa,world happiness report score,11,0
+Asia,civil liberties score ,11,0
+Asia,control of corruption,11,0
+Asia,"education expenditure per person ",11,0
+Asia,"education expenditure% of GDP",11,0
+Asia,financial freedom score,11,0
+Asia,"GDP (billions PPP)",11,0
+Asia,"GDP growth(annual %)",11,0
+Asia,GDP per capita (PPP),11,0
+Asia,GINI index,11,0
+Asia,government effectiveness,11,0
+Asia,government expenditure (% of GDP),11,0
+Asia,government integrity score,11,0
+Asia,government spending score,11,0
+Asia,happy planet index,11,0
+Asia,"health expenditure % of GDP",11,0
+Asia,"health expenditure per person",11,0
+Asia,human development index,11,0
+Asia,judicial effectiveness score,11,0
+Asia,overall economic freedom score,11,0
+Asia,political rights score ,11,0
+Asia,political stability & absence of violence,11,0
+Asia,Population,11,0
+Asia,property rights score,11,0
+Asia,regulatory quality,11,0
+Asia,rule of law,11,0
+Asia,school life expectancy (YEARS),11,0
+Asia,surface area (Km2),11,0
+Asia,sustainable economic development assessment (SEDA),11,0
+Asia,tax burden score,11,0
+Asia,unemployment (%),11,0
+Asia,women MPs (% of all MPs),11,0
+Asia,world happiness report score,11,0
+Europe,civil liberties score ,11,0
+Europe,control of corruption,11,0
+Europe,"education expenditure per person ",11,0
+Europe,"education expenditure% of GDP",11,0
+Europe,financial freedom score,11,0
+Europe,"GDP (billions PPP)",11,0
+Europe,"GDP growth(annual %)",11,0
+Europe,GDP per capita (PPP),11,0
+Europe,GINI index,11,0
+Europe,government effectiveness,11,0
+Europe,government expenditure (% of GDP),11,0
+Europe,government integrity score,11,0
+Europe,government spending score,11,0
+Europe,happy planet index,11,0
+Europe,"health expenditure % of GDP",11,0
+Europe,"health expenditure per person",11,0
+Europe,human development index,11,0
+Europe,judicial effectiveness score,11,0
+Europe,overall economic freedom score,11,0
+Europe,political rights score ,11,0
+Europe,political stability & absence of violence,11,0
+Europe,Population,11,0
+Europe,property rights score,11,0
+Europe,regulatory quality,11,0
+Europe,rule of law,11,0
+Europe,school life expectancy (YEARS),11,0
+Europe,surface area (Km2),11,0
+Europe,sustainable economic development assessment (SEDA),11,0
+Europe,tax burden score,11,0
+Europe,unemployment (%),11,0
+Europe,women MPs (% of all MPs),11,0
+Europe,world happiness report score,11,0
+North America,civil liberties score ,11,0
+North America,control of corruption,11,0
+North America,"education expenditure per person ",11,0
+North America,"education expenditure% of GDP",11,0
+North America,financial freedom score,11,0
+North America,"GDP (billions PPP)",11,0
+North America,"GDP growth(annual %)",11,0
+North America,GDP per capita (PPP),11,0
+North America,GINI index,11,0
+North America,government effectiveness,11,0
+North America,government expenditure (% of GDP),11,0
+North America,government integrity score,11,0
+North America,government spending score,11,0
+North America,happy planet index,11,0
+North America,"health expenditure % of GDP",11,0
+North America,"health expenditure per person",11,0
+North America,human development index,11,0
+North America,judicial effectiveness score,11,0
+North America,overall economic freedom score,11,0
+North America,political rights score ,11,0
+North America,political stability & absence of violence,11,0
+North America,Population,11,0
+North America,property rights score,11,0
+North America,regulatory quality,11,0
+North America,rule of law,11,0
+North America,school life expectancy (YEARS),11,0
+North America,surface area (Km2),11,0
+North America,sustainable economic development assessment (SEDA),11,0
+North America,tax burden score,11,0
+North America,unemployment (%),11,0
+North America,women MPs (% of all MPs),11,0
+North America,world happiness report score,11,0
+Oceania,civil liberties score ,11,0
+Oceania,control of corruption,11,0
+Oceania,"education expenditure per person ",11,0
+Oceania,"education expenditure% of GDP",11,0
+Oceania,financial freedom score,11,0
+Oceania,"GDP (billions PPP)",11,0
+Oceania,"GDP growth(annual %)",11,0
+Oceania,GDP per capita (PPP),11,0
+Oceania,GINI index,11,0
+Oceania,government effectiveness,11,0
+Oceania,government expenditure (% of GDP),11,0
+Oceania,government integrity score,11,0
+Oceania,government spending score,11,0
+Oceania,happy planet index,11,0
+Oceania,"health expenditure % of GDP",11,0
+Oceania,"health expenditure per person",11,0
+Oceania,human development index,11,0
+Oceania,judicial effectiveness score,11,0
+Oceania,overall economic freedom score,11,0
+Oceania,political rights score ,11,0
+Oceania,political stability & absence of violence,11,0
+Oceania,Population,11,0
+Oceania,property rights score,11,0
+Oceania,regulatory quality,11,0
+Oceania,rule of law,11,0
+Oceania,school life expectancy (YEARS),11,0
+Oceania,surface area (Km2),11,0
+Oceania,sustainable economic development assessment (SEDA),11,0
+Oceania,tax burden score,11,0
+Oceania,unemployment (%),11,0
+Oceania,women MPs (% of all MPs),11,0
+Oceania,world happiness report score,11,0
+South America,civil liberties score ,11,0
+South America,control of corruption,11,0
+South America,"education expenditure per person ",11,0
+South America,"education expenditure% of GDP",11,0
+South America,financial freedom score,11,0
+South America,"GDP (billions PPP)",11,0
+South America,"GDP growth(annual %)",11,0
+South America,GDP per capita (PPP),11,0
+South America,GINI index,11,0
+South America,government effectiveness,11,0
+South America,government expenditure (% of GDP),11,0
+South America,government integrity score,11,0
+South America,government spending score,11,0
+South America,happy planet index,11,0
+South America,"health expenditure % of GDP",11,0
+South America,"health expenditure per person",11,0
+South America,human development index,11,0
+South America,judicial effectiveness score,11,0
+South America,overall economic freedom score,11,0
+South America,political rights score ,11,0
+South America,political stability & absence of violence,11,0
+South America,Population,11,0
+South America,property rights score,11,0
+South America,regulatory quality,11,0
+South America,rule of law,11,0
+South America,school life expectancy (YEARS),11,0
+South America,surface area (Km2),11,0
+South America,sustainable economic development assessment (SEDA),11,0
+South America,tax burden score,11,0
+South America,unemployment (%),11,0
+South America,women MPs (% of all MPs),11,0
+South America,world happiness report score,11,0
+UN Security Council,civil liberties score ,11,0
+UN Security Council,control of corruption,11,0
+UN Security Council,"education expenditure per person ",11,0
+UN Security Council,"education expenditure% of GDP",11,0
+UN Security Council,financial freedom score,11,0
+UN Security Council,"GDP (billions PPP)",11,0
+UN Security Council,"GDP growth(annual %)",11,0
+UN Security Council,GDP per capita (PPP),11,0
+UN Security Council,GINI index,11,0
+UN Security Council,government effectiveness,11,0
+UN Security Council,government expenditure (% of GDP),11,0
+UN Security Council,government integrity score,11,0
+UN Security Council,government spending score,11,0
+UN Security Council,happy planet index,11,0
+UN Security Council,"health expenditure % of GDP",11,0
+UN Security Council,"health expenditure per person",11,0
+UN Security Council,human development index,11,0
+UN Security Council,judicial effectiveness score,11,0
+UN Security Council,overall economic freedom score,11,0
+UN Security Council,political rights score ,11,0
+UN Security Council,political stability & absence of violence,11,0
+UN Security Council,Population,11,0
+UN Security Council,property rights score,11,0
+UN Security Council,regulatory quality,11,0
+UN Security Council,rule of law,11,0
+UN Security Council,school life expectancy (YEARS),11,0
+UN Security Council,surface area (Km2),11,0
+UN Security Council,sustainable economic development assessment (SEDA),11,0
+UN Security Council,tax burden score,11,0
+UN Security Council,unemployment (%),11,0
+UN Security Council,women MPs (% of all MPs),11,0
+UN Security Council,world happiness report score,11,0
