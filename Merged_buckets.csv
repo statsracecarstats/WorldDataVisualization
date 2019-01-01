@@ -1,4 +1,4 @@
-Country,Contient,Category,Bucket,uniqueID,Freq
+Country,Continent,Category,Bucket,uniqueID,Freq
 Afghanistan,Asia,Population,1,AsiaPopulation1,39
 Albania,Europe,Population,1,EuropePopulation1,45
 Algeria,Africa,Population,1,AfricaPopulation1,53

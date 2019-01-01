@@ -26,7 +26,7 @@ var paint = canvas.append("g");
 
 
 // load histogram data
-d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/buckets_LFedit.csv").then(function(s){
+d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/Merged_buckets.csv").then(function(s){
   // <><>< Indvidual Plot definition variables ><><>
   var xorigin = 140; // x location for first graph
   var yorigin = 60; // y location for first graph
@@ -138,10 +138,13 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     .attr("id", "hortaxis");
 
   //<><>< assemble graphs ><><><>
+  // filter for Country
+  var filterCountry = "Peru"
+
   var i; // iteratvie value for for loop of continents
   var c; // iterative value for for loop of categories
 
-  for (c = 0; c<= 10; c++) {
+  for (c = 0; c<= 0; c++) {
     switch(c) {
       case 0:
         var filtercat = "Population"
@@ -178,7 +181,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       break;
     } // switch c
 
-    for (i = 0; i<=6; i++) {
+    for (i = 0; i<=0; i++) {
       switch(i) {
         case 0:
           var filterval = "UN Security Council";
@@ -209,7 +212,14 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var titleoffset = 23;
           break;
       } // switch (i)
-      var filt = s.filter(function(d) {return d.Continent == filterval && d.Category == filtercat && d.Bucket != "No Data"});
+      // filt data set for just continent data
+      var filt = s.filter(function(d) {return d.Continent == filterval &&
+        d.Category == filtercat && d.Bucket != "No Data" && d.Country == "Continent"});
+      // filterCountry, data set for that Country
+      var filtCountry = s.filter(function(d) {return d.Continent == filterval &&
+        d.Category == filtercat && d.Bucket != "No Data" && d.Country == filterCountry});
+      console.log(s.filter(function(d) {return d.Continent == filterval}));
+      console.log(filt);
       // sum of all entries in buckets
       var cumulative = d3.sum(filt, function(d) {return parseInt(d.Freq)});
 
@@ -235,6 +245,14 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       .attr("d",  line(filt))
       .attr("id", "pop" + filterval)
       .attr("transform", "translate(" + (10*gap + graphgap)*i + "," + (freqheight + vertgap) * c + ")");
+    // highlight country within the graph
+    //var cntry = canvas.append("g")
+    //  .append("path")
+    //  .attr("class", "CountryArea")
+    //  .attr("d", area(filtCountry)
+
+
+
     // put continent titles for first loop through categories
     if (c == 0){
       var conthead = output
