@@ -26,7 +26,7 @@ var paint = canvas.append("g");
 
 
 // load histogram data
-d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/buckets.csv").then(function(s){
+d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/buckets_LFedit.csv").then(function(s){
   // <><>< Indvidual Plot definition variables ><><>
   var xorigin = 140; // x location for first graph
   var yorigin = 60; // y location for first graph
@@ -171,7 +171,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var filtercat = "GDP per capita (PPP)"
       break;
       case 9:
-        var filtercat = "GDP growth(annual%)"
+        var filtercat = "GDP growth(annual %)"
       break;
       case 10:
         var filtercat = "health expenditure % of GDP"
