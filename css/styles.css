@@ -9,6 +9,11 @@
   fill-opacity: 0.7;
 }
 
+.CountryArea{
+  fill: rgb(249, 252, 60);
+  fill-opacity: 1.0;
+}
+
 .maxis{
   fill: none;
   stroke: rgb(240,240,255);

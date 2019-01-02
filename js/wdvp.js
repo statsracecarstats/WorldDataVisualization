@@ -139,12 +139,11 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
 
   //<><>< assemble graphs ><><><>
   // filter for Country
-  var filterCountry = "Peru"
 
   var i; // iteratvie value for for loop of continents
   var c; // iterative value for for loop of categories
 
-  for (c = 0; c<= 0; c++) {
+  for (c = 0; c<= 10; c++) {
     switch(c) {
       case 0:
         var filtercat = "Population"
@@ -181,15 +180,17 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       break;
     } // switch c
 
-    for (i = 0; i<=0; i++) {
+    for (i = 0; i<=6; i++) {
       switch(i) {
         case 0:
           var filterval = "UN Security Council";
           var titleoffset = -7;
+          var filterCountry = "China";
           break;
         case 1:
           var filterval = "Asia";
           var titleoffset = 40;
+          var filterCountry = "Japan";
           break;
         case 2:
           var filterval = "Africa";
@@ -198,6 +199,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         case 3:
           var filterval = "Europe";
           var titleoffset = 36;
+          var filterCountry = "Norway";
           break;
         case 4:
           var filterval = "North America";
@@ -206,6 +208,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         case 5:
           var filterval = "South America";
           var titleoffset = 9;
+          var filterCountry = "Peru";
           break;
         case 6:
           var filterval = "Oceania";
@@ -218,8 +221,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       // filterCountry, data set for that Country
       var filtCountry = s.filter(function(d) {return d.Continent == filterval &&
         d.Category == filtercat && d.Bucket != "No Data" && d.Country == filterCountry});
-      console.log(s.filter(function(d) {return d.Continent == filterval}));
-      console.log(filt);
+
       // sum of all entries in buckets
       var cumulative = d3.sum(filt, function(d) {return parseInt(d.Freq)});
 
@@ -246,11 +248,15 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       .attr("id", "pop" + filterval)
       .attr("transform", "translate(" + (10*gap + graphgap)*i + "," + (freqheight + vertgap) * c + ")");
     // highlight country within the graph
-    //var cntry = canvas.append("g")
-    //  .append("path")
-    //  .attr("class", "CountryArea")
-    //  .attr("d", area(filtCountry)
-
+    if(filtCountry.length == 1 && filtCountry.Bucket != "No Data"){
+      //console.log("I am Here " + filterval);
+      var cntry = canvas.append("g")
+        .append("path")
+        .attr("class", "CountryArea")
+        .attr("d", area([{"Bucket":filtCountry[0].Bucket, "Freq":filtCountry[0].Freq},{"Bucket":parseInt(filtCountry[0].Bucket)+1, "Freq":0}]))
+        .attr("id", "CountryArea" + filtercat)
+        .attr("transform", "translate(" + (10*gap + graphgap)*i + "," + (freqheight + vertgap) * c + ")");
+    };// if statment to check if country is empty
 
 
     // put continent titles for first loop through categories
@@ -259,12 +265,21 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         .append("text")
         .attr("class", "heading")
         .attr("x", (10*gap + graphgap)*i + xorigin + titleoffset)
-        .attr("y", yorigin - headingoffset)
+        .attr("y", yorigin - headingoffset * 2)
         .attr("text-anchor", "start")
         .text(function (d) {return d.Continent});
-    } // end if statement for headings
+    var contheadpop = output
+      .append("text")
+      .attr("class", "heading")
+      .attr("x", (10*gap + graphgap)*i + xorigin + 25)
+      .attr("y", yorigin - headingoffset)
+      .style("font-weight", 400)
+      .style("font-size", 11)
+      .attr("text-anchor", "start")
+      .text(cumulative + " Countries");
+    }; // end if statement for headings
 
-    }// for loop, i
+  };// for loop, i
     console.log(c);
     var cathead = output
       .append("text")
@@ -273,7 +288,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/2)
       .attr("text-anchor", "end")
       .text(function (d) {return d.Category});
-  }// for loop, c
+  };// for loop, c
 
 
 })// call back function for csv (s)
