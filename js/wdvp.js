@@ -149,34 +149,34 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var filtercat = "Population"
       break;
       case 1:
-        var filtercat = "surface area (Km2)"
+        var filtercat = "Surface Area (Km2)"
       break;
       case 2:
-        var filtercat = "GINI index"
+        var filtercat = "GINI Index"
       break;
       case 3:
-        var filtercat = "happy planet index"
+        var filtercat = "Happy Planet Index"
       break;
       case 4:
-        var filtercat = "human development index"
+        var filtercat = "Human Development Index"
       break;
       case 5:
-        var filtercat = "world happiness report score"
+        var filtercat = "World Happiness Report Score"
       break;
       case 6:
-        var filtercat = "sustainable economic development assessment (SEDA)"
+        var filtercat = "Sustainable Economic Development Assessment (SEDA)"
       break;
       case 7:
-        var filtercat = "GDP (billions PPP)"
+        var filtercat = "GDP (Billions PPP)"
       break;
       case 8:
-        var filtercat = "GDP per capita (PPP)"
+        var filtercat = "GDP Per Capita (PPP)"
       break;
       case 9:
-        var filtercat = "GDP growth(annual %)"
+        var filtercat = "GDP Growth(annual %)"
       break;
       case 10:
-        var filtercat = "health expenditure % of GDP"
+        var filtercat = "Health Expenditure % Of GDP"
       break;
     } // switch c
 
