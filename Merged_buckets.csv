@@ -9021,3 +9021,67 @@ Summary,Summary,Tax Burden Score,RANGE,RANGE,9.99
 Summary,Summary,Overall Economic Freedom Score,RANGE,RANGE,8.3
 Summary,Summary,Financial Freedom Score,RANGE,RANGE,9
 Summary,Summary,Women Mps (% Of All Mps),RANGE,RANGE,6.13
+Summary,Oceania,Population,MINC,MINC,Tuvalu
+Summary,Europe,Surface Area (Km2),MINC,MINC,Monaco
+Summary,Europe,GINI Index,MINC,MINC,Kosovo
+Summary,Africa,Happy Planet Index,MINC,MINC,Chad
+Summary,Africa,Human Development Index,MINC,MINC,Niger
+Summary,Asia,World Happiness Report Score,MINC,MINC,Afghanistan
+Summary,Africa,Sustainable Economic Development Assessment (SEDA),MINC,MINC,Central African Republic
+Summary,Oceania,GDP (Billions PPP),MINC,MINC,Kiribati
+Summary,Africa,GDP per Capita (PPP),MINC,MINC,Central African Republic
+Summary,Asia,GDP Growth (Annual %),MINC,MINC,Yemen
+Summary,Europe,Health Expenditure % of GDP,MINC,MINC,Monaco
+Summary,Africa,Health Expenditure Per Person,MINC,MINC,Central African Republic
+Summary,Europe,Education Expenditure% Of Gdp,MINC,MINC,Monaco
+Summary,Oceania,Education Expenditure Per Person ,MINC,MINC,Vanuatu
+Summary,Africa,School Life Expectancy (Years),MINC,MINC,Eritrea
+Summary,Asia,Unemployment (%),MINC,MINC,Qatar
+Summary,North America,Government Spending Score,MINC,MINC,Cuba
+Summary,Africa,Government Expenditure (% Of Gdp),MINC,MINC,Nigeria
+Summary,Europe,Political Rights Score ,MINC,MINC,Andorra
+Summary,Europe,Civil Liberties Score ,MINC,MINC,Andorra
+Summary,Asia,Political Stability & Absence Of Violence,MINC,MINC,Yemen
+Summary,Africa,Government Effectiveness,MINC,MINC,South Sudan
+Summary,Asia,Regulatory Quality,MINC,MINC,Korea (Dem. People’s Rep.)
+Summary,Africa,Rule Of Law,MINC,MINC,Somalia
+Summary,Africa,Control Of Corruption,MINC,MINC,Equatorial Guinea
+Summary,Asia,Judicial Effectiveness Score,MINC,MINC,Korea (Dem. People’s Rep.)
+Summary,South America,Government Integrity Score,MINC,MINC,Venezuela
+Summary,Africa,Property Rights Score,MINC,MINC,Libya
+Summary,Asia,Tax Burden Score,MINC,MINC,Korea (Dem. People’s Rep.)
+Summary,Asia,Overall Economic Freedom Score,MINC,MINC,Korea (Dem. People’s Rep.)
+Summary,Asia,Financial Freedom Score,MINC,MINC,Korea (Dem. People’s Rep.)
+Summary,Oceania,Women Mps (% Of All Mps),MINC,MINC,Micronesia
+Summary,UN Security Council,Population,MAXC,MAXC,China
+Summary,UN Security Council,Surface Area (Km2),MAXC,MAXC,Russia
+Summary,Africa,GINI Index,MAXC,MAXC,Lesotho
+Summary,North America,Happy Planet Index,MAXC,MAXC,Costa Rica
+Summary,Europe,Human Development Index,MAXC,MAXC,Norway
+Summary,Europe,World Happiness Report Score,MAXC,MAXC,Finland
+Summary,Europe,Sustainable Economic Development Assessment (SEDA),MAXC,MAXC,Norway
+Summary,UN Security Council,GDP (Billions PPP),MAXC,MAXC,China
+Summary,Europe,GDP per Capita (PPP),MAXC,MAXC,Liechtenstein
+Summary,Africa,GDP Growth (Annual %),MAXC,MAXC,Ethiopia
+Summary,Oceania,Health Expenditure % of GDP,MAXC,MAXC,Marshall Islands
+Summary,UN Security Council,Health Expenditure Per Person,MAXC,MAXC,United States
+Summary,Europe,Education Expenditure% Of Gdp,MAXC,MAXC,Sweden
+Summary,Europe,Education Expenditure Per Person ,MAXC,MAXC,Norway
+Summary,Oceania,School Life Expectancy (Years),MAXC,MAXC,Australia
+Summary,Oceania,Unemployment (%),MAXC,MAXC,Solomon Islands
+Summary,Africa,Government Spending Score,MAXC,MAXC,Nigeria
+Summary,Oceania,Government Expenditure (% Of Gdp),MAXC,MAXC,Kiribati
+Summary,Europe,Political Rights Score ,MAXC,MAXC,Azerbaijan
+Summary,Africa,Civil Liberties Score ,MAXC,MAXC,Central African Republic
+Summary,Europe,Political Stability & Absence Of Violence,MAXC,MAXC,Monaco
+Summary,Asia,Government Effectiveness,MAXC,MAXC,Singapore
+Summary,Asia,Regulatory Quality,MAXC,MAXC,Singapore
+Summary,Europe,Rule Of Law,MAXC,MAXC,Finland
+Summary,Oceania,Control Of Corruption,MAXC,MAXC,New Zealand
+Summary,UN Security Council,Judicial Effectiveness Score,MAXC,MAXC,United Kingdom
+Summary,Oceania,Government Integrity Score,MAXC,MAXC,New Zealand
+Summary,Asia,Property Rights Score,MAXC,MAXC,Singapore
+Summary,Asia,Tax Burden Score,MAXC,MAXC,Bahrain
+Summary,Asia,Overall Economic Freedom Score,MAXC,MAXC,Singapore
+Summary,Oceania,Financial Freedom Score,MAXC,MAXC,Australia
+Summary,Africa,Women Mps (% Of All Mps),MAXC,MAXC,Rwanda

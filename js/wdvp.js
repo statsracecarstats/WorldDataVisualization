@@ -150,7 +150,6 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       case 0:
         var filtercat = "Population"; // category to find in data set
         var line1 = "Population"; //first line to display
-        //var line2 = ""; // second line to display (2 lines for larger titles)
         var unit = "People"; // unit of measure
         var minunit = "11k (O: Tuvalu)"; // minimum value of data set
         var maxunit = "1.38B (As: China)"; // maximum value of data set
@@ -160,9 +159,8 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       case 1:
         var filtercat = "Surface Area (Km2)";
         var line1 = "Surface Area";
-        var line2 = "";
         var unit = "km\u00B2"; // unit of measure
-        var unit1 = "2"; // minimum value of data set
+        var unit1 = "Min: 2 () "; // minimum value of data set
         var unit2 = "16.4M"; // maximum value of data set
         var bs = "16.4M"; // size of the buckets (range)
         var unitoffset = 1; // horizontal offset as a factor of gap
@@ -262,6 +260,13 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       // filterCountry, data set for that Country
       var filtCountry = s.filter(function(d) {return d.Continent == filterval &&
         d.Category == filtercat && d.Bucket != "No Data" && d.Country == filterCountry});
+      // filtdescrip, descriptive data on select category
+      var filtdescrip = s.filter(function(d) {return d.Continent == "Summary" &&
+        d.Category == filtercat && d.Country == "Summary"});
+      // mincountry, country with min value
+      var mincountry = filtCountry.filter(function (d) {return d.Freq == filtdescrip[0].Freq});
+      console.log(filtdescrip[0].Freq);
+      console.log(mincountry);
 
       // sum of all entries in buckets
       var cumulative = d3.sum(filt, function(d) {return parseInt(d.Freq)});
