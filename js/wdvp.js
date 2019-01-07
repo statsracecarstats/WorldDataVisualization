@@ -94,7 +94,6 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     .x(function(d) {return bucketaxis(d.Bucket)})
     .y(function(d) {return freqaxis(d.Freq)})
     .curve(d3.curveStepAfter);
-    //.curve(d3.curveMonotoneX);
 
   //area function
   var area = d3.area()
@@ -102,7 +101,6 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     .y1(function(d) {return freqaxis(d.Freq)})
     .y0(freqheight + yorigin)
     .curve(d3.curveStepAfter);
-    //.curve(d3.curveMonotoneX);
   // <><><><>< Vertical axis Assembly ><><><><>
   // line fucntion for axis
   var axisline = d3.line()
@@ -151,9 +149,9 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var filtercat = "Population"; // category to find in data set
         var line1 = "Population"; //first line to display
         var unit = "People"; // unit of measure
-        var minunit = "11k (O: Tuvalu)"; // minimum value of data set
-        var maxunit = "1.38B (As: China)"; // maximum value of data set
-        var bs = "138M People"; // size of the buckets (range)
+        //var minunit = "11k (O: Tuvalu)"; // minimum value of data set
+        //var maxunit = "1.38B (As: China)"; // maximum value of data set
+        //var bs = "138M People"; // size of the buckets (range)
         var unitoffset = 0; // horizontal offset as a factor of gap
       break;
       case 1:
@@ -260,13 +258,6 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       // filterCountry, data set for that Country
       var filtCountry = s.filter(function(d) {return d.Continent == filterval &&
         d.Category == filtercat && d.Bucket != "No Data" && d.Country == filterCountry});
-      // filtdescrip, descriptive data on select category
-      var filtdescrip = s.filter(function(d) {return d.Continent == "Summary" &&
-        d.Category == filtercat && d.Country == "Summary"});
-      // mincountry, country with min value
-      var mincountry = filtCountry.filter(function (d) {return d.Freq == filtdescrip[0].Freq});
-      console.log(filtdescrip[0].Freq);
-      console.log(mincountry);
 
       // sum of all entries in buckets
       var cumulative = d3.sum(filt, function(d) {return parseInt(d.Freq)});
@@ -334,25 +325,35 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       .attr("text-anchor", "end")
       .text(line1);
 
+    // filtdescrip, descriptive data on select category
+    var filtdescrip = s.filter(function(d) {return d.Category == filtercat &&
+      d.Country == "Summary"});
+
+    switch (filtdescrip[3].Continent) {
+      case "Oceania":
+        var shortcont = "O"
+      break;
+    } // swtich for shorthand continent
+
     // add descriptive data to the category information
     var binfo = output
       .append("text")
       .attr("class", "heading2")
       .attr("x", xorigin - titleoffset - catoffset - unitoffset)
       .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * 1)
-      .text("Min: " + minunit);
+      .text("Min: " + filtdescrip[0].Freq + " (" + shortcont + ": " + filtdescrip[3].Freq + ")");
     var binfo = output
       .append("text")
       .attr("class", "heading2")
       .attr("x", xorigin - titleoffset - catoffset - unitoffset)
       .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * 2)
-      .text("Max: " + maxunit);
+      .text("Max: " + filtdescrip[1].Freq + " (" + filtdescrip[4].Freq + ")");
     var binfo = output
       .append("text")
       .attr("class", "heading2")
       .attr("x", xorigin - titleoffset - catoffset - unitoffset)
       .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * 3)
-      .text("BR: " + bs);
+      .text("BR: " + filtdescrip[2].Freq + " " + unit);
 
   };// for loop, c
 
