@@ -5,7 +5,7 @@
 // <><><><><><><><><><>
 
 var margin = {top: 20, right: 20, bottom: 30, left: 50};
-  width = 1000 - margin.left - margin.right,
+  width = 1150 - margin.left - margin.right,
   height = 1400 - margin.top - margin.bottom;
 
 var canvas = d3.select(".dataviz").append("svg")
@@ -28,7 +28,7 @@ var paint = canvas.append("g");
 // load histogram data
 d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/Merged_buckets.csv").then(function(s){
   // <><>< Indvidual Plot definition variables ><><>
-  var xorigin = 180; // x location for first graph
+  var xorigin = 330; // x location for first graph
   var yorigin = 60; // y location for first graph
   var fs = 16; // font size
   var gap = 10; // gap between buckets
@@ -143,77 +143,72 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
   var i; // iteratvie value for for loop of continents
   var c; // iterative value for for loop of categories
 
-  for (c = 0; c<=0 ; c++) {
+  for (c = 0; c<=11 ; c++) {
     switch(c) {
       case 0:
         var filtercat = "Population"; // category to find in data set
         var line1 = "Population"; //first line to display
         var unit = "People"; // unit of measure
-        //var minunit = "11k (O: Tuvalu)"; // minimum value of data set
-        //var maxunit = "1.38B (As: China)"; // maximum value of data set
-        //var bs = "138M People"; // size of the buckets (range)
         var unitoffset = 0; // horizontal offset as a factor of gap
       break;
       case 1:
         var filtercat = "Surface Area (Km2)";
         var line1 = "Surface Area";
         var unit = "km\u00B2"; // unit of measure
-        var unit1 = "Min: 2 () "; // minimum value of data set
-        var unit2 = "16.4M"; // maximum value of data set
-        var bs = "16.4M"; // size of the buckets (range)
         var unitoffset = 1; // horizontal offset as a factor of gap
       break;
       case 2:
         var filtercat = "GINI Index";
         var line1 = "GINI Index";
-        var line2 = "";
-        var unit = "km\u00B2"; // unit of measure
-        var unit1 = "2"; // minimum value of data set
-        var unit2 = "16.4M"; // maximum value of data set
-        var bs = "16.4M"; // size of the buckets (range)
+        var unit = ""; // unit of measure
         var unitoffset = 1; // horizontal offset as a factor of gap
       break;
       case 3:
         var filtercat = "Happy Planet Index";
         var line1 = "Happy Planet Index";
-        var line2 = "";
-        var unit = "km\u00B2"; // unit of measure
-        var unit1 = "2"; // minimum value of data set
-        var unit2 = "16.4M"; // maximum value of data set
-        var bs = "16.4M"; // size of the buckets (range)
+        var unit = ""; // unit of measure
         var unitoffset = 1; // horizontal offset as a factor of gap
       break;
       case 4:
         var filtercat = "Human Development Index";
-        var line1 = "Human Development";
-        var line2 = "Index";
-        var unit = "km\u00B2"; // unit of measure
-        var unit1 = "2"; // minimum value of data set
-        var unit2 = "16.4M"; // maximum value of data set
-        var bs = "16.4M"; // size of the buckets (range)
+        var line1 = "Human Development Index";
+        var unit = ""; // unit of measure
         var unitoffset = 1; // horizontal offset as a factor of gap
       break;
       case 5:
         var filtercat = "World Happiness Report Score";
-        var line1 = "World Happiness";
-        var line2 = "Report Score";
+        var line1 = "World Happiness Report Score";
+        var unit = ""; // unit of measure
       break;
       case 6:
         var filtercat = "Sustainable Economic Development Assessment (SEDA)";
-        var line1 = "Sustainable Economic";
-        var line2 = "Development Assessment";
+        var line1 = "Sustainable Economic Development Assessment";
+        var unit = "";
       break;
       case 7:
         var filtercat = "GDP (Billions PPP)"
+        var line1 = "GDP";
+        var unit = "Billions PPP";
       break;
       case 8:
         var filtercat = "GDP per Capita (PPP)"
+        var line1 = "GDP per Capita";
+        var unit = "PPP";
       break;
       case 9:
         var filtercat = "GDP Growth (Annual %)"
+        var line1 = "GDP Growth";
+        var unit = "Annual %";
       break;
       case 10:
         var filtercat = "Health Expenditure % of GDP"
+        var line1 = "Health Expenditure";
+        var unit = "% of GDP";
+      break;
+      case 11:
+        var filtercat = "Health Expenditure Per Person"
+        var line1 = "Health Expenditure per Person";
+        var unit = "$";
       break;
     } // switch c
     console.log(filtercat + " " + filtercat.length)
@@ -223,33 +218,43 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var filterval = "UN Security Council";
           var titleoffset = -7;
           var filterCountry = "China";
+          var Countryfill = d3.rgb(249, 252, 60);
           break;
         case 1:
           var filterval = "Africa";
           var titleoffset = 36;
+          var filterCountry = "Nigeria"
+          var Countryfill = d3.rgb(208, 11, 116);
           break;
         case 2:
           var filterval = "Asia";
           var titleoffset = 40;
           var filterCountry = "Japan";
+          var Countryfill = d3.rgb(116, 208, 11);
           break;
         case 3:
           var filterval = "Europe";
           var titleoffset = 36;
           var filterCountry = "Norway";
+          var Countryfill = d3.rgb(178, 42, 212);
           break;
         case 4:
           var filterval = "North America";
           var titleoffset = 10;
+          var filterCountry = "Canada"
+          var Countryfill = d3.rgb(222,136,15);
           break;
         case 5:
           var filterval = "South America";
           var titleoffset = 9;
           var filterCountry = "Peru";
+          var Countryfill = d3.rgb(212, 71, 79);
           break;
         case 6:
           var filterval = "Oceania";
-          var titleoffset = 23;
+          var titleoffset = 32;
+          var filterCountry = "Australia"
+          var Countryfill = d3.rgb(11,117,208);
           break;
       } // switch (i)
       // filt data set for just continent data
@@ -276,6 +281,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       .attr("class", "distArea")
       .attr("d", area(filt))
       .attr("id", "popF" + filterval)
+      .style("fill", Countryfill)
       .attr("transform", "translate(" + (10*gap + graphgap) * i + "," + (freqheight + vertgap) * c + ")");
     // line dsiplay
     var pop = canvas.append("g")
@@ -283,15 +289,16 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       .attr("class", "dist")
       .attr("d",  line(filt))
       .attr("id", "pop" + filterval)
+      .style("stroke", Countryfill)
       .attr("transform", "translate(" + (10*gap + graphgap)*i + "," + (freqheight + vertgap) * c + ")");
     // highlight country within the graph
     if(filtCountry.length == 1 && filtCountry.Bucket != "No Data"){
-      //console.log("I am Here " + filterval);
       var cntry = canvas.append("g")
         .append("path")
         .attr("class", "CountryArea")
         .attr("d", area([{"Bucket":filtCountry[0].Bucket, "Freq":filtCountry[0].Freq},{"Bucket":parseInt(filtCountry[0].Bucket)+1, "Freq":0}]))
         .attr("id", "CountryArea" + filtercat)
+        .style("fill", Countryfill.brighter(0.8))
         .attr("transform", "translate(" + (10*gap + graphgap)*i + "," + (freqheight + vertgap) * c + ")");
     };// if statment to check if country is empty
 
@@ -329,31 +336,46 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     var filtdescrip = s.filter(function(d) {return d.Category == filtercat &&
       d.Country == "Summary"});
 
-    switch (filtdescrip[3].Continent) {
-      case "Oceania":
-        var shortcont = "O"
-      break;
-    } // swtich for shorthand continent
+    for (descrip = 3; descrip <=4; descrip++){
+      switch (filtdescrip[descrip].Continent) {
+        case "Oceania":
+          var shortcont = "O"
+        break;
+        case "Africa":
+          var shortcont = "Af"
+        break;
+        case "Asia":
+          var shortcont = "As"
+        break;
+        case "Europe":
+          var shortcont = "E"
+        break;
+        case "North America":
+          var shortcont = "NA"
+        break;
+        case "South America":
+          var shortcont = "SA"
+        break;
+        case "UN Security Council":
+          var shortcont = "UN"
+        break;
+      } // swtich for shorthand continent
 
-    // add descriptive data to the category information
-    var binfo = output
-      .append("text")
-      .attr("class", "heading2")
-      .attr("x", xorigin - titleoffset - catoffset - unitoffset)
-      .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * 1)
-      .text("Min: " + filtdescrip[0].Freq + " (" + shortcont + ": " + filtdescrip[3].Freq + ")");
-    var binfo = output
-      .append("text")
-      .attr("class", "heading2")
-      .attr("x", xorigin - titleoffset - catoffset - unitoffset)
-      .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * 2)
-      .text("Max: " + filtdescrip[1].Freq + " (" + filtdescrip[4].Freq + ")");
+      // add descriptive data to the category information
+      var binfo = output
+        .append("text")
+        .attr("class", "heading2")
+        .attr("x", xorigin - titleoffset - catoffset - unitoffset)
+        .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * (descrip-2))
+        .text("Min: " + filtdescrip[descrip-3].Freq + " (" + shortcont + ": " + filtdescrip[descrip].Freq + ")");
+
+  }//for loop descrip
     var binfo = output
       .append("text")
       .attr("class", "heading2")
       .attr("x", xorigin - titleoffset - catoffset - unitoffset)
       .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * 3)
-      .text("BR: " + filtdescrip[2].Freq + " " + unit);
+      .text("Bucket Range: " + filtdescrip[2].Freq + " " + unit);
 
   };// for loop, c
 
