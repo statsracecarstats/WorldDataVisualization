@@ -35,3 +35,12 @@
   font: Afta;
   font-weight: 700;
 }
+
+.heading2 {
+  fill: rgb(240,240,255);
+  stroke: none;
+  font-size: 11px;
+  font: Afta;
+  font-weight: 400;
+  text-anchor: end;
+}
