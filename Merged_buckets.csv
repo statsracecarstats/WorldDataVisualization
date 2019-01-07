@@ -8958,37 +8958,37 @@ Summary,Summary,Overall Economic Freedom Score,MIN,MIN,5.8
 Summary,Summary,Financial Freedom Score,MIN,MIN,0
 Summary,Summary,Women Mps (% Of All Mps),MIN,MIN,0
 Summary,Summary,Population,MAX,MAX,1.39M
-Summary,Summary,Surface Area (Km2),MAX,,16.4M
-Summary,Summary,GINI Index,MAX,,63.2
-Summary,Summary,Happy Planet Index,MAX,,44.7
-Summary,Summary,Human Development Index,MAX,,0.953
-Summary,Summary,World Happiness Report Score,MAX,,7.788251877
-Summary,Summary,Sustainable Economic Development Assessment (SEDA),MAX,,85.3
-Summary,Summary,GDP (Billions PPP),MAX,,21291.8
-Summary,Summary,GDP per Capita (PPP),MAX,,160526
-Summary,Summary,GDP Growth (Annual %),MAX,,10.2
-Summary,Summary,Health Expenditure % of GDP,MAX,,22.11608212
-Summary,Summary,Health Expenditure Per Person,MAX,,9536
-Summary,Summary,Education Expenditure% Of Gdp,MAX,,7.681250095
-Summary,Summary,Education Expenditure Per Person ,MAX,,7465.679905
-Summary,Summary,School Life Expectancy (Years),MAX,,20
-Summary,Summary,Unemployment (%),MAX,,31.4
-Summary,Summary,Government Spending Score,MAX,,96.3
-Summary,Summary,Government Expenditure (% Of Gdp),MAX,,117.6
-Summary,Summary,Political Rights Score ,MAX,,7
-Summary,Summary,Civil Liberties Score ,MAX,,7
-Summary,Summary,Political Stability & Absence Of Violence,MAX,,1.65
-Summary,Summary,Government Effectiveness,MAX,,2.21
-Summary,Summary,Regulatory Quality,MAX,,2.12
-Summary,Summary,Rule Of Law,MAX,,2.03
-Summary,Summary,Control Of Corruption,MAX,,2.24
-Summary,Summary,Judicial Effectiveness Score,MAX,,93.8
-Summary,Summary,Government Integrity Score,MAX,,95.7
-Summary,Summary,Property Rights Score,MAX,,98.4
-Summary,Summary,Tax Burden Score,MAX,,99.9
-Summary,Summary,Overall Economic Freedom Score,MAX,,88.8
-Summary,Summary,Financial Freedom Score,MAX,,90
-Summary,Summary,Women Mps (% Of All Mps),MAX,,61.3
+Summary,Summary,Surface Area (Km2),MAX,MAX,16.4M
+Summary,Summary,GINI Index,MAX,MAX,63.2
+Summary,Summary,Happy Planet Index,MAX,MAX,44.7
+Summary,Summary,Human Development Index,MAX,MAX,0.953
+Summary,Summary,World Happiness Report Score,MAX,MAX,7.788251877
+Summary,Summary,Sustainable Economic Development Assessment (SEDA),MAX,MAX,85.3
+Summary,Summary,GDP (Billions PPP),MAX,MAX,21291.8
+Summary,Summary,GDP per Capita (PPP),MAX,MAX,160526
+Summary,Summary,GDP Growth (Annual %),MAX,MAX,10.2
+Summary,Summary,Health Expenditure % of GDP,MAX,MAX,22.11608212
+Summary,Summary,Health Expenditure Per Person,MAX,MAX,9536
+Summary,Summary,Education Expenditure% Of Gdp,MAX,MAX,7.681250095
+Summary,Summary,Education Expenditure Per Person ,MAX,MAX,7465.679905
+Summary,Summary,School Life Expectancy (Years),MAX,MAX,20
+Summary,Summary,Unemployment (%),MAX,MAX,31.4
+Summary,Summary,Government Spending Score,MAX,MAX,96.3
+Summary,Summary,Government Expenditure (% Of Gdp),MAX,MAX,117.6
+Summary,Summary,Political Rights Score ,MAX,MAX,7
+Summary,Summary,Civil Liberties Score ,MAX,MAX,7
+Summary,Summary,Political Stability & Absence Of Violence,MAX,MAX,1.65
+Summary,Summary,Government Effectiveness,MAX,MAX,2.21
+Summary,Summary,Regulatory Quality,MAX,MAX,2.12
+Summary,Summary,Rule Of Law,MAX,MAX,2.03
+Summary,Summary,Control Of Corruption,MAX,MAX,2.24
+Summary,Summary,Judicial Effectiveness Score,MAX,MAX,93.8
+Summary,Summary,Government Integrity Score,MAX,MAX,95.7
+Summary,Summary,Property Rights Score,MAX,MAX,98.4
+Summary,Summary,Tax Burden Score,MAX,MAX,99.9
+Summary,Summary,Overall Economic Freedom Score,MAX,MAX,88.8
+Summary,Summary,Financial Freedom Score,MAX,MAX,90
+Summary,Summary,Women Mps (% Of All Mps),MAX,MAX,61.3
 Summary,Summary,Population,RANGE,RANGE,138M
 Summary,Summary,Surface Area (Km2),RANGE,RANGE,1.64M
 Summary,Summary,GINI Index,RANGE,RANGE,4
