@@ -4,7 +4,7 @@
 // Paul Cunningham
 // <><><><><><><><><><>
 
-var margin = {top: 20, right: 20, bottom: 30, left: 50};
+var margin = {top: 0, right: 0, bottom: 0, left: 0};
   width = 1150 - margin.left - margin.right,
   height = 2490 - margin.top - margin.bottom;
 
@@ -26,7 +26,7 @@ var paint = canvas.append("g");
 
 
 // load histogram data
-d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/Merged_buckets.csv").then(function(s){
+d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/Merged_buckets_UTF.csv").then(function(s){
   // <><>< Indvidual Plot definition variables ><><>
   var xorigin = 330; // x location for first graph
   var yorigin = 60; // y location for first graph
@@ -307,8 +307,8 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       break;
       case 31:
         var filtercat = "Women Mps (% Of All Mps)";
-        var line1 = "Women Mps";
-        var unit = "(% Of All Mps)";
+        var line1 = "Women MPs";
+        var unit = "% Of All MPs";
       break;
     } // switch c
     for (i = 0; i<=6; i++) {
@@ -359,12 +359,15 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       // filt data set for just continent data
       var filt = s.filter(function(d) {return d.Continent == filterval &&
         d.Category == filtercat && d.Bucket != "No Data" && d.Country == "Continent"});
+      // get the no Data set too
+      var filtND = s.filter(function(d) {return d.Continent == filterval &&
+        d.Category == filtercat && d.Country == "Continent"});
       // filterCountry, data set for that Country
       var filtCountry = s.filter(function(d) {return d.Continent == filterval &&
         d.Category == filtercat && d.Bucket != "No Data" && d.Country == filterCountry});
 
       // sum of all entries in buckets
-      var cumulative = d3.sum(filt, function(d) {return parseInt(d.Freq)});
+      var cumulative = d3.sum(filtND, function(d) {return parseInt(d.Freq)});
 
     // set up range for frequency based on total number of entires (displaying ratio)
     var freqaxis = d3.scaleLinear()
@@ -470,13 +473,13 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         .attr("class", "heading2")
         .attr("x", xorigin - titleoffset - catoffset - unitoffset)
         .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * (descrip-2))
-        .text(mm[descrip-3] + filtdescrip[descrip-3].Freq + " (");
+        .text(mm[descrip-3] + filtdescrip[descrip-3].Freq + " " + unit + " (");
       //add the country name with specific color
       binfo1.append("tspan")
         .text(filtdescrip[descrip].Freq)
         .style("fill", mfill);
       // add the close parathese
-      binfo1.append("tspan").text(")")
+      binfo1.append("tspan").text(")" )
 
   }//for loop descrip
     var binfo2 = output
