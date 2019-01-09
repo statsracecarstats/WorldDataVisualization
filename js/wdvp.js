@@ -6,7 +6,7 @@
 
 var margin = {top: 20, right: 20, bottom: 30, left: 50};
   width = 1150 - margin.left - margin.right,
-  height = 1400 - margin.top - margin.bottom;
+  height = 2490 - margin.top - margin.bottom;
 
 var canvas = d3.select(".dataviz").append("svg")
   .attr("width", width + margin.left + margin.right)
@@ -143,7 +143,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
   var i; // iteratvie value for for loop of continents
   var c; // iterative value for for loop of categories
 
-  for (c = 0; c<=11 ; c++) {
+  for (c = 0; c<=31 ; c++) {
     switch(c) {
       case 0:
         var filtercat = "Population"; // category to find in data set
@@ -186,32 +186,131 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var unit = "";
       break;
       case 7:
-        var filtercat = "GDP (Billions PPP)"
+        var filtercat = "GDP (Billions PPP)";
         var line1 = "GDP";
         var unit = "Billions PPP";
       break;
       case 8:
-        var filtercat = "GDP per Capita (PPP)"
+        var filtercat = "GDP per Capita (PPP)";
         var line1 = "GDP per Capita";
         var unit = "PPP";
       break;
       case 9:
-        var filtercat = "GDP Growth (Annual %)"
+        var filtercat = "GDP Growth (Annual %)";
         var line1 = "GDP Growth";
         var unit = "Annual %";
       break;
       case 10:
-        var filtercat = "Health Expenditure % of GDP"
+        var filtercat = "Health Expenditure % of GDP";
         var line1 = "Health Expenditure";
         var unit = "% of GDP";
       break;
       case 11:
-        var filtercat = "Health Expenditure Per Person"
+        var filtercat = "Health Expenditure Per Person";
         var line1 = "Health Expenditure per Person";
         var unit = "$";
       break;
+      case 12:
+        var filtercat = "Education Expenditure% Of Gdp";
+        var line1 = "Education Expenditure";
+        var unit = "% of GDP";
+      break;
+      case 13:
+        var filtercat = "Education Expenditure Per Person ";
+        var line1 = "Education Expenditure per Person";
+        var unit = "$";
+      break;
+      case 14:
+        var filtercat = "School Life Expectancy (Years)";
+        var line1 = "School Life Expectancy";
+        var unit = "Years";
+      break;
+      case 15:
+        var filtercat = "Unemployment (%)";
+        var line1 = "Unemployment";
+        var unit = "%";
+      break;
+      case 16:
+        var filtercat = "Government Spending Score";
+        var line1 = "Goverment Spending Score";
+        var unit = "";
+      break;
+      case 17:
+        var filtercat = "Government Expenditure (% Of Gdp)";
+        var line1 = "Government Expenditure";
+        var unit = "% of GDP";
+      break;
+      case 18:
+        var filtercat = "Political Rights Score ";
+        var line1 = "Political Rights Score";
+        var unit = "";
+      break;
+      case 19:
+        var filtercat = "Civil Liberties Score ";
+        var line1 = "Civil Liberties Score";
+        var unit = "";
+      break;
+      case 20:
+        var filtercat = "Political Stability & Absence Of Violence";
+        var line1 = "Political Stability & Absence Of Violence";
+        var unit = "";
+      break;
+      case 21:
+        var filtercat = "Government Effectiveness";
+        var line1 = "Government Effectiveness";
+        var unit = "";
+      break;
+      case 22:
+        var filtercat = "Regulatory Quality";
+        var line1 = "Regulatory Quality";
+        var unit = "";
+      break;
+      case 23:
+        var filtercat = "Rule Of Law";
+        var line1 = "Rule Of Law";
+        var unit = "";
+      break;
+      case 24:
+        var filtercat = "Control Of Corruption";
+        var line1 = "Control Of Corruption";
+        var unit = "";
+      break;
+      case 25:
+        var filtercat = "Judicial Effectiveness Score";
+        var line1 = "Judicial Effectiveness Score";
+        var unit = "";
+      break;
+      case 26:
+        var filtercat = "Government Integrity Score";
+        var line1 = "Government Integrity Score";
+        var unit = "";
+      break;
+      case 27:
+        var filtercat = "Property Rights Score";
+        var line1 = "Property Rights Score";
+        var unit = "";
+      break;
+      case 28:
+        var filtercat = "Tax Burden Score";
+        var line1 = "Tax Burden Score";
+        var unit = "";
+      break;
+      case 29:
+        var filtercat = "Overall Economic Freedom Score";
+        var line1 = "Overall Economic Freedom Score";
+        var unit = "";
+      break;
+      case 30:
+        var filtercat = "Financial Freedom Score";
+        var line1 = "Financial Freedom Score";
+        var unit = "";
+      break;
+      case 31:
+        var filtercat = "Women Mps (% Of All Mps)";
+        var line1 = "Women Mps";
+        var unit = "(% Of All Mps)";
+      break;
     } // switch c
-    console.log(filtercat + " " + filtercat.length)
     for (i = 0; i<=6; i++) {
       switch(i) {
         case 0:
@@ -224,13 +323,13 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var filterval = "Africa";
           var titleoffset = 36;
           var filterCountry = "Nigeria"
-          var Countryfill = d3.rgb(208, 11, 116);
+          var Countryfill = d3.rgb(116, 208, 11);
           break;
         case 2:
           var filterval = "Asia";
           var titleoffset = 40;
           var filterCountry = "Japan";
-          var Countryfill = d3.rgb(116, 208, 11);
+          var Countryfill = d3.rgb(11,117,208);
           break;
         case 3:
           var filterval = "Europe";
@@ -242,7 +341,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var filterval = "North America";
           var titleoffset = 10;
           var filterCountry = "Canada"
-          var Countryfill = d3.rgb(222,136,15);
+          var Countryfill = d3.rgb(208, 11, 116);
           break;
         case 5:
           var filterval = "South America";
@@ -254,7 +353,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var filterval = "Oceania";
           var titleoffset = 32;
           var filterCountry = "Australia"
-          var Countryfill = d3.rgb(11,117,208);
+          var Countryfill = d3.rgb(222,136,15);
           break;
       } // switch (i)
       // filt data set for just continent data
@@ -311,6 +410,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         .attr("x", (10*gap + graphgap)*i + xorigin + titleoffset)
         .attr("y", yorigin - headingoffset * 2)
         .attr("text-anchor", "start")
+        .style("fill", Countryfill)
         .text(function (d) {return d.Continent});
       var contheadpop = output
         .append("text")
@@ -336,41 +436,50 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     var filtdescrip = s.filter(function(d) {return d.Category == filtercat &&
       d.Country == "Summary"});
 
+    //simple variable for text output below in for loop
+    var mm = ["Min: ", "Max: "];
+    //for loop to create min and max outputsfor the cat info
     for (descrip = 3; descrip <=4; descrip++){
       switch (filtdescrip[descrip].Continent) {
         case "Oceania":
-          var shortcont = "O"
+          var mfill = d3.rgb(222,136,15);
         break;
         case "Africa":
-          var shortcont = "Af"
+          var mfill = d3.rgb(116,208,11);
         break;
         case "Asia":
-          var shortcont = "As"
+          var mfill = d3.rgb(11,117,208);
         break;
         case "Europe":
-          var shortcont = "E"
+          var mfill = d3.rgb(178,42,212);
         break;
         case "North America":
-          var shortcont = "NA"
+          var mfill = d3.rgb(208,11,116);
         break;
         case "South America":
-          var shortcont = "SA"
+          var mfill = d3.rgb(212,71,79);
         break;
         case "UN Security Council":
-          var shortcont = "UN"
+          var mfill = d3.rgb(249, 252, 60);
         break;
       } // swtich for shorthand continent
 
       // add descriptive data to the category information
-      var binfo = output
+      var binfo1 = output
         .append("text")
         .attr("class", "heading2")
         .attr("x", xorigin - titleoffset - catoffset - unitoffset)
         .attr("y", (freqheight + vertgap) * c + yorigin + freqheight/4 + cattextline * (descrip-2))
-        .text("Min: " + filtdescrip[descrip-3].Freq + " (" + shortcont + ": " + filtdescrip[descrip].Freq + ")");
+        .text(mm[descrip-3] + filtdescrip[descrip-3].Freq + " (");
+      //add the country name with specific color
+      binfo1.append("tspan")
+        .text(filtdescrip[descrip].Freq)
+        .style("fill", mfill);
+      // add the close parathese
+      binfo1.append("tspan").text(")")
 
   }//for loop descrip
-    var binfo = output
+    var binfo2 = output
       .append("text")
       .attr("class", "heading2")
       .attr("x", xorigin - titleoffset - catoffset - unitoffset)
