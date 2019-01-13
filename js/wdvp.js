@@ -538,7 +538,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
             "highest GDP",
             "Poor Political Rights &",
             "Civil Lib scores",
-            "Average Bucket: 5.7"];
+            "Adj avg Bucket: 5.3"];
           var ba = 1.4;
           break;
         case 1:
@@ -551,7 +551,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
             "Women MPs. Good ",
             "Econ & Govt Scores.",
             " Poor ppls rights scores.",
-            "Average Bucket: 5.3"];
+            "Adj avg Bucket: 4.6"];
           var ba = 0.8;
           break;
         case 2:
@@ -560,11 +560,11 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var filterCountry = "Singapore";
           var Countryfill = Countrycolor2;
           var countryoffsetx = 30;
-          var cline = ["Highest in Goverment",
-            "Effectiveness, Regulatory",
+          var cline = ["Highest in Govt Eff-",
+            "ectiveness, Regulatory",
             "Quality, Property Rights,",
             "& Econonmic Freedom",
-            "Average Bucket: 6.8"];
+            "Adj avg Bucket: 7.1"];
           var ba = 0.8;
           break;
         case 3:
@@ -577,20 +577,20 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
             "SEDA score. Highest",
             "Edu expense/ person.",
             "Low Tax Burdern.",
-            "Average Bucket: 6.7"];
+            "Adj avg Bucket: 7.9"];
           var ba = 0.8;
           break;
         case 4:
           var filterval = "North America";
           var titleoffset = 10;
-          var filterCountry = "Canada"
+          var filterCountry = "Costa Rica"
           var Countryfill = Countrycolor4;
           var countryoffsetx = 30;
-          var cline = ["Largest Population",
-            "Highest GDP",
-            "Poor Political Rights &",
-            " Civil Lib Scores",
-            "Average Bucket: 5.7"];
+          var cline = ["Top score in Happy",
+            "Planet Index. Good",
+            "scores in Happines.",
+            "Low GDP per Capita",
+            "Adj avg Bucket: 5.9"];
           var ba = 0.8;
           break;
         case 5:
@@ -603,7 +603,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
             "Human Development",
             "Poor in Corruption &",
             "Law and Order",
-            "Average Bucket: 3.4"];
+            "Adj avg Bucket: 3.25"];
           var ba = 0.8;
           break;
         case 6:
@@ -612,11 +612,11 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var filterCountry = "Australia"
           var Countryfill = Countrycolor6;
           var countryoffsetx = 30;
-          var cline = ["Largest Population",
-            "Highest GDP",
-            "Poor Political Rights &",
-            " Civil Lib Scores",
-            "Average Bucket: 5.7"];
+          var cline = ["Largest country",
+            "in Oceania",
+            "Poor score in Happy",
+            "Planet Index",
+            "Adj avg Bucket: 7.4"];
           var ba = 0.8;
           break;
       } // switch (i)
