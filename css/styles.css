@@ -44,3 +44,12 @@
   font-weight: 400;
   text-anchor: end;
 }
+
+.heading3 {
+  fill: rgb(240,240,255);
+  stroke: none;
+  font-size: 40px;
+  font: Nunito;
+  font-weight: 700;
+  text-anchor: start;
+}
