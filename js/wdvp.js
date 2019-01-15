@@ -4,9 +4,12 @@
 // Paul Cunningham
 // <><><><><><><><><><>
 
+var h = 2780;
+var w = 1650;
+
 var margin = {top: 0, right: 0, bottom: 0, left: 0};
-  width = 1650 - margin.left - margin.right,
-  height = 2690 - margin.top - margin.bottom;
+  width = w - margin.left - margin.right,
+  height = h - margin.top - margin.bottom;
 
 var canvas = d3.select(".dataviz").append("svg")
   .attr("width", width + margin.left + margin.right)
@@ -26,9 +29,9 @@ var paint = canvas.append("g");
 
 
 // load histogram data
-d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/Merged_buckets_UTF.csv").then(function(s){
+d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualization/master/Merged_buckets_UTF2.csv").then(function(s){
   // <><>< Indvidual Plot definition variables ><><>
-  var xorigin = 330; // x location for first graph
+  var xorigin = 335; // x location for first graph
   var yorigin = 260; // y location for first graph
   var fs = 16; // font size
   var gap = 10; // gap between buckets
@@ -45,9 +48,12 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
   // <><>< Title Variables ><><>
   var titley = 50;
   var titlex = xorigin + 100;
-  var toffset = 20;
+  var toffset = 23;
   var poffsety = 17;
-  var poffsetx = 170;
+  var poffsetx = 220;
+  // <><>< Key Variables ><><>
+  var keyi = 10;
+  var keyc = -2.5;
   // <><>< Axis definition ><><>
   var vaxisoffset = 5; // in x direction how far axis is off from yorigin
   var vaxisend = 2; // half the size of the butt end
@@ -149,15 +155,15 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       break;
       case 2:
         var sc = Countrycolor2;
-        var titxt = "d G";
+        var titxt = "d Go";
       break;
       case 3:
         var sc = Countrycolor3;
-        var titxt = "ov";
+        var titxt = "ve";
       break;
       case 4:
         var sc = Countrycolor4;
-        var titxt = "er";
+        var titxt = "rn";
       break;
       case 5:
         var sc = Countrycolor5;
@@ -165,7 +171,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       break;
       case 6:
         var sc = Countrycolor6;
-        var titxt = "nt";
+        var titxt = "nts";
       break;
     };// swtich t
 
@@ -180,8 +186,8 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     .attr("x", xorigin - poffsetx)
     .attr("y", titley + toffset)
     .style("text-anchor", "start")
-    .style("font-size", 14)
-    .text("Data shown from 32 measures ranging from physical charcteristics to economic indexes and happiness surverys. Each measure is binned into 10 equal sized buckets and each country is placed");
+    .style("font-size", 13)
+    .text("Data shown for 195 countries from 31 measures ranging from physical characteristics to economic indexes and happiness surveys. Each measure is binned into 10 equal sized buckets and each");
 
   var p = canvas.append("g")
     .append("text")
@@ -189,40 +195,214 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     .attr("x", xorigin - poffsetx)
     .attr("y", titley + toffset + poffsety)
     .style("text-anchor", "start")
-    .style("font-size", 14)
-    .text(" in a bucket based on its value for the measure. One country from each continent is highlighted so you can trace it through each category to see what correlations might exist.");
+    .style("font-size", 13)
+    .text(" country is placed in a bucket based on its value for the measure. One country from each continent is highlighted so you can trace it through each category to see what correlations may exist.");
 
 
-
+  // set key x and y locations
+  var keyx = (10*gap + graphgap) * keyi + xorigin;
+  var keyy = (freqheight + vertgap) * keyc + yorigin
   // build vertical axis
   var axis = canvas.append("g")
     .append("path")
     .attr("class", "maxis")
     .attr("d", axisline(Vaxispath))
-    .attr("id", "vertaxis");
+    .attr("id", "vertaxis")
+    .attr("transform", "translate(" + (10*gap + graphgap) * keyi + "," + (freqheight + vertgap) * keyc + ")");
 
-  // add text for axis
+  // add Key title
+  var keytitle = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading3")
+    .attr("x", keyx -40)
+    .attr("y", keyy - freqheight/2)
+    .text("Key")
+    //.style("font-weight", 700)
+    .style("text-anchor", "middle")
+    .style("font-size", 30);
+  //key outline
+  var keyoutline = canvas.append("g")
+    .append("rect")
+    .attr("x", keyx - 200)
+    .attr("y", keyy - freqheight/2 - 31)
+    .attr("width", 340)
+    .attr("height", 236)
+    .attr("stroke", d3.rgb(200,200,200))
+    .attr("stroke-width", 0.8)
+    .attr("fill", "none")
+    .attr("rx", 6)
+    .attr("ry", 6);
+  //titles
+  var keyoutline = canvas.append("g")
+    .append("text")
+    .attr("class", "heading")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*2)
+    .text("Measure Name");
+  var keyoutline = canvas.append("g")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*3)
+    .style("text-anchor", "start")
+    .text("(-) signifies lower value");
+  var keyoutline = canvas.append("g")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*4)
+    .style("text-anchor", "start")
+    .text(" is better");
+  var keymm = canvas.append("g")
+    .append("text")
+    .attr("class", "heading")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*6)
+    .style("text-anchor", "start")
+    .text("Min");
+  keymm.append("tspan")
+    .attr("class", "heading2")
+    .text(" and ");
+  keymm.append("tspan")
+    .text("Max");
+  keymm.append("tspan")
+    .attr("class", "heading2")
+    .text(" values");
+
+  var keyoutline = canvas.append("g")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*7)
+    .style("text-anchor", "start")
+    .text("listed with country");
+  var keyoutline = canvas.append("g")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*8)
+    .style("text-anchor", "start")
+    .text("that reprsents the value");
+  var keyBr = canvas.append("g")
+    .append("text")
+    .attr("class", "heading")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*10)
+    .style("text-anchor", "start")
+    .text("Bucket Range:");
+  keyBr.append("tspan")
+    .attr("class", "heading2")
+    .text(" difference");
+  var keyoutline = canvas.append("g")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*11)
+    .style("text-anchor", "start")
+    .text("between each bucket");
+  // definition of adj avg bucket
+  var keyadj = canvas.append("g")
+    .append("text")
+    .attr("class", "heading")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*15)
+    .style("text-anchor", "start")
+    .text("Adj avg Bucket: ");
+  keyadj.append("tspan")
+    .attr("class", "heading2")
+    .text("Measures denoted with '(-)' have their bucket")
+  var keyoutline = canvas.append("g")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx - 180)
+    .attr("y", keyy - freqheight/2 + 12*16)
+    .style("text-anchor", "start")
+    .text("value inverted (i.e 10=1, 9=2) to calculate the average");
+
+
+  // add key information
+  //No data label
+  var keyND = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading2")
+    .text("No Data")
+    .style("text-anchor", "start")
+    .attr("transform", "translate(" + keyx + "," + (keyy + freqheight + vaxisoffset*2) + ") rotate(75)");
+  //country highlight
+  var keyND = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading2")
+    .text("Focus Country's")
+    .style("text-anchor", "start")
+    .attr("transform", "translate(" + (keyx+6.8*gap) + "," + (keyy + freqheight - 14) + ") rotate(-60)");
+  var keyND = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading2")
+    .text("bucket is highlighted")
+    .style("text-anchor", "start")
+    .attr("transform", "translate(" + (keyx+6.8*gap + 12) + "," + (keyy + freqheight - 10) + ") rotate(-60)");
+  //x axis label
+  var keyxaxis = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx + gap*2.5)
+    .attr("y", keyy + freqheight+vaxisoffset*4)
+    .text("Buckets 1 - 10")
+    .style("text-anchor", "start");
+  // y axis label, line 1
+  var keyyaxis = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading2")
+    .text("Percent of Countries")
+    .style("text-anchor", "middle")
+    .attr("transform", "translate(" + (keyx - vaxisoffset*10) + "," + (keyy + freqheight/1.9) + ") rotate(-90)");
+  // y axis label, line 2
+  var keyyaxis = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading2")
+    .text("from Continent")
+    .style("text-anchor", "middle")
+    .attr("transform", "translate(" + (keyx - vaxisoffset*7) + "," + (keyy + freqheight/1.9) + ") rotate(-90)");
+  // Descriptive information
+  var keyyaxis = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx - vaxisoffset*4)
+    .attr("y", keyy + freqheight*2.15)
+    .text("Min value found in bucket 1")
+    .style("text-anchor", "start");
+  var keyyaxis = canvas.append("g").append("a")
+    .append("text")
+    .attr("class", "heading2")
+    .attr("x", keyx - vaxisoffset*4)
+    .attr("y", keyy + freqheight*2.35)
+    .text("Max value found in bucket 10")
+    .style("text-anchor", "start");
+
+
+
+
   var axistxt = canvas.append("g").append("a")
     .append("text")
     .attr("class", "textaxis")
-    .attr("x", xorigin - vaxisoffset - vaxisend - vaxistextoffset)
-    .attr("y", yorigin + freqheight)
+    .attr("x", keyx - vaxisoffset - vaxisend - vaxistextoffset)
+    .attr("y", keyy + freqheight)
     .text("0%");
 
   var axistxt = canvas.append("g").append("a")
     .append("text")
     .attr("class", "textaxis")
-    .attr("x", xorigin - vaxisoffset - vaxisend - vaxistextoffset)
-    .attr("y", yorigin)
+    .attr("x", keyx - vaxisoffset - vaxisend - vaxistextoffset)
+    .attr("y", keyy)
     .attr("alignment-baseline", "mathematical")
     .text("100%");
-
   // build horizontal axis
   var axish = canvas.append("g")
     .append("path")
     .attr("class", "maxis")
     .attr("d", axisline(Haxispath))
-    .attr("id", "hortaxis");
+    .attr("id", "hortaxis")
+    .attr("transform", "translate(" + (10*gap + graphgap) * keyi + "," + (freqheight + vertgap) * keyc + ")");
 
   //<><>< assemble graphs ><><><>
   // filter for Country
@@ -230,16 +410,16 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
   var i; // iteratvie value for for loop of continents
   var c; // iterative value for for loop of categories
 
-  for (c = 0; c <= 31; c++) {
+  for (c = 0; c <= 30; c++) {
     switch(c) {
       case 0:
         var filtercat = "Population"; // category to find in data set
         var line1 = "Population"; //first line to display
         var unit = "People"; // unit of measure
         var unitoffset = 1; // horizontal offset as a factor of gap
-        var line2 = "A count of permenent residents";
+        var line2 = "A count of permanent residents.";
         var line3 = "";
-        var line4 = "Data collected in 2018 by Wolrd Bank Data [1]";
+        var line4 = "Data collected in 2018 by Wolrd Bank [1]";
         var link = "https://data.worldbank.org/indicator/SP.POP.TOTL"
       break;
       case 1:
@@ -248,13 +428,13 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var unit = "km\u00B2"; // unit of measure
         var unitoffset = 1; // horizontal offset as a factor of gap
         var line2 = "Measure of land area within";
-        var line3 = " the countries borders.";
+        var line3 = " the country's borders.";
         var line4 = "Data collected in 2018 by CIA World Factbook [2]";
         var link = "https://www.cia.gov/library/publications/the-world-factbook/fields/2147.html#al"
       break;
       case 2:
         var filtercat = "GINI Index";
-        var line1 = "GINI Index";
+        var line1 = "GINI Index (-)";
         var unit = ""; // unit of measure
         var unitoffset = 1; // horizontal offset as a factor of gap
         var line2 = "Measure of the degree of inequality in the distribution of family income.";
@@ -267,8 +447,8 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var line1 = "Happy Planet Index";
         var unit = ""; // unit of measure
         var unitoffset = 1; // horizontal offset as a factor of gap
-        var line2 = "Measure of sustainable wellbeing for all. The index is calculated by dividing the sum";
-        var line3 = " of Wellbing, Life Expectancy, and Inequality of Outcomes by Ecological Footprint.";
+        var line2 = "Measure of sustainable well-being for all. The index is calculated by dividing the sum";
+        var line3 = " of Well-being, Life Expectancy, and Inequality of Outcomes by Ecological Footprint.";
         var line4 = "Data collected in 2016 by Happy Planet Index [4]";
         var link = "http://happyplanetindex.org/";
       break;
@@ -277,7 +457,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var line1 = "Human Development Index";
         var unit = ""; // unit of measure
         var unitoffset = 1; // horizontal offset as a factor of gap
-        var line2 = "Summary measure of average achievement in dimensions of humand development:";
+        var line2 = "Summary measure of the average achievement in dimensions of human development:";
         var line3 = " a long healthy life, being knowledgeable, and standard of living.";
         var line4 = "Data collected in 2017 by World Happiness Report [5]";
         var link = "http://worldhappiness.report/ed/2018/";
@@ -288,7 +468,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var unit = ""; // unit of measure
         var line2 = "Survey on the state of global happiness. Happiness score is based on the pooled results";
         var line3 = " from the Gallup World Poll surveys from 2015-2017 (scores range from 0-10).";
-        var line4 = "Data collected in 2017 by Worl Happiness Report [6]";
+        var line4 = "Data collected in 2017 by World Happiness Report [6]";
         var link = "http://hdr.undp.org/en/data#";
       break;
       case 6:
@@ -303,7 +483,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       case 7:
         var filtercat = "GDP (Billions PPP)";
         var line1 = "GDP";
-        var unit = "Billions PPP";
+        var unit = "Billion PPP";
         var line2 = "Monetary measure of the market value of all ";
         var line3 = " final goods and services produced.";
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
@@ -349,7 +529,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var filtercat = "Education Expenditure% Of Gdp";
         var line1 = "Education Expenditure";
         var unit = "% of GDP";
-        var line2 = "Goverment expenditure on education (curren, capital, and transfers)";
+        var line2 = "Goverment expenditure on education (current, capital, and transfers)";
         var line3 = " expressed as a percentage of GDP.";
         var line4 = "Data collected in in 2014 by World Bank [11]";
         var link = "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?view=chart";
@@ -358,7 +538,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var filtercat = "Education Expenditure Per Person ";
         var line1 = "Education Expenditure per Person";
         var unit = "$";
-        var line2 = "Goverment expenditure on education (curren, capital, and transfers)";
+        var line2 = "Goverment expenditure on education (current, capital, and transfers)";
         var line3 = " expressed per person.";
         var line4 = "Calculated by information is beautiful using 2014 data[12]";
         var link = "https://docs.google.com/spreadsheets/d/11LhOlwsloUuA495r-04IDwciMqNrLwWGpveqpF61WXU/edit#gid=0";
@@ -374,86 +554,86 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       break;
       case 15:
         var filtercat = "Unemployment (%)";
-        var line1 = "Unemployment";
+        var line1 = "Unemployment (-)";
         var unit = "%";
         var line2 = "Percent of working age population that does not";
-        var line3 = " have a full-time jobb.";
+        var line3 = " have a full-time job.";
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
         var link = "https://www.heritage.org/index/explore";
       break;
-      case 16:
+      case 31:
         var filtercat = "Government Spending Score";
-        var line1 = "Goverment Spending Score";
+        var line1 = "Government Spending Score";
         var unit = "";
-        var line2 = "Score measuring the burden of goverment spending.";
+        var line2 = "Score measuring the burden of government spending,";
         var line3 = " the lower the score the better.";
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
         var link = "https://www.heritage.org/index/explore";
       break;
-      case 17:
+      case 16:
         var filtercat = "Government Expenditure (% Of Gdp)";
         var line1 = "Government Expenditure";
         var unit = "% of GDP";
-        var line2 = "Amount goverment spends expressed";
+        var line2 = "Amount government spends expressed";
         var line3 = " as a percent of the country's GDP.";
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
         var link = "https://www.heritage.org/index/explore";
       break;
-      case 18:
+      case 17:
         var filtercat = "Political Rights Score ";
-        var line1 = "Political Rights Score";
+        var line1 = "Political Rights Score (-)";
         var unit = "";
-        var line2 = "Score that represents overall freedom of a countries politcal system.";
+        var line2 = "Score that represents overall freedom of a country's politcal system.";
         var line3 = " 1 representing the greatest degree of freedom and 7 being the least.";
         var line4 = "Data collected in in 2017 by Freedom House [14]";
         var link = "https://freedomhouse.org/content/freedom-world-data-and-resources";
       break;
-      case 19:
+      case 18:
         var filtercat = "Civil Liberties Score ";
-        var line1 = "Civil Liberties Score";
+        var line1 = "Civil Liberties Score (-)";
         var unit = "";
-        var line2 = "Score that represents overall presence and protection of a countires civl liberties.";
+        var line2 = "Score that represents overall presence and protection of a country's civl liberties.";
         var line3 = " 1 representing the greatest degree of civil liberties and 7 being the least.";
         var line4 = "Data collected in in 2017 by Freedom House [14]";
         var link = "https://freedomhouse.org/content/freedom-world-data-and-resources";
       break;
-      case 20:
+      case 19:
         var filtercat = "Political Stability & Absence Of Violence";
         var line1 = "Political Stability & Absence Of Violence";
         var unit = "";
-        var line2 = "Measure of the liklihood of political instability and/or ";
-        var line3 = " politically-motivated violene, including terrorism."
+        var line2 = "Measure of the likelihood of political instability and/or ";
+        var line3 = " politically-motivated violence, including terrorism."
         var line4 = "Data collected in in 2017 by World Bank [15]";
         var link = "http://info.worldbank.org/governance/wgi/#home";
       break;
-      case 21:
+      case 20:
         var filtercat = "Government Effectiveness";
         var line1 = "Government Effectiveness";
         var unit = "";
         var line2 = "Measure of quality of public and civil services. Along with quality of policy formulation";
-        var line3 = " and implementation and the credibility of the goverments commitments to such polices."
+        var line3 = " and implementation and the credibility of the governments commitments to such policies."
         var line4 = "Data collected in in 2017 by World Bank [15]";
         var link = "http://info.worldbank.org/governance/wgi/#home";
       break;
-      case 22:
+      case 21:
         var filtercat = "Regulatory Quality";
         var line1 = "Regulatory Quality";
         var unit = "";
-        var line2 = "Measure of the goverments ability to formulate and implement sound policies and";
+        var line2 = "Measure of the governments ability to formulate and implement sound policies and";
         var line3 = " regulations that permit and promote private sector development."
         var line4 = "Data collected in in 2017 by World Bank [15]";
         var link = "http://info.worldbank.org/governance/wgi/#home";
       break;
-      case 23:
+      case 22:
         var filtercat = "Rule Of Law";
         var line1 = "Rule Of Law";
         var unit = "";
-        var line2 = "Measure of agents confidence in rules in socitety and extent to which they follow them. Specifically quality ";
-        var line3 = " of contract enforcement, property rights, police, and the courts, as well as liklihood of crime."
+        var line2 = "Measure of agents confidence in rules of socitety and extent to which they follow them. Specifically";
+        var line3 = "quality of contract enforcement, property rights, police, and the courts; as well as likelihood of crime."
         var line4 = "Data collected in in 2017 by World Bank [15]";
         var link = "http://info.worldbank.org/governance/wgi/#home";
       break;
-      case 24:
+      case 23:
         var filtercat = "Control Of Corruption";
         var line1 = "Control Of Corruption";
         var unit = "";
@@ -462,34 +642,34 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var line4 = "Data collected in in 2017 by World Bank [15]";
         var link = "http://info.worldbank.org/governance/wgi/#home";
       break;
-      case 25:
+      case 24:
         var filtercat = "Judicial Effectiveness Score";
         var line1 = "Judicial Effectiveness Score";
         var unit = "";
-        var line2 = "Score made from average of score of judicial independence, quality of the judicial";
-        var line3 = " process, and liklihood of obtaining favorable judicial decisions";
+        var line2 = "Score made from average scores of judicial independence, quality of the judicial";
+        var line3 = " process, and likelihood of obtaining favorable judicial decisions";
+        var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
+        var link = "https://www.heritage.org/index/explore";
+      break;
+      case 25:
+        var filtercat = "Government Integrity Score";
+        var line1 = "Government Integrity Score";
+        var unit = "";
+        var line2 = "Score made from average scores of public trust in politicians, irregular payments and ";
+        var line3 = " bribes, transparency of government, and absence of and perception of corruption.";
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
         var link = "https://www.heritage.org/index/explore";
       break;
       case 26:
-        var filtercat = "Government Integrity Score";
-        var line1 = "Government Integrity Score";
+        var filtercat = "Property Rights Score";
+        var line1 = "Property Rights Score";
         var unit = "";
-        var line2 = "Score made from average of score of public trust in politicians, irregular payment and bribes, transparency";
-        var line3 = " of goverment, absence of and perception of corruption, and government and civil service transparency.";
+        var line2 = "Score assesses the extent to which a country's legal framework allows individuals to accumulate";
+        var line3 = " private property freely. The more effective the legal protection of property the higher the score.";
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
         var link = "https://www.heritage.org/index/explore";
       break;
       case 27:
-        var filtercat = "Property Rights Score";
-        var line1 = "Property Rights Score";
-        var unit = "";
-        var line2 = "Score assesses the extent to whih a country's legal framework allows individuals to accumulate";
-        var line3 = " private property freely. The more effective the legal protection of prperty the higher the score.";
-        var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
-        var link = "https://www.heritage.org/index/explore";
-      break;
-      case 28:
         var filtercat = "Tax Burden Score";
         var line1 = "Tax Burden Score";
         var unit = "";
@@ -498,30 +678,30 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
         var link = "https://www.heritage.org/index/explore";
       break;
-      case 29:
+      case 28:
         var filtercat = "Overall Economic Freedom Score";
         var line1 = "Overall Economic Freedom Score";
         var unit = "";
-        var line2 = "Score made from average of 12 measures focused on rule of law, goverment"
-        var line3 = " size, regulatory efficiency, and market openness.";
+        var line2 = "Score made from the average of 12 measures focused on rule of law, "
+        var line3 = " government size, regulatory efficiency, and market openness.";
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
         var link = "https://www.heritage.org/index/explore";
       break;
-      case 30:
+      case 29:
         var filtercat = "Financial Freedom Score";
         var line1 = "Financial Freedom Score";
         var unit = "";
         var line2 = "Indicator of banking efficiency as well as a measure of independence from";
-        var line3 = " goverment control and interference in the financial sector.";
+        var line3 = " government control and interference in the financial sector.";
         var line4 = "Data collected in in 2018 by Heritage Foundation [8]";
         var link = "https://www.heritage.org/index/explore";
       break;
-      case 31:
+      case 30:
         var filtercat = "Women Mps (% Of All Mps)";
         var line1 = "Women MPs";
         var unit = "% Of All MPs";
         var line2 = "Percentage of women in parliament, based on total";
-        var line3 = "  number of parliamentrary seats available.";
+        var line3 = "  number of parliamentary seats available.";
         var line4 = "Data collected in in 2017 by World Bank [16]";
         var link = "https://data.worldbank.org/indicator/SG.GEN.PARL.ZS";
       break;
@@ -535,9 +715,9 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var Countryfill = Countrycolor0;
           var countryoffsetx = 37;
           var cline = ["Largest Population &",
-            "highest GDP",
+            "Highest GDP.",
             "Poor Political Rights &",
-            "Civil Lib scores",
+            "Civil Lib scores.",
             "Adj avg Bucket: 5.3"];
           var ba = 1.4;
           break;
@@ -550,7 +730,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var cline = ["Highest proportion of ",
             "Women MPs. Good ",
             "Econ & Govt Scores.",
-            " Poor ppls rights scores.",
+            "Poor ppls rights scores.",
             "Adj avg Bucket: 4.6"];
           var ba = 0.8;
           break;
@@ -560,10 +740,10 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var filterCountry = "Singapore";
           var Countryfill = Countrycolor2;
           var countryoffsetx = 30;
-          var cline = ["Highest in Govt Eff-",
-            "ectiveness, Regulatory",
-            "Quality, Property Rights,",
-            "& Econonmic Freedom",
+          var cline = ["Top in Govt Effectiven-",
+            "ess, Regulatory Qaulity,",
+            "Property Rights, &",
+            "Econonmic Freedom.",
             "Adj avg Bucket: 7.1"];
           var ba = 0.8;
           break;
@@ -574,7 +754,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var Countryfill = Countrycolor3;
           var countryoffsetx = 30;
           var cline = ["Best Human Dev & ",
-            "SEDA score. Highest",
+            "SEDA scores & Highest",
             "Edu expense/ person.",
             "Low Tax Burdern.",
             "Adj avg Bucket: 7.9"];
@@ -587,9 +767,9 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var Countryfill = Countrycolor4;
           var countryoffsetx = 30;
           var cline = ["Top score in Happy",
-            "Planet Index. Good",
+            "Planet Index & Good",
             "scores in Happines.",
-            "Low GDP per Capita",
+            "Low GDP per Capita.",
             "Adj avg Bucket: 5.9"];
           var ba = 0.8;
           break;
@@ -600,9 +780,9 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var Countryfill = Countrycolor5;
           var countryoffsetx = 30;
           var cline = ["Avg in Happiness &",
-            "Human Development",
+            "Human Development.",
             "Poor in Corruption &",
-            "Law and Order",
+            "Law and Order scores.",
             "Adj avg Bucket: 3.25"];
           var ba = 0.8;
           break;
@@ -613,9 +793,9 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
           var Countryfill = Countrycolor6;
           var countryoffsetx = 30;
           var cline = ["Largest country",
-            "in Oceania",
+            "in Oceania.",
             "Poor score in Happy",
-            "Planet Index",
+            "Planet Index.",
             "Adj avg Bucket: 7.4"];
           var ba = 0.8;
           break;
@@ -689,31 +869,80 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     };// if statment to check if country is empty
 
 
+    //build Key using GINI index dat
+    if (c == 2 && i == 4){
+      //area display
+      var popA = canvas.append("g")
+        .append("path")
+        .attr("class", "distArea")
+        .attr("d", area(filt))
+        .attr("id", "popF" + filterval)
+        .style("fill", Countryfill)
+        .attr("transform", "translate(" + (10*gap + graphgap) * keyi + "," + (freqheight + vertgap) * keyc + ")");
+      // line dsiplay
+      var pop = canvas.append("g")
+        .append("path")
+        .attr("class", "dist")
+        .attr("d",  line(filt))
+        .attr("id", "pop" + filterval)
+        .style("stroke", Countryfill)
+        .attr("transform", "translate(" + (10*gap + graphgap)*keyi + "," + (freqheight + vertgap) * keyc + ")");
+      //line for no data
+      if(filtOnlyND.length == 1){
+        var dl = [{"Bucket": 0, "Freq": 0},
+          {"Bucket": 0, "Freq": parseInt(filtOnlyND[0].Freq)},
+          {"Bucket": 1, "Freq": parseInt(filtOnlyND[0].Freq)},
+          {"Bucket": 1, "Freq": 0}];
+      } else {
+        var dl = [{"Bucket": 0, "Freq": 0}, {"Bucket": 1, "Freq": 0}];
+      }
+      var popND = canvas.append("g")
+        .append("path")
+        .attr("class", "dist")
+        .attr("d", linend(dl))
+        .attr("id", "NoData" + filterval)
+        .style("stroke", Countryfill)
+        .attr("stroke-dasharray", ("2, 1"))
+        .attr("transform", "translate(" + (10*gap + graphgap) * keyi + "," + (freqheight + vertgap) * keyc + ")");
+
+      // highlight country within the graph
+      if(filtCountry.length == 1 && filtCountry.Bucket != "No Data"){
+        var cntry = canvas.append("g")
+          .append("path")
+          .attr("class", "CountryArea")
+          .attr("d", area([{"Bucket":filtCountry[0].Bucket, "Freq":filtCountry[0].Freq},{"Bucket":parseInt(filtCountry[0].Bucket)+1, "Freq":0}]))
+          .attr("id", "CountryArea" + filtercat)
+          .style("fill", Countryfill.brighter(ba))
+          .attr("transform", "translate(" + (10*gap + graphgap)*keyi + "," + (freqheight + vertgap) *keyc + ")");
+      };// if statment to check if country is empty
+    }
+
     // put continent titles for first loop through categories
     if (c == 0){
       var conthead = output
         .append("text")
         .attr("class", "heading")
-        .attr("x", (10*gap + graphgap)*i + xorigin + titleoffset)
+        .attr("x", (10*gap + graphgap)*i + xorigin + 5*gap)
         .attr("y", yorigin - headingoffset * 2 - countryoffsety)
-        .attr("text-anchor", "start")
+        .attr("text-anchor", "middle")
         .style("fill", Countryfill)
         .text(function (d) {return d.Continent});
       var contheadpop = output
         .append("text")
         .attr("class", "heading2")
-        .attr("x", (10*gap + graphgap)*i + xorigin + 25)
+        .attr("x", (10*gap + graphgap)*i + xorigin + 5*gap)
         .attr("y", yorigin - headingoffset - countryoffsety)
-        .style("text-anchor", "start")
+        .style("text-anchor", "middle")
         .text(cumulative + " Countries");
       // country Profiles
       var countryname = output
         .append("text")
         .attr("class", "heading2")
-        .attr("x", (10*gap + graphgap)*i + xorigin + countryoffsetx)
-        .attr("y", yorigin - countryoffsety + vertgap)
-        .style("text-anchor", "start")
+        .attr("x", (10*gap + graphgap)*i + xorigin + 5*gap)
+        .attr("y", yorigin - countryoffsety + vertgap * 0.92)
+        .style("text-anchor", "middle")
         .style("fill", Countryfill)
+        .style("font-size", 12)
         .text(filterCountry);
       for (cc = 0; cc <= 4; cc++){
         var countryname = output
@@ -816,6 +1045,59 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
     }// d for loop
 
   };// for loop, c
-
+  // put title for countries
+  var fchead = output
+    .append("text")
+    .attr("class", "heading")
+    .attr("x", xorigin - titleoffset)
+    .attr("y", (freqheight + vertgap) * (-1) + yorigin + freqheight/4)
+    .attr("text-anchor", "end")
+    .text("Focus Country");
 
 })// call back function for csv (s)
+var reftext = ["[1] 'Total Population'. The World Bank, 2017, https://data.worldbank.org/indicator/SP.POP.TOTL",
+"[2] 'Surface Area'. CIA World Factbook, 2018, https://www.cia.gov/library/publications/the-world-factbook/fields/2147.html#al",
+"[3] 'GINI Index'. CIA World Factbook, 2018, https://www.cia.gov/library/publications/the-world-factbook/rankorder/2172rank.html",
+"[4] 'Happy Planet Index'. Happy Planet Index, 2016, http://happyplanetindex.org/",
+"[5] 'Human Development Index'. World Happiness Report, 2017, http://worldhappiness.report/ed/2018/",
+"[6] 'World Happiness Report'. World Happiness Report, 2017, http://hdr.undp.org/en/data#",
+"[7] 'Sustainable Economic Devlopment Assessment'. Boston Consulting Group, 2017, https://www.bcg.com/en-gb/publications/interactives/seda-2018-guide.aspx",
+"[8] 'Economic Index'. Heritage Foundation, 2018, https://www.heritage.org/index/explore",
+"[9] 'Health Expenditure as a percent of GDP'. World Bank, 2015, https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS",
+"[10] 'Health Expenditure per Person'. World Bank, 2015, https://data.worldbank.org/indicator/SH.XPD.CHEX.PP.CD",
+"[11] 'Education Expenditure as a percent of GDP'. World Bank, 2014, https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?view=chart",
+"[12] 'WDVP Datasets'. Information is Beautiful, 2018, https://docs.google.com/spreadsheets/d/11LhOlwsloUuA495r-04IDwciMqNrLwWGpveqpF61WXU/edit#gid=0",
+"[13] 'School Life Expectancy'. CIA World Factbook, 2018, https://www.cia.gov/library/publications/the-world-factbook/fields/2205.html#202",
+"[14] 'Freedom in the World Data and Resources'. Freedom House, 2017, https://freedomhouse.org/content/freedom-world-data-and-resources",
+"[15] 'The Worldwide Governance Indicators (WGI) project'. World Bank, 2017, http://info.worldbank.org/governance/wgi/#home",
+"[16] 'Proportion of seats held by women in national parliaments (%)'. World Bank, 2017, https://data.worldbank.org/indicator/SG.GEN.PARL.ZS"];
+for (r=0; r<=17; r++){
+  var ref = canvas.append("g")
+    .append("text")
+    .attr("class", "reftxt")
+    .attr("x", w-20)
+    .attr("y",h - 190 + 12*r)
+    .text(reftext[r]);
+}; // for loop r
+
+var signature = canvas.append("g")
+  .append("text")
+  .attr("class", "reftxt")
+  .attr("x", 10)
+  .attr("y",h-40)
+  .style("text-anchor", "start")
+  .text("Created by Paul Cunningham");
+var signature = canvas.append("g")
+  .append("text")
+  .attr("class", "reftxt")
+  .attr("x", 10)
+  .attr("y",h-40 + 12)
+  .style("text-anchor", "start")
+  .text("Jan 2019");
+var signature = canvas.append("g")
+  .append("text")
+  .attr("class", "reftxt")
+  .attr("x", 10)
+  .attr("y",h-40 + 12*2)
+  .style("text-anchor", "start")
+  .text("statsracecarstats@gmail.com");
