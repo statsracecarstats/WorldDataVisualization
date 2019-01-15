@@ -8651,15 +8651,15 @@ Summary,Summary,Surface Area (Km2),MIN,MIN,2,MIN
 Summary,Summary,GINI Index,MIN,MIN,23.2,MIN
 Summary,Summary,Happy Planet Index,MIN,MIN,12.8,MIN
 Summary,Summary,Human Development Index,MIN,MIN,0.354,MIN
-Summary,Summary,World Happiness Report Score,MIN,MIN,2.66171813,MIN
+Summary,Summary,World Happiness Report Score,MIN,MIN,2.66,MIN
 Summary,Summary,Sustainable Economic Development Assessment (SEDA),MIN,MIN,16.1,MIN
 Summary,Summary,GDP (Billions PPP),MIN,MIN,0.2,MIN
 Summary,Summary,GDP per Capita (PPP),MIN,MIN,652,MIN
 Summary,Summary,GDP Growth (Annual %),MIN,MIN,-28.1,MIN
-Summary,Summary,Health Expenditure % of GDP,MIN,MIN,2.03063504,MIN
+Summary,Summary,Health Expenditure % of GDP,MIN,MIN,2.03,MIN
 Summary,Summary,Health Expenditure Per Person,MIN,MIN,32,MIN
-Summary,Summary,Education Expenditure% Of Gdp,MIN,MIN,1.021950006,MIN
-Summary,Summary,Education Expenditure Per Person ,MIN,MIN,2.562005466,MIN
+Summary,Summary,Education Expenditure% Of Gdp,MIN,MIN,1.02,MIN
+Summary,Summary,Education Expenditure Per Person ,MIN,MIN,2.56,MIN
 Summary,Summary,School Life Expectancy (Years),MIN,MIN,5,MIN
 Summary,Summary,Unemployment (%),MIN,MIN,0.2,MIN
 Summary,Summary,Government Expenditure (% Of Gdp),MIN,MIN,11,MIN
@@ -8682,15 +8682,15 @@ Summary,Summary,Surface Area (Km2),MAX,MAX,16.4M,MAX
 Summary,Summary,GINI Index,MAX,MAX,63.2,MAX
 Summary,Summary,Happy Planet Index,MAX,MAX,44.7,MAX
 Summary,Summary,Human Development Index,MAX,MAX,0.953,MAX
-Summary,Summary,World Happiness Report Score,MAX,MAX,7.788251877,MAX
+Summary,Summary,World Happiness Report Score,MAX,MAX,7.79,MAX
 Summary,Summary,Sustainable Economic Development Assessment (SEDA),MAX,MAX,85.3,MAX
-Summary,Summary,GDP (Billions PPP),MAX,MAX,21291.8,MAX
-Summary,Summary,GDP per Capita (PPP),MAX,MAX,160526,MAX
+Summary,Summary,GDP (Billions PPP),MAX,MAX,"21,291.80",MAX
+Summary,Summary,GDP per Capita (PPP),MAX,MAX,"160,526",MAX
 Summary,Summary,GDP Growth (Annual %),MAX,MAX,10.2,MAX
-Summary,Summary,Health Expenditure % of GDP,MAX,MAX,22.11608212,MAX
+Summary,Summary,Health Expenditure % of GDP,MAX,MAX,22.12,MAX
 Summary,Summary,Health Expenditure Per Person,MAX,MAX,9536,MAX
-Summary,Summary,Education Expenditure% Of Gdp,MAX,MAX,7.681250095,MAX
-Summary,Summary,Education Expenditure Per Person ,MAX,MAX,7465.679905,MAX
+Summary,Summary,Education Expenditure% Of Gdp,MAX,MAX,7.68,MAX
+Summary,Summary,Education Expenditure Per Person ,MAX,MAX,"7,465.68",MAX
 Summary,Summary,School Life Expectancy (Years),MAX,MAX,20,MAX
 Summary,Summary,Unemployment (%),MAX,MAX,31.4,MAX
 Summary,Summary,Government Expenditure (% Of Gdp),MAX,MAX,117.6,MAX
@@ -8712,16 +8712,16 @@ Summary,Summary,Population,RANGE,RANGE,138M,RANGE
 Summary,Summary,Surface Area (Km2),RANGE,RANGE,1.64M,RANGE
 Summary,Summary,GINI Index,RANGE,RANGE,4,RANGE
 Summary,Summary,Happy Planet Index,RANGE,RANGE,3.19,RANGE
-Summary,Summary,Human Development Index,RANGE,RANGE,0.0599,RANGE
-Summary,Summary,World Happiness Report Score,RANGE,RANGE,0.512653375,RANGE
+Summary,Summary,Human Development Index,RANGE,RANGE,0.06,RANGE
+Summary,Summary,World Happiness Report Score,RANGE,RANGE,0.51,RANGE
 Summary,Summary,Sustainable Economic Development Assessment (SEDA),RANGE,RANGE,6.92,RANGE
-Summary,Summary,GDP (Billions PPP),RANGE,RANGE,2129.16,RANGE
-Summary,Summary,GDP per Capita (PPP),RANGE,RANGE,15987.4,RANGE
+Summary,Summary,GDP (Billions PPP),RANGE,RANGE,"2,129.16",RANGE
+Summary,Summary,GDP per Capita (PPP),RANGE,RANGE,"15,987.40",RANGE
 Summary,Summary,GDP Growth (Annual %),RANGE,RANGE,3.83,RANGE
-Summary,Summary,Health Expenditure % of GDP,RANGE,RANGE,2.008544708,RANGE
+Summary,Summary,Health Expenditure % of GDP,RANGE,RANGE,2.01,RANGE
 Summary,Summary,Health Expenditure Per Person,RANGE,RANGE,950.4,RANGE
-Summary,Summary,Education Expenditure% Of Gdp,RANGE,RANGE,0.665930009,RANGE
-Summary,Summary,Education Expenditure Per Person ,RANGE,RANGE,746.3117899,RANGE
+Summary,Summary,Education Expenditure% Of Gdp,RANGE,RANGE,0.67,RANGE
+Summary,Summary,Education Expenditure Per Person ,RANGE,RANGE,746.31,RANGE
 Summary,Summary,School Life Expectancy (Years),RANGE,RANGE,1.5,RANGE
 Summary,Summary,Unemployment (%),RANGE,RANGE,3.12,RANGE
 Summary,Summary,Government Expenditure (% Of Gdp),RANGE,RANGE,10.66,RANGE
