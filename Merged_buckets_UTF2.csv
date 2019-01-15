@@ -8657,9 +8657,9 @@ Summary,Summary,GDP (Billions PPP),MIN,MIN,0.2,MIN
 Summary,Summary,GDP per Capita (PPP),MIN,MIN,652,MIN
 Summary,Summary,GDP Growth (Annual %),MIN,MIN,-28.1,MIN
 Summary,Summary,Health Expenditure % of GDP,MIN,MIN,2.03,MIN
-Summary,Summary,Health Expenditure Per Person,MIN,MIN,32,MIN
+Summary,Summary,Health Expenditure Per Person,MIN,MIN,$32.00 ,MIN
 Summary,Summary,Education Expenditure% Of Gdp,MIN,MIN,1.02,MIN
-Summary,Summary,Education Expenditure Per Person ,MIN,MIN,2.56,MIN
+Summary,Summary,Education Expenditure Per Person ,MIN,MIN,$2.56 ,MIN
 Summary,Summary,School Life Expectancy (Years),MIN,MIN,5,MIN
 Summary,Summary,Unemployment (%),MIN,MIN,0.2,MIN
 Summary,Summary,Government Expenditure (% Of Gdp),MIN,MIN,11,MIN
@@ -8685,12 +8685,12 @@ Summary,Summary,Human Development Index,MAX,MAX,0.953,MAX
 Summary,Summary,World Happiness Report Score,MAX,MAX,7.79,MAX
 Summary,Summary,Sustainable Economic Development Assessment (SEDA),MAX,MAX,85.3,MAX
 Summary,Summary,GDP (Billions PPP),MAX,MAX,"21,291.80",MAX
-Summary,Summary,GDP per Capita (PPP),MAX,MAX,"160,526",MAX
+Summary,Summary,GDP per Capita (PPP),MAX,MAX,"160,526.00",MAX
 Summary,Summary,GDP Growth (Annual %),MAX,MAX,10.2,MAX
 Summary,Summary,Health Expenditure % of GDP,MAX,MAX,22.12,MAX
-Summary,Summary,Health Expenditure Per Person,MAX,MAX,9536,MAX
+Summary,Summary,Health Expenditure Per Person,MAX,MAX,"$9,536.00 ",MAX
 Summary,Summary,Education Expenditure% Of Gdp,MAX,MAX,7.68,MAX
-Summary,Summary,Education Expenditure Per Person ,MAX,MAX,"7,465.68",MAX
+Summary,Summary,Education Expenditure Per Person ,MAX,MAX,"$7,465.68 ",MAX
 Summary,Summary,School Life Expectancy (Years),MAX,MAX,20,MAX
 Summary,Summary,Unemployment (%),MAX,MAX,31.4,MAX
 Summary,Summary,Government Expenditure (% Of Gdp),MAX,MAX,117.6,MAX
@@ -8719,9 +8719,9 @@ Summary,Summary,GDP (Billions PPP),RANGE,RANGE,"2,129.16",RANGE
 Summary,Summary,GDP per Capita (PPP),RANGE,RANGE,"15,987.40",RANGE
 Summary,Summary,GDP Growth (Annual %),RANGE,RANGE,3.83,RANGE
 Summary,Summary,Health Expenditure % of GDP,RANGE,RANGE,2.01,RANGE
-Summary,Summary,Health Expenditure Per Person,RANGE,RANGE,950.4,RANGE
+Summary,Summary,Health Expenditure Per Person,RANGE,RANGE,$950.40 ,RANGE
 Summary,Summary,Education Expenditure% Of Gdp,RANGE,RANGE,0.67,RANGE
-Summary,Summary,Education Expenditure Per Person ,RANGE,RANGE,746.31,RANGE
+Summary,Summary,Education Expenditure Per Person ,RANGE,RANGE,$746.31 ,RANGE
 Summary,Summary,School Life Expectancy (Years),RANGE,RANGE,1.5,RANGE
 Summary,Summary,Unemployment (%),RANGE,RANGE,3.12,RANGE
 Summary,Summary,Government Expenditure (% Of Gdp),RANGE,RANGE,10.66,RANGE

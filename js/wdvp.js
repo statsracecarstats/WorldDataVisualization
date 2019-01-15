@@ -519,7 +519,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       case 11:
         var filtercat = "Health Expenditure Per Person";
         var line1 = "Health Expenditure per Person";
-        var unit = "$";
+        var unit = "";
         var line2 = "Level of current health expenditure expressed per person.";
         var line3 = " Does Not include capital health expenditures.";
         var line4 = "Data collected in in 2015 by World Bank [10]";
@@ -537,7 +537,7 @@ d3.csv("https://raw.githubusercontent.com/statsracecarstats/WorldDataVisualizati
       case 13:
         var filtercat = "Education Expenditure Per Person ";
         var line1 = "Education Expenditure per Person";
-        var unit = "$";
+        var unit = "";
         var line2 = "Goverment expenditure on education (current, capital, and transfers)";
         var line3 = " expressed per person.";
         var line4 = "Calculated by information is beautiful using 2014 data[12]";
